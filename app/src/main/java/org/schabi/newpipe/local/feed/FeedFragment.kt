@@ -111,6 +111,13 @@ class FeedFragment : BaseStateFragment<FeedState>() {
     private var updatePullToRefreshOnResume = false
     private var isRefreshing = false
 
+    /**
+     * Progress of a refresh that is running over an already populated list, rendered into the
+     * "Feed last updated" line instead of hiding the list behind the loading spinner. Null when
+     * no such refresh is running.
+     */
+    private var refreshProgressText: String? = null
+
     private var lastNewItemsCount = 0
 
     private var playlistControlBinding: PlaylistControlBinding? = null
@@ -644,6 +651,7 @@ class FeedFragment : BaseStateFragment<FeedState>() {
 
     override fun hideLoading() {
         super.hideLoading()
+        refreshProgressText = null
         feedBinding.itemsList.animate(true, 0)
         feedBinding.refreshRootView.animate(true, 200)
         feedBinding.loadingProgressText.animate(false, 0)
@@ -653,6 +661,7 @@ class FeedFragment : BaseStateFragment<FeedState>() {
 
     override fun showEmptyState() {
         super.showEmptyState()
+        refreshProgressText = null
         feedBinding.itemsList.animateHideRecyclerViewAllowingScrolling()
         feedBinding.refreshRootView.animate(true, 200)
         feedBinding.loadingProgressText.animate(false, 0)
@@ -672,6 +681,7 @@ class FeedFragment : BaseStateFragment<FeedState>() {
 
     override fun handleError() {
         super.handleError()
+        refreshProgressText = null
         feedBinding.itemsList.animateHideRecyclerViewAllowingScrolling()
         feedBinding.refreshRootView.animate(false, 0)
         feedBinding.loadingProgressText.animate(false, 0)
@@ -680,12 +690,10 @@ class FeedFragment : BaseStateFragment<FeedState>() {
     }
 
     private fun handleProgressState(progressState: FeedState.ProgressState) {
-        showLoading()
-
         val isIndeterminate = progressState.currentProgress == -1 &&
             progressState.maxProgress == -1
 
-        feedBinding.loadingProgressText.text = if (!isIndeterminate) {
+        val progressText = if (!isIndeterminate) {
             "${progressState.currentProgress}/${progressState.maxProgress}"
         } else if (progressState.progressMessage > 0) {
             getString(progressState.progressMessage)
@@ -693,11 +701,39 @@ class FeedFragment : BaseStateFragment<FeedState>() {
             "∞/∞"
         }
 
+        if (groupAdapter.itemCount > 0) {
+            // There is already a feed on screen, so a refresh must not take it away: keep the
+            // list where it is and report progress in the "Feed last updated" line, which the
+            // refresh replaces for its duration. updateRefreshViewState() renders it.
+            refreshProgressText = progressText
+            showRefreshingWithoutHidingList()
+            return
+        }
+
+        // Nothing to show yet (first load, or the feed is empty) - the spinner is all we have.
+        refreshProgressText = null
+        showLoading()
+
+        feedBinding.loadingProgressText.text = progressText
+
         feedBinding.loadingProgressBar.isIndeterminate = isIndeterminate ||
             (progressState.maxProgress > 0 && progressState.currentProgress == 0)
         feedBinding.loadingProgressBar.progress = progressState.currentProgress
 
         feedBinding.loadingProgressBar.max = progressState.maxProgress
+    }
+
+    /**
+     * The non-blocking counterpart of [showLoading]: marks the feed as refreshing without
+     * animating the list away or showing the centered spinner over it. Deliberately does not
+     * call `super.showLoading()`, whose job is to put that spinner up.
+     */
+    private fun showRefreshingWithoutHidingList() {
+        feedBinding.itemsList.animate(true, 0)
+        feedBinding.refreshRootView.animate(true, 0)
+        feedBinding.loadingProgressText.animate(false, 0)
+        feedBinding.swipeRefreshLayout.isRefreshing = true
+        isRefreshing = true
     }
 
     private fun showInfoItemDialog(item: StreamInfoItem) {
@@ -878,10 +914,15 @@ class FeedFragment : BaseStateFragment<FeedState>() {
     }
 
     private fun updateRefreshViewState() {
-        feedBinding.refreshText.text = getString(
-            R.string.feed_oldest_subscription_update,
-            oldestSubscriptionUpdate?.let { Localization.relativeTime(it) } ?: "—"
-        )
+        val progress = refreshProgressText
+        feedBinding.refreshText.text = if (progress != null) {
+            getString(R.string.feed_refresh_progress, progress)
+        } else {
+            getString(
+                R.string.feed_oldest_subscription_update,
+                oldestSubscriptionUpdate?.let { Localization.relativeTime(it) } ?: "—"
+            )
+        }
     }
 
     /**
