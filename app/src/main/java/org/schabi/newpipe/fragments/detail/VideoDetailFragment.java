@@ -2304,15 +2304,19 @@ public final class VideoDetailFragment
         final boolean isTablet    = DeviceUtils.isTablet(activity);
         final boolean autoLocked  = globalScreenOrientationLocked(activity);
 
-        // If the landscape on screen is one we requested, this button is the way back out of it,
-        // whatever kind of device the app thinks this is. The tablet branch below only toggles
-        // fullscreen and leaves the orientation alone, which is fine for a tablet the user can
-        // physically turn - but not when we pinned SENSOR_LANDSCAPE ourselves, since a fixed
-        // requested orientation also stops Android offering its own rotate button.
-        if (isLandscape && isOrientationPinned()) {
-            if (isPlayerAvailable() && player.isFullscreen()) {
-                player.toggleFullscreen();
-            }
+        // Leaving a fullscreen video while we are the ones holding the screen in landscape: this
+        // button is the way back out, whatever kind of device the app thinks this is. The tablet
+        // branch below only toggles fullscreen and leaves the orientation alone, which is fine
+        // for a tablet the user can physically turn - but not when we pinned SENSOR_LANDSCAPE
+        // ourselves, since a fixed requested orientation also stops Android offering its own
+        // rotate button.
+        //
+        // Only on the way out: in landscape but *not* fullscreen this same button is what enters
+        // fullscreen (Player#checkLandscape(), which would otherwise do it on rotation, is itself
+        // skipped on tablets), so it must fall through to the normal handling below.
+        if (isLandscape && isOrientationPinned()
+                && isPlayerAvailable() && player.isFullscreen()) {
+            player.toggleFullscreen();
             releasePlaybackOrientationPin();
             return;
         }
