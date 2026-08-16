@@ -1811,6 +1811,12 @@ public final class VideoDetailFragment
         bottomSheetState = BottomSheetBehavior.STATE_HIDDEN;
         bottomSheetBehavior.setState(BottomSheetBehavior.STATE_HIDDEN);
 
+        // ...and tear down here rather than waiting for that handler to do it. Restoring a sheet
+        // that is already hidden does not fire onStateChanged, so after the recreation nothing
+        // called cleanUp() and the player service stayed alive with its media session - no mini
+        // player on screen, but the video was still there. cleanUp() is safe to run twice.
+        cleanUp();
+
         restoreDefaultOrientation();
     }
 
