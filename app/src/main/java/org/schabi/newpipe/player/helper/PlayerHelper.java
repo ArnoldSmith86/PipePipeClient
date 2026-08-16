@@ -355,6 +355,16 @@ public final class PlayerHelper {
                 .getBoolean(context.getString(R.string.start_main_player_fullscreen_key), false);
     }
 
+    /**
+     * Whether backing out of fullscreen playback should close the video altogether - returning to
+     * the list it was opened from, with nothing left in the mini player - instead of only leaving
+     * fullscreen.
+     */
+    public static boolean isBackFromFullscreenClosingPlayer(@NonNull final Context context) {
+        return getPreferences(context).getBoolean(
+                context.getString(R.string.back_from_fullscreen_closes_player_key), false);
+    }
+
     public static boolean isAutoQueueEnabled(@NonNull final Context context) {
         return getPreferences(context)
                 .getBoolean(context.getString(R.string.auto_queue_key), false);

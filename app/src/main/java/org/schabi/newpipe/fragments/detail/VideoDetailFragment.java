@@ -885,6 +885,10 @@ public final class VideoDetailFragment
 
         // If we are in fullscreen mode just exit from it via first back press
         if (isPlayerAvailable() && player.isFullscreen()) {
+            if (PlayerHelper.isBackFromFullscreenClosingPlayer(activity)) {
+                closePlayerAndReturnToList();
+                return true;
+            }
             if (!DeviceUtils.isTablet(activity)) {
                 player.pause();
             }
@@ -1774,6 +1778,28 @@ public final class VideoDetailFragment
     /*//////////////////////////////////////////////////////////////////////////
     // Orientation listener
     //////////////////////////////////////////////////////////////////////////*/
+
+    /**
+     * Backs out of fullscreen straight to the list the video was opened from, leaving nothing
+     * behind: no playback, and no mini player at the bottom of the screen.
+     *
+     * <p>Fullscreen is left first, so the system UI comes back and the orientation pinned for
+     * playback is given up while the player still exists to do it. Hiding the bottom sheet then
+     * runs the same tear-down the mini player's close button uses - its STATE_HIDDEN handler
+     * calls {@link #cleanUp()}, which stops the player service and clears the stack.</p>
+     */
+    private void closePlayerAndReturnToList() {
+        setAutoPlay(false);
+        if (isPlayerAvailable()) {
+            player.pause();
+            // Write the resume position out while the player is still alive and still knows it.
+            // PlayerService#cleanup() does this too on the way down, but the position is the whole
+            // point of closing a half-watched video this way, so it is not left to the tear-down.
+            player.saveStreamProgressState();
+        }
+        restoreDefaultOrientation();
+        bottomSheetBehavior.setState(BottomSheetBehavior.STATE_HIDDEN);
+    }
 
     private void restoreDefaultOrientation() {
         if (isPlayerAvailable() && player.videoPlayerSelected()) {

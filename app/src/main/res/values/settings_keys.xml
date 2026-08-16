@@ -102,6 +102,7 @@
     </string-array>
 
     <string name="start_main_player_fullscreen_key">start_main_player_fullscreen_key</string>
+    <string name="back_from_fullscreen_closes_player_key">back_from_fullscreen_closes_player_key</string>
 
     <string name="autoplay_key">autoplay_key</string>
     <string name="autoplay_value">@string/autoplay_wifi_key</string>
