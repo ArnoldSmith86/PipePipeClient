@@ -58,6 +58,12 @@
     <dimen name="player_main_controls_padding">16dp</dimen>
     <dimen name="player_popup_controls_padding">6dp</dimen>
     <dimen name="player_main_top_padding">4dp</dimen>
+    <!-- Lifts the seek bar row clear of the system's bottom gesture strip; see
+         Player#getBottomControlsGestureClearance(). The fallback applies when the system
+         reports no gesture inset (three-button navigation), the max caps how far we ever
+         push the controls into the video. -->
+    <dimen name="player_main_bottom_controls_gesture_clearance">12dp</dimen>
+    <dimen name="player_main_bottom_controls_gesture_clearance_max">48dp</dimen>
     <dimen name="player_main_buttons_padding">6dp</dimen>
     <dimen name="player_popup_buttons_padding">1dp</dimen>
     <dimen name="player_main_buttons_min_width">40dp</dimen>
