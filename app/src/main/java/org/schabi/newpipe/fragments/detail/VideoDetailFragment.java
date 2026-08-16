@@ -1785,8 +1785,26 @@ public final class VideoDetailFragment
         // Note for tablet: trying to avoid orientation changes since it's not easy
         // to physically rotate the tablet every time
         if (activity != null && !DeviceUtils.isTablet(activity)) {
-            activity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
+            activity.setRequestedOrientation(getOrientationOutsideFullscreen());
         }
+    }
+
+    /**
+     * The orientation to request whenever a fullscreen video is not being shown.
+     *
+     * <p>{@link ActivityInfo#SCREEN_ORIENTATION_UNSPECIFIED} hands control back to the system.
+     * That matters: while an activity requests a fixed orientation Android neither rotates it nor
+     * offers the rotate-suggestion button that appears when auto-rotation is off, so as long as
+     * we keep the SENSOR_LANDSCAPE we asked for on the way into fullscreen, the app can never get
+     * back to portrait by any means the user has.</p>
+     *
+     * <p>With "keep the app in portrait" enabled the answer is portrait instead, so that only
+     * fullscreen playback ever turns.</p>
+     */
+    private int getOrientationOutsideFullscreen() {
+        return activity != null && PlayerHelper.isPortraitOutsideFullscreenEnabled(activity)
+                ? ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
+                : ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED;
     }
 
     /*//////////////////////////////////////////////////////////////////////////
@@ -2266,6 +2284,13 @@ public final class VideoDetailFragment
             binding.overlayPlayPauseButton.requestFocus();
         } else {
             showSystemUi();
+            // Fullscreen is the only reason we ever pin the orientation, so let go of it again
+            // here. Without this the SENSOR_LANDSCAPE requested on the way in outlives the
+            // fullscreen video, and since a fixed orientation also suppresses the system's
+            // rotate-suggestion button, the app stays landscape with no way back to portrait.
+            if (activity != null && !DeviceUtils.isTablet(activity)) {
+                activity.setRequestedOrientation(getOrientationOutsideFullscreen());
+            }
         }
 
         if (binding.relatedItemsLayout != null) {

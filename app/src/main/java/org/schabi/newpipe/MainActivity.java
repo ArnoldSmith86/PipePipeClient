@@ -26,6 +26,7 @@ import static org.schabi.newpipe.util.Localization.assureCorrectAppLanguage;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.*;
+import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
@@ -72,6 +73,7 @@ import org.schabi.newpipe.fragments.list.search.SearchFragment;
 import org.schabi.newpipe.local.feed.notifications.NotificationWorker;
 import org.schabi.newpipe.player.Player;
 import org.schabi.newpipe.player.event.OnKeyDownListener;
+import org.schabi.newpipe.player.helper.PlayerHelper;
 import org.schabi.newpipe.player.helper.PlayerHolder;
 import org.schabi.newpipe.player.playqueue.PlayQueue;
 import org.schabi.newpipe.util.*;
@@ -558,8 +560,11 @@ public class MainActivity extends AppCompatActivity {
             ErrorUtil.showUiErrorSnackbar(this, "Setting up service toggle", e);
         }
 
+        applyPortraitOutsideFullscreen();
+
         final SharedPreferences sharedPreferences
                 = PreferenceManager.getDefaultSharedPreferences(this);
+
         if (sharedPreferences.getBoolean(Constants.KEY_THEME_CHANGE, false)) {
             if (DEBUG) {
                 Log.d(TAG, "Theme has changed, recreating activity...");
@@ -580,6 +585,23 @@ public class MainActivity extends AppCompatActivity {
                 getString(R.string.enable_watch_history_key), true);
         drawerLayoutBinding.navigation.getMenu().findItem(ITEM_ID_HISTORY)
                 .setVisible(isHistoryEnabled);
+    }
+
+    /**
+     * Applies the "keep the app in portrait" preference: with it on, everything the app shows is
+     * portrait no matter how the device is held, and only fullscreen video playback turns.
+     *
+     * <p>Skipped while a video is actually fullscreen, so returning to the app from the background
+     * cannot yank a playing video out of landscape, and skipped on tablets, which the player
+     * treats as landscape-capable devices throughout.</p>
+     */
+    private void applyPortraitOutsideFullscreen() {
+        if (DeviceUtils.isTablet(this) || !PlayerHelper.isPortraitOutsideFullscreenEnabled(this)) {
+            return;
+        }
+        if (!PlayerHolder.getInstance().isFullscreen()) {
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        }
     }
 
     @Override

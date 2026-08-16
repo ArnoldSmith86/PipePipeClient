@@ -113,6 +113,8 @@
 <string name="download_dialog_title">Download</string>
 <string name="start_main_player_fullscreen_title">Start main player in fullscreen</string>
 <string name="start_main_player_fullscreen_summary">Do not start videos in the mini player, but turn to fullscreen mode directly, if auto rotation is locked. You can still access the mini player by exiting fullscreen</string>
+<string name="portrait_outside_fullscreen_title">Keep the app in portrait</string>
+<string name="portrait_outside_fullscreen_summary">Show lists, the video page and settings in portrait no matter how the device is held. Only fullscreen video playback turns to landscape</string>
 <string name="autoplay_title">Autoplay</string>
 <string name="unsupported_url">Unsupported URL</string>
 <string name="unsupported_url_dialog_message">Could not recognize the URL. Open with another app?</string>
