@@ -596,7 +596,10 @@ public class MainActivity extends AppCompatActivity {
      * treats as landscape-capable devices throughout.</p>
      */
     private void applyPortraitOutsideFullscreen() {
-        if (DeviceUtils.isTablet(this) || !PlayerHelper.isPortraitOutsideFullscreenEnabled(this)) {
+        // No tablet exemption here: this is an explicit request from the user, not a guess about
+        // the device - and the device guess is exactly what goes wrong on a phone running at a
+        // reduced display density, which lands in the "large screen" bucket.
+        if (!PlayerHelper.isPortraitOutsideFullscreenEnabled(this)) {
             return;
         }
         if (!PlayerHolder.getInstance().isFullscreen()) {
