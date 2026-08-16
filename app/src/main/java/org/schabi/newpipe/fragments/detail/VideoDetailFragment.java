@@ -1796,9 +1796,22 @@ public final class VideoDetailFragment
             // PlayerService#cleanup() does this too on the way down, but the position is the whole
             // point of closing a half-watched video this way, so it is not left to the tear-down.
             player.saveStreamProgressState();
+            if (player.isFullscreen()) {
+                // Leave fullscreen while there is still a player to do it, so the system UI comes
+                // back even though the player is about to go away.
+                player.toggleFullscreen();
+            }
         }
-        restoreDefaultOrientation();
+
+        // Hide the sheet before giving the orientation back, and set the field the state is saved
+        // from as well as the behaviour. Releasing the orientation rotates the screen, which
+        // recreates this fragment: a state set only on the old behaviour is lost, while
+        // bottomSheetState is restored into the new one and its STATE_HIDDEN handler then runs
+        // the usual tear-down (cleanUp(), which stops the player service).
+        bottomSheetState = BottomSheetBehavior.STATE_HIDDEN;
         bottomSheetBehavior.setState(BottomSheetBehavior.STATE_HIDDEN);
+
+        restoreDefaultOrientation();
     }
 
     private void restoreDefaultOrientation() {
