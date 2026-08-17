@@ -363,7 +363,9 @@ class FeedFragment : BaseStateFragment<FeedState>() {
         }
 
         return if (streamInfoItems.isNotEmpty()) {
-            SinglePlayQueue(streamInfoItems, startIndex.coerceAtMost(streamInfoItems.size - 1))
+            // coerceIn, not coerceAtMost: a tap during a refresh can resolve to adapter position
+            // -1 if that item has just been replaced, and a negative start index would throw.
+            SinglePlayQueue(streamInfoItems, startIndex.coerceIn(0, streamInfoItems.size - 1))
         } else {
             SinglePlayQueue(emptyList(), 0)
         }
@@ -733,7 +735,11 @@ class FeedFragment : BaseStateFragment<FeedState>() {
         feedBinding.refreshRootView.animate(true, 0)
         feedBinding.loadingProgressText.animate(false, 0)
         feedBinding.swipeRefreshLayout.isRefreshing = true
-        isRefreshing = true
+        // Deliberately not setting `isRefreshing`: the item click listeners ignore taps while it
+        // is true. That guard was invisible when a refresh hid the list, but here the list stays
+        // on screen, and a list you can see and scroll but not open is worse than useless. The
+        // click paths only touch the tapped item and a snapshot of the items, so they hold up
+        // while the adapter is being repopulated.
     }
 
     private fun showInfoItemDialog(item: StreamInfoItem) {
