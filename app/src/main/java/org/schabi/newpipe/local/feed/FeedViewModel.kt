@@ -40,6 +40,18 @@ class FeedViewModel(
     private val mutableStateLiveData = MutableLiveData<FeedState>()
     val stateLiveData: LiveData<FeedState> = mutableStateLiveData
 
+    /**
+     * The most recent feed this view model loaded, kept past the state that replaces it.
+     *
+     * [stateLiveData] only ever holds the *current* state, so while a refresh is running the
+     * loaded feed is gone from it and a fragment that subscribes at that moment sees nothing but
+     * progress. A fragment recreated mid-refresh - which is what going fullscreen and coming back
+     * does, since the orientation change restarts the activity - would then have an empty list and
+     * take the first-load path. This is what it repopulates from instead.
+     */
+    var lastLoadedState: FeedState.LoadedState? = null
+        private set
+
     private var combineDisposable = Flowable
         .combineLatest(
             FeedEventManager.events(),
@@ -67,14 +79,18 @@ class FeedViewModel(
         }
         .observeOn(AndroidSchedulers.mainThread())
         .subscribe { (event, listFromDB, notLoadedCount, oldestUpdate) ->
-            mutableStateLiveData.postValue(
-                when (event) {
-                    is IdleEvent -> FeedState.LoadedState(listFromDB.map { e -> StreamItem(e) }, oldestUpdate, notLoadedCount)
-                    is ProgressEvent -> FeedState.ProgressState(event.currentProgress, event.maxProgress, event.progressMessage)
-                    is SuccessResultEvent -> FeedState.LoadedState(listFromDB.map { e -> StreamItem(e) }, oldestUpdate, notLoadedCount, event.itemsErrors)
-                    is ErrorResultEvent -> FeedState.ErrorState(event.error)
-                }
-            )
+            val state = when (event) {
+                is IdleEvent -> FeedState.LoadedState(listFromDB.map { e -> StreamItem(e) }, oldestUpdate, notLoadedCount)
+                is ProgressEvent -> FeedState.ProgressState(event.currentProgress, event.maxProgress, event.progressMessage)
+                is SuccessResultEvent -> FeedState.LoadedState(listFromDB.map { e -> StreamItem(e) }, oldestUpdate, notLoadedCount, event.itemsErrors)
+                is ErrorResultEvent -> FeedState.ErrorState(event.error)
+            }
+
+            if (state is FeedState.LoadedState) {
+                lastLoadedState = state
+            }
+
+            mutableStateLiveData.postValue(state)
 
             if (event is ErrorResultEvent || event is SuccessResultEvent) {
                 FeedEventManager.reset()

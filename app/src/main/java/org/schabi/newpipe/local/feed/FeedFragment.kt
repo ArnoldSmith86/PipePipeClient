@@ -703,6 +703,17 @@ class FeedFragment : BaseStateFragment<FeedState>() {
             "∞/∞"
         }
 
+        if (groupAdapter.itemCount == 0) {
+            // An empty adapter does not mean there is no feed - a fragment recreated while the
+            // refresh was running starts with one, and going fullscreen and coming back does
+            // exactly that on a device where the player pins the orientation. The view model
+            // outlives that recreation, so put its feed back before concluding this is a first
+            // load; otherwise the refresh blanks a feed the user was already looking at.
+            viewModel.lastLoadedState
+                ?.takeIf { it.items.isNotEmpty() }
+                ?.let(::restoreLoadedFeed)
+        }
+
         if (groupAdapter.itemCount > 0) {
             // There is already a feed on screen, so a refresh must not take it away: keep the
             // list where it is and report progress in the "Feed last updated" line, which the
@@ -723,6 +734,50 @@ class FeedFragment : BaseStateFragment<FeedState>() {
         feedBinding.loadingProgressBar.progress = progressState.currentProgress
 
         feedBinding.loadingProgressBar.max = progressState.maxProgress
+    }
+
+    /**
+     * Puts an already-loaded feed back on screen after the fragment was recreated underneath it.
+     *
+     * Deliberately not [handleLoadedState]: the parts of that which belong to a *fresh* load - the
+     * new-item highlight and the per-subscription error dialogs - have run once already for this
+     * feed, and re-running them would re-raise dialogs the user has dismissed. Restoring
+     * [oldestSubscriptionUpdate] is what lets the load that ends the refresh tell those two cases
+     * apart again.
+     */
+    private fun restoreLoadedFeed(loadedState: FeedState.LoadedState) {
+        val itemVersion = when (getItemViewMode(requireContext())) {
+            ItemViewMode.GRID -> StreamItem.ItemVersion.GRID
+            ItemViewMode.CARD -> StreamItem.ItemVersion.CARD
+            else -> StreamItem.ItemVersion.NORMAL
+        }
+        loadedState.items.forEach { it.itemVersion = itemVersion }
+
+        originalItems.clear()
+        originalItems.addAll(loadedState.items)
+        filteredItems.clear()
+        filteredItems.addAll(originalItems)
+
+        // Synchronous, unlike the loaded path: the caller reads the item count straight after
+        // this to decide whether it still has to fall back to the blocking spinner.
+        groupAdapter.update(loadedState.items)
+
+        playlistControlBinding?.root?.isVisible = true
+        oldestSubscriptionUpdate = loadedState.oldestUpdate
+
+        val feedsNotLoaded = loadedState.notLoadedCount > 0
+        feedBinding.refreshSubtitleText.isVisible = feedsNotLoaded
+        if (feedsNotLoaded) {
+            feedBinding.refreshSubtitleText.text = getString(
+                R.string.feed_subscription_not_loaded_count,
+                loadedState.notLoadedCount
+            )
+        }
+
+        listState?.run {
+            feedBinding.itemsList.layoutManager?.onRestoreInstanceState(listState)
+            listState = null
+        }
     }
 
     /**
