@@ -712,4 +712,6 @@
 <string name="feed_refresh_progress">در حال نوسازی خوراک: %s</string>
 <string name="portrait_outside_fullscreen_title">نگه داشتن برنامه در حالت عمودی</string>
 <string name="portrait_outside_fullscreen_summary">نمایش فهرست‌ها، صفحهٔ ویدئو و تنظیمات به‌صورت عمودی، هرطور که دستگاه نگه داشته شود. تنها پخش تمام‌صفحه به حالت افقی می‌چرخد</string>
+<string name="back_from_fullscreen_closes_player_title">بازگشت در حالت تمام‌صفحه ویدئو را می‌بندد</string>
+<string name="back_from_fullscreen_closes_player_summary">فشردن بازگشت هنگام پخش تمام‌صفحه به فهرست بازمی‌گردد و ویدئو را متوقف می‌کند، به‌جای آنکه آن را در پخش‌کنندهٔ کوچک باز بگذارد</string>
 </resources>

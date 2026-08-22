@@ -689,4 +689,6 @@
 <string name="feed_refresh_progress">S\'està actualitzant el canal: %s</string>
 <string name="portrait_outside_fullscreen_title">Mantén l\'aplicació en vertical</string>
 <string name="portrait_outside_fullscreen_summary">Mostra les llistes, la pàgina del vídeo i la configuració en vertical, independentment de com se sostingui el dispositiu. Només la reproducció a pantalla completa gira a horitzontal</string>
+<string name="back_from_fullscreen_closes_player_title">Enrere a pantalla completa tanca el vídeo</string>
+<string name="back_from_fullscreen_closes_player_summary">Prémer enrere durant la reproducció a pantalla completa torna a la llista i atura el vídeo, en lloc de deixar-lo obert al minireproductor</string>
 </resources>

@@ -716,4 +716,6 @@
 <string name="feed_refresh_progress">Osvježavanje kanala: %s</string>
 <string name="portrait_outside_fullscreen_title">Zadrži aplikaciju u okomitom položaju</string>
 <string name="portrait_outside_fullscreen_summary">Prikazuj popise, stranicu videozapisa i postavke okomito, bez obzira na to kako se uređaj drži. Samo reprodukcija preko cijelog zaslona okreće se vodoravno</string>
+<string name="back_from_fullscreen_closes_player_title">Natrag preko cijelog zaslona zatvara videozapis</string>
+<string name="back_from_fullscreen_closes_player_summary">Pritisak na „Natrag” tijekom reprodukcije preko cijelog zaslona vraća na popis i zaustavlja videozapis, umjesto da ga ostavi otvorenim u mini playeru</string>
 </resources>

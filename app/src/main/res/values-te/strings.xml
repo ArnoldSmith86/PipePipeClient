@@ -435,4 +435,6 @@
 <string name="feed_refresh_progress">ఫీడ్ రిఫ్రెష్ అవుతోంది: %s</string>
 <string name="portrait_outside_fullscreen_title">యాప్‌ను నిలువుగా ఉంచు</string>
 <string name="portrait_outside_fullscreen_summary">పరికరాన్ని ఎలా పట్టుకున్నా జాబితాలు, వీడియో పేజీ మరియు సెట్టింగ్‌లను నిలువుగా చూపు. పూర్తి తెర ప్లేబ్యాక్ మాత్రమే అడ్డంగా తిరుగుతుంది</string>
+<string name="back_from_fullscreen_closes_player_title">పూర్తి తెరలో వెనక్కి నొక్కితే వీడియో మూసుకుంటుంది</string>
+<string name="back_from_fullscreen_closes_player_summary">పూర్తి తెర ప్లేబ్యాక్ సమయంలో వెనక్కి నొక్కితే జాబితాకు తిరిగి వెళ్లి వీడియో ఆగిపోతుంది, మినీ ప్లేయర్‌లో తెరిచి ఉంచడానికి బదులుగా</string>
 </resources>

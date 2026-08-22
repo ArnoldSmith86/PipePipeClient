@@ -738,4 +738,6 @@
 <string name="feed_refresh_progress">מרענן את הפיד: %s</string>
 <string name="portrait_outside_fullscreen_title">להשאיר את האפליקציה לאורך</string>
 <string name="portrait_outside_fullscreen_summary">להציג רשימות, את דף הסרטון ואת ההגדרות לאורך, לא משנה איך מחזיקים את המכשיר. רק נגינה במסך מלא מסתובבת לרוחב</string>
+<string name="back_from_fullscreen_closes_player_title">חזרה במסך מלא סוגרת את הסרטון</string>
+<string name="back_from_fullscreen_closes_player_summary">לחיצה על חזרה בזמן נגינה במסך מלא חוזרת לרשימה ועוצרת את הסרטון, במקום להשאיר אותו פתוח בנגן המוקטן</string>
 </resources>

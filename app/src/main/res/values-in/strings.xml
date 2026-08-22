@@ -699,4 +699,6 @@
 <string name="feed_refresh_progress">Menyegarkan umpan: %s</string>
 <string name="portrait_outside_fullscreen_title">Jaga aplikasi tetap tegak</string>
 <string name="portrait_outside_fullscreen_summary">Tampilkan daftar, halaman video, dan pengaturan secara tegak, bagaimanapun perangkat dipegang. Hanya pemutaran layar penuh yang berputar ke mendatar</string>
+<string name="back_from_fullscreen_closes_player_title">Kembali saat layar penuh menutup video</string>
+<string name="back_from_fullscreen_closes_player_summary">Menekan kembali saat pemutaran layar penuh akan kembali ke daftar dan menghentikan video, alih-alih membiarkannya terbuka di pemutar mini</string>
 </resources>

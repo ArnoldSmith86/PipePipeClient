@@ -927,6 +927,10 @@ public final class VideoDetailFragment
 
         // If we are in fullscreen mode just exit from it via first back press
         if (isPlayerAvailable() && player.isFullscreen()) {
+            if (PlayerHelper.isBackFromFullscreenClosingPlayer(activity)) {
+                closePlayerAndReturnToList();
+                return true;
+            }
             if (!DeviceUtils.isTablet(activity)) {
                 player.pause();
             }

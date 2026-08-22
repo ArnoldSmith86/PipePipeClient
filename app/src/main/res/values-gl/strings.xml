@@ -691,4 +691,6 @@
 <string name="feed_refresh_progress">Actualizando a fonte: %s</string>
 <string name="portrait_outside_fullscreen_title">Manter a aplicación en vertical</string>
 <string name="portrait_outside_fullscreen_summary">Amosar as listas, a páxina do vídeo e os axustes en vertical sen importar como se suxeite o dispositivo. Só a reprodución a pantalla completa xira a horizontal</string>
+<string name="back_from_fullscreen_closes_player_title">Atrás a pantalla completa pecha o vídeo</string>
+<string name="back_from_fullscreen_closes_player_summary">Premer atrás durante a reprodución a pantalla completa volve á lista e detén o vídeo, en vez de deixalo aberto no minirreprodutor</string>
 </resources>

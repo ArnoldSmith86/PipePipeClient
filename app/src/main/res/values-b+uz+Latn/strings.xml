@@ -576,4 +576,6 @@
 <string name="feed_refresh_progress">Oqim yangilanmoqda: %s</string>
 <string name="portrait_outside_fullscreen_title">Ilovani tik holatda saqlash</string>
 <string name="portrait_outside_fullscreen_summary">Qurilma qanday ushlanishidan qat\'i nazar ro\'yxatlarni, video sahifasini va sozlamalarni tik holatda ko\'rsatish. Faqat to\'liq ekranda ijro yonboshiga buriladi</string>
+<string name="back_from_fullscreen_closes_player_title">To\'liq ekranda orqaga videoni yopadi</string>
+<string name="back_from_fullscreen_closes_player_summary">To\'liq ekranda ijro paytida orqaga bosish ro\'yxatga qaytaradi va videoni to\'xtatadi, uni mini pleyerda ochiq qoldirish o\'rniga</string>
 </resources>

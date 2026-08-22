@@ -563,4 +563,6 @@
 <string name="feed_refresh_progress">Aktualigo de la fluo: %s</string>
 <string name="portrait_outside_fullscreen_title">Teni la aplikaĵon vertikala</string>
 <string name="portrait_outside_fullscreen_summary">Montri listojn, la videopaĝon kaj la agordojn vertikale, negrave kiel oni tenas la aparaton. Nur plenekrana ludado turniĝas horizontale</string>
+<string name="back_from_fullscreen_closes_player_title">Reen en plenekrano fermas la videon</string>
+<string name="back_from_fullscreen_closes_player_summary">Premi reen dum plenekrana ludado revenas al la listo kaj haltigas la videon, anstataŭ lasi ĝin malfermita en la mini-ludilo</string>
 </resources>

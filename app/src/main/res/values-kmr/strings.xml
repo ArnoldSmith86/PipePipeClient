@@ -595,4 +595,6 @@
 <string name="feed_refresh_progress">Weşan tê nûkirin: %s</string>
 <string name="portrait_outside_fullscreen_title">Sepanê stûnî bihêle</string>
 <string name="portrait_outside_fullscreen_summary">Lîsteyan, rûpela vîdyoyê û mîhengan stûnî nîşan bide, amûr çawa were girtin jî. Tenê lêxistina bi dîmendera tijî berbi berwarî ve dizivire</string>
+<string name="back_from_fullscreen_closes_player_title">Vegera di dîmendera tijî de vîdyoyê digire</string>
+<string name="back_from_fullscreen_closes_player_summary">Pêlkirina vegerê dema lêxistina bi dîmendera tijî vedigere lîsteyê û vîdyoyê radiwestîne, li şûna ku wê di lêdêra piçûk de vekirî bihêle</string>
 </resources>

@@ -375,4 +375,6 @@
 <string name="feed_refresh_progress">ஊட்டம் புதுப்பிக்கப்படுகிறது: %s</string>
 <string name="portrait_outside_fullscreen_title">செயலியை நெடுக்கமாக வைத்திரு</string>
 <string name="portrait_outside_fullscreen_summary">சாதனத்தை எப்படிப் பிடித்தாலும் பட்டியல்கள், வீடியோப் பக்கம் மற்றும் அமைப்புகளை நெடுக்கமாகக் காட்டு. முழுத்திரை இயக்கம் மட்டுமே கிடைமட்டமாகத் திரும்பும்</string>
+<string name="back_from_fullscreen_closes_player_title">முழுத்திரையில் பின் செல்வது வீடியோவை மூடும்</string>
+<string name="back_from_fullscreen_closes_player_summary">முழுத்திரையில் இயங்கும்போது பின் பொத்தானை அழுத்தினால் பட்டியலுக்குத் திரும்பி வீடியோ நிற்கும், சிறு பிளேயரில் திறந்திருக்காமல்</string>
 </resources>

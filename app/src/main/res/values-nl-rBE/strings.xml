@@ -628,4 +628,6 @@
 <string name="feed_refresh_progress">Feed vernieuwen: %s</string>
 <string name="portrait_outside_fullscreen_title">App in staande stand houden</string>
 <string name="portrait_outside_fullscreen_summary">Lijsten, de videopagina en de instellingen in staande stand tonen, hoe u het toestel ook houdt. Enkel video op volledig scherm draait naar liggend</string>
+<string name="back_from_fullscreen_closes_player_title">Terug in volledig scherm sluit de video</string>
+<string name="back_from_fullscreen_closes_player_summary">Terug tijdens volledig scherm keert terug naar de lijst en stopt de video, in plaats van hem open te laten in de minispeler</string>
 </resources>

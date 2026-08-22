@@ -666,4 +666,6 @@
 <string name="feed_refresh_progress">Освежавање довода: %s</string>
 <string name="portrait_outside_fullscreen_title">Држи апликацију усправно</string>
 <string name="portrait_outside_fullscreen_summary">Приказуј спискове, страницу видеа и подешавања усправно, без обзира на то како се уређај држи. Само репродукција преко целог екрана се окреће водоравно</string>
+<string name="back_from_fullscreen_closes_player_title">Назад преко целог екрана затвара видео</string>
+<string name="back_from_fullscreen_closes_player_summary">Притисак на „Назад“ током репродукције преко целог екрана враћа на списак и зауставља видео, уместо да га остави отвореним у мини плејеру</string>
 </resources>

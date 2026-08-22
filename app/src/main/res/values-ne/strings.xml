@@ -559,4 +559,6 @@
 <string name="feed_refresh_progress">फिड ताजा गर्दै: %s</string>
 <string name="portrait_outside_fullscreen_title">एप ठाडो राख्नुहोस्</string>
 <string name="portrait_outside_fullscreen_summary">यन्त्र जसरी समातिए पनि सूचीहरू, भिडियोको पृष्ठ र सेटिङ ठाडो देखाउनुहोस्। पूरा स्क्रिनको प्लेब्याक मात्र तेर्सो हुन्छ</string>
+<string name="back_from_fullscreen_closes_player_title">पूरा स्क्रिनमा पछाडि थिच्दा भिडियो बन्द हुन्छ</string>
+<string name="back_from_fullscreen_closes_player_summary">पूरा स्क्रिनमा बजिरहेको बेला पछाडि थिच्दा सूचीमा फर्किन्छ र भिडियो रोकिन्छ, मिनी प्लेयरमा खुला छोड्नुको सट्टा</string>
 </resources>

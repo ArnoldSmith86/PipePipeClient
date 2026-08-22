@@ -383,4 +383,6 @@
 <string name="feed_refresh_progress">กำลังรีเฟรชฟีด: %s</string>
 <string name="portrait_outside_fullscreen_title">ให้แอปอยู่แนวตั้งเสมอ</string>
 <string name="portrait_outside_fullscreen_summary">แสดงรายการ หน้าวิดีโอ และการตั้งค่าในแนวตั้งไม่ว่าจะถืออุปกรณ์อย่างไร มีเพียงการเล่นแบบเต็มหน้าจอเท่านั้นที่หมุนเป็นแนวนอน</string>
+<string name="back_from_fullscreen_closes_player_title">ปุ่มย้อนกลับขณะเต็มหน้าจอจะปิดวิดีโอ</string>
+<string name="back_from_fullscreen_closes_player_summary">การกดย้อนกลับขณะเล่นเต็มหน้าจอจะกลับไปที่รายการและหยุดวิดีโอ แทนที่จะเปิดค้างไว้ในโปรแกรมเล่นขนาดเล็ก</string>
 </resources>

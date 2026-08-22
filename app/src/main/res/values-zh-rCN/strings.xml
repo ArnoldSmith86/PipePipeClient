@@ -1113,4 +1113,6 @@
 <string name="feed_refresh_progress">正在刷新订阅：%s</string>
 <string name="portrait_outside_fullscreen_title">保持应用竖屏</string>
 <string name="portrait_outside_fullscreen_summary">无论设备如何握持，列表、视频页面和设置都以竖屏显示。只有全屏播放才会转为横屏</string>
+<string name="back_from_fullscreen_closes_player_title">全屏时返回即关闭视频</string>
+<string name="back_from_fullscreen_closes_player_summary">全屏播放时按返回将回到列表并停止视频，而不是让它在小窗播放器中继续打开</string>
 </resources>

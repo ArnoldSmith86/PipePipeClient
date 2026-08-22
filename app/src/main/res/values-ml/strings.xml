@@ -658,4 +658,6 @@
 <string name="feed_refresh_progress">ഫീഡ് പുതുക്കുന്നു: %s</string>
 <string name="portrait_outside_fullscreen_title">ആപ്പ് കുത്തനെ നിർത്തുക</string>
 <string name="portrait_outside_fullscreen_summary">ഉപകരണം എങ്ങനെ പിടിച്ചാലും പട്ടികകളും വീഡിയോ പേജും ക്രമീകരണങ്ങളും കുത്തനെ കാണിക്കുക. പൂർണസ്ക്രീൻ പ്ലേബാക്ക് മാത്രം വിലങ്ങനെ തിരിയും</string>
+<string name="back_from_fullscreen_closes_player_title">പൂർണസ്ക്രീനിൽ പിന്നോട്ട് അമർത്തിയാൽ വീഡിയോ അടയും</string>
+<string name="back_from_fullscreen_closes_player_summary">പൂർണസ്ക്രീൻ പ്ലേബാക്കിനിടെ പിന്നോട്ട് അമർത്തിയാൽ പട്ടികയിലേക്ക് മടങ്ങി വീഡിയോ നിർത്തും, മിനി പ്ലെയറിൽ തുറന്നിടുന്നതിനു പകരം</string>
 </resources>

@@ -158,6 +158,8 @@
 <string name="start_main_player_fullscreen_summary">Do not start videos in the mini player, but turn to fullscreen mode directly, if auto rotation is locked. You can still access the mini player by exiting fullscreen</string>
 <string name="portrait_outside_fullscreen_title">Keep the app in portrait</string>
 <string name="portrait_outside_fullscreen_summary">Show lists, the video page and settings in portrait no matter how the device is held. Only fullscreen video playback turns to landscape</string>
+<string name="back_from_fullscreen_closes_player_title">Back from fullscreen closes the video</string>
+<string name="back_from_fullscreen_closes_player_summary">Pressing back during fullscreen playback returns to the list and stops the video, instead of leaving it open in the mini player</string>
 <string name="autoplay_title">Autoplay</string>
 <string name="unsupported_url">Unsupported URL</string>
 <string name="unsupported_url_dialog_message">Could not recognize the URL. Open with another app?</string>

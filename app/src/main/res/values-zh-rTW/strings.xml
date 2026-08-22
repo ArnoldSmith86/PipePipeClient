@@ -1103,4 +1103,6 @@
 <string name="feed_refresh_progress">正在重新整理訂閱：%s</string>
 <string name="portrait_outside_fullscreen_title">保持應用程式直向</string>
 <string name="portrait_outside_fullscreen_summary">無論裝置如何拿取，清單、影片頁面和設定都以直向顯示。只有全螢幕播放才會轉為橫向</string>
+<string name="back_from_fullscreen_closes_player_title">全螢幕時返回即關閉影片</string>
+<string name="back_from_fullscreen_closes_player_summary">全螢幕播放時按返回會回到清單並停止影片，而不是讓它在迷你播放器中繼續開啟</string>
 </resources>

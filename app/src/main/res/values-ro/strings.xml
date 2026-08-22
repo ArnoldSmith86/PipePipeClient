@@ -695,4 +695,6 @@
 <string name="feed_refresh_progress">Se reîmprospătează fluxul: %s</string>
 <string name="portrait_outside_fullscreen_title">Menține aplicația pe verticală</string>
 <string name="portrait_outside_fullscreen_summary">Arată listele, pagina videoclipului și setările pe verticală, indiferent cum este ținut dispozitivul. Doar redarea pe ecran complet se rotește pe orizontală</string>
+<string name="back_from_fullscreen_closes_player_title">Înapoi pe ecran complet închide videoclipul</string>
+<string name="back_from_fullscreen_closes_player_summary">Apăsarea pe înapoi în timpul redării pe ecran complet revine la listă și oprește videoclipul, în loc să îl lase deschis în mini-player</string>
 </resources>

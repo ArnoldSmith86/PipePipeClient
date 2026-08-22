@@ -1043,4 +1043,6 @@
 <string name="feed_refresh_progress">Aggiornamento del feed: %s</string>
 <string name="portrait_outside_fullscreen_title">Mantieni l\'app in verticale</string>
 <string name="portrait_outside_fullscreen_summary">Mostra gli elenchi, la pagina del video e le impostazioni in verticale, comunque sia tenuto il dispositivo. Solo la riproduzione a schermo intero ruota in orizzontale</string>
+<string name="back_from_fullscreen_closes_player_title">Indietro a schermo intero chiude il video</string>
+<string name="back_from_fullscreen_closes_player_summary">Premere indietro durante la riproduzione a schermo intero torna all\'elenco e ferma il video, invece di lasciarlo aperto nel mini lettore</string>
 </resources>

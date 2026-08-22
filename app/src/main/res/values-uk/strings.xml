@@ -729,4 +729,6 @@
 <string name="feed_refresh_progress">Оновлення стрічки: %s</string>
 <string name="portrait_outside_fullscreen_title">Тримати застосунок у портретній орієнтації</string>
 <string name="portrait_outside_fullscreen_summary">Показувати списки, сторінку відео та налаштування вертикально, хоч би як тримали пристрій. Лише повноекранне відтворення повертається горизонтально</string>
+<string name="back_from_fullscreen_closes_player_title">Назад у повноекранному режимі закриває відео</string>
+<string name="back_from_fullscreen_closes_player_summary">Натискання «Назад» під час повноекранного відтворення повертає до списку й зупиняє відео, замість залишати його у міні-програвачі</string>
 </resources>

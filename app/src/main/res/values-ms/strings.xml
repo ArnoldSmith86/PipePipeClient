@@ -452,4 +452,6 @@
 <string name="feed_refresh_progress">Memuat semula suapan: %s</string>
 <string name="portrait_outside_fullscreen_title">Kekalkan aplikasi menegak</string>
 <string name="portrait_outside_fullscreen_summary">Tunjukkan senarai, halaman video dan tetapan secara menegak, walau bagaimana peranti dipegang. Hanya main balik skrin penuh berpusing melintang</string>
+<string name="back_from_fullscreen_closes_player_title">Kembali semasa skrin penuh menutup video</string>
+<string name="back_from_fullscreen_closes_player_summary">Menekan kembali semasa main balik skrin penuh akan kembali ke senarai dan menghentikan video, bukannya membiarkannya terbuka dalam pemain mini</string>
 </resources>

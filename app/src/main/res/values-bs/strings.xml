@@ -145,4 +145,6 @@
 <string name="feed_refresh_progress">Osvježavanje kanala: %s</string>
 <string name="portrait_outside_fullscreen_title">Drži aplikaciju uspravno</string>
 <string name="portrait_outside_fullscreen_summary">Prikazuj liste, stranicu videa i postavke uspravno, bez obzira na to kako se uređaj drži. Samo reprodukcija preko cijelog ekrana okreće se vodoravno</string>
+<string name="back_from_fullscreen_closes_player_title">Nazad preko cijelog ekrana zatvara video</string>
+<string name="back_from_fullscreen_closes_player_summary">Pritisak na „Nazad“ tokom reprodukcije preko cijelog ekrana vraća na listu i zaustavlja video, umjesto da ga ostavi otvorenim u mini plejeru</string>
 </resources>

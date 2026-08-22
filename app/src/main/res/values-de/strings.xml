@@ -1049,4 +1049,6 @@
 <string name="feed_refresh_progress">Feed wird aktualisiert: %s</string>
 <string name="portrait_outside_fullscreen_title">App im Hochformat halten</string>
 <string name="portrait_outside_fullscreen_summary">Listen, die Videoseite und die Einstellungen im Hochformat anzeigen, unabhängig davon, wie das Gerät gehalten wird. Nur die Vollbildwiedergabe wechselt ins Querformat</string>
+<string name="back_from_fullscreen_closes_player_title">Zurück im Vollbild schließt das Video</string>
+<string name="back_from_fullscreen_closes_player_summary">Zurück während der Vollbildwiedergabe kehrt zur Liste zurück und stoppt das Video, statt es im Mini-Player offen zu lassen</string>
 </resources>

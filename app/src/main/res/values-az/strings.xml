@@ -308,4 +308,6 @@
 <string name="feed_refresh_progress">Axın yenilənir: %s</string>
 <string name="portrait_outside_fullscreen_title">Tətbiqi şaquli saxla</string>
 <string name="portrait_outside_fullscreen_summary">Cihaz necə tutulursa tutulsun siyahıları, video səhifəsini və ayarları şaquli göstər. Yalnız tam ekran oxutma üfüqi dönür</string>
+<string name="back_from_fullscreen_closes_player_title">Tam ekranda geri videonu bağlayır</string>
+<string name="back_from_fullscreen_closes_player_summary">Tam ekran oxutma zamanı geri düyməsinə basmaq siyahıya qaytarır və videonu dayandırır, onu mini oxuducuda açıq qoymaq əvəzinə</string>
 </resources>

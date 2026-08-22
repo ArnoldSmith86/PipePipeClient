@@ -225,4 +225,6 @@
 <string name="feed_refresh_progress">Nire-refresh ang feed: %s</string>
 <string name="portrait_outside_fullscreen_title">Panatilihing patayo ang app</string>
 <string name="portrait_outside_fullscreen_summary">Ipakita ang mga listahan, ang pahina ng video at ang mga setting nang patayo, kahit paano hawakan ang device. Ang panonood lang sa buong screen ang umiikot nang pahalang</string>
+<string name="back_from_fullscreen_closes_player_title">Ang back sa buong screen ay nagsasara ng video</string>
+<string name="back_from_fullscreen_closes_player_summary">Ang pagpindot ng back habang nanonood sa buong screen ay babalik sa listahan at ihihinto ang video, sa halip na iwang bukas ito sa mini player</string>
 </resources>

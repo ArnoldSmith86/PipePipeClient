@@ -1137,4 +1137,6 @@
 <string name="feed_refresh_progress">جارٍ تحديث الموجز: %s</string>
 <string name="portrait_outside_fullscreen_title">إبقاء التطبيق عموديًا</string>
 <string name="portrait_outside_fullscreen_summary">عرض القوائم وصفحة الفيديو والإعدادات عموديًا مهما كانت وضعية الجهاز. التشغيل بملء الشاشة وحده هو الذي يدور أفقيًا</string>
+<string name="back_from_fullscreen_closes_player_title">زر الرجوع في وضع ملء الشاشة يغلق الفيديو</string>
+<string name="back_from_fullscreen_closes_player_summary">الضغط على الرجوع أثناء التشغيل بملء الشاشة يعود إلى القائمة ويوقف الفيديو بدلًا من تركه مفتوحًا في المشغّل المصغّر</string>
 </resources>

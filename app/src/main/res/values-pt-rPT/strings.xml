@@ -712,4 +712,6 @@
 <string name="feed_refresh_progress">A atualizar o feed: %s</string>
 <string name="portrait_outside_fullscreen_title">Manter a aplicação na vertical</string>
 <string name="portrait_outside_fullscreen_summary">Mostrar as listas, a página do vídeo e as definições na vertical, independentemente de como o dispositivo é segurado. Apenas a reprodução em ecrã inteiro roda para a horizontal</string>
+<string name="back_from_fullscreen_closes_player_title">Retroceder em ecrã inteiro fecha o vídeo</string>
+<string name="back_from_fullscreen_closes_player_summary">Premir retroceder durante a reprodução em ecrã inteiro volta à lista e para o vídeo, em vez de o deixar aberto no mini-reprodutor</string>
 </resources>

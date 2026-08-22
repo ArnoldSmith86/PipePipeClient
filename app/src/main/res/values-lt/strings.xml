@@ -701,4 +701,6 @@
 <string name="feed_refresh_progress">Atnaujinamas srautas: %s</string>
 <string name="portrait_outside_fullscreen_title">Laikyti programą stačiai</string>
 <string name="portrait_outside_fullscreen_summary">Rodyti sąrašus, vaizdo įrašo puslapį ir nustatymus stačiai, nesvarbu, kaip laikomas įrenginys. Tik atkūrimas per visą ekraną pasisuka gulsčiai</string>
+<string name="back_from_fullscreen_closes_player_title">Atgal per visą ekraną užveria vaizdo įrašą</string>
+<string name="back_from_fullscreen_closes_player_summary">Paspaudus atgal atkūrimo per visą ekraną metu grįžtama į sąrašą ir vaizdo įrašas sustabdomas, užuot palikus jį atvertą mini grotuve</string>
 </resources>

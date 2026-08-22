@@ -474,4 +474,6 @@
 <string name="feed_refresh_progress">Osveževanje vira: %s</string>
 <string name="portrait_outside_fullscreen_title">Ohrani aplikacijo pokončno</string>
 <string name="portrait_outside_fullscreen_summary">Prikaži sezname, stran videoposnetka in nastavitve pokončno, ne glede na to, kako je naprava obrnjena. Samo predvajanje čez cel zaslon se obrne ležeče</string>
+<string name="back_from_fullscreen_closes_player_title">Nazaj čez cel zaslon zapre videoposnetek</string>
+<string name="back_from_fullscreen_closes_player_summary">Pritisk na »Nazaj« med predvajanjem čez cel zaslon se vrne na seznam in ustavi videoposnetek, namesto da bi ga pustil odprtega v mini predvajalniku</string>
 </resources>

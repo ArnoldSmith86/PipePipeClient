@@ -179,4 +179,6 @@
 <string name="feed_refresh_progress">Հոսքը թարմացվում է՝ %s</string>
 <string name="portrait_outside_fullscreen_title">Պահել հավելվածը ուղղաձիգ</string>
 <string name="portrait_outside_fullscreen_summary">Ցուցադրել ցանկերը, տեսանյութի էջը և կարգավորումները ուղղաձիգ՝ անկախ նրանից, թե ինչպես է սարքը պահվում։ Միայն լիաէկրան նվագարկումն է շրջվում հորիզոնական</string>
+<string name="back_from_fullscreen_closes_player_title">Հետ գնալը լիաէկրանում փակում է տեսանյութը</string>
+<string name="back_from_fullscreen_closes_player_summary">Լիաէկրան նվագարկման ժամանակ «Հետ» սեղմելը վերադառնում է ցանկ և կանգնեցնում տեսանյութը՝ մինի նվագարկիչում բաց թողնելու փոխարեն</string>
 </resources>

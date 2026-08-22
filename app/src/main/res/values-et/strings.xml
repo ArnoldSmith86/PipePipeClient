@@ -712,4 +712,6 @@
 <string name="feed_refresh_progress">Voo värskendamine: %s</string>
 <string name="portrait_outside_fullscreen_title">Hoia rakendus püstpaigutuses</string>
 <string name="portrait_outside_fullscreen_summary">Näita loendeid, video lehte ja seadeid püstpaigutuses, ükskõik kuidas seadet hoitakse. Ainult täisekraanil esitamine pöördub rõhtpaigutusse</string>
+<string name="back_from_fullscreen_closes_player_title">Tagasi täisekraanil sulgeb video</string>
+<string name="back_from_fullscreen_closes_player_summary">Tagasi vajutamine täisekraanil esitamise ajal viib loendisse tagasi ja peatab video, selle asemel et jätta see minimängijasse avatuks</string>
 </resources>

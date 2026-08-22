@@ -1055,4 +1055,6 @@
 <string name="feed_refresh_progress">Akış yenileniyor: %s</string>
 <string name="portrait_outside_fullscreen_title">Uygulamayı dikey tut</string>
 <string name="portrait_outside_fullscreen_summary">Cihaz nasıl tutulursa tutulsun listeleri, video sayfasını ve ayarları dikey göster. Yalnızca tam ekran oynatma yatay döner</string>
+<string name="back_from_fullscreen_closes_player_title">Tam ekranda geri videoyu kapatır</string>
+<string name="back_from_fullscreen_closes_player_summary">Tam ekran oynatma sırasında geriye basmak listeye döner ve videoyu durdurur, mini oynatıcıda açık bırakmak yerine</string>
 </resources>

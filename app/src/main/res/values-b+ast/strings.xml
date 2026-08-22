@@ -582,4 +582,6 @@
 <string name="feed_refresh_progress">Anovando\'l fluxu: %s</string>
 <string name="portrait_outside_fullscreen_title">Caltener l\'aplicación en vertical</string>
 <string name="portrait_outside_fullscreen_summary">Amosar les llistes, la páxina del videu y los axustes en vertical, seya como seya que se sostenga\'l preséu. Namás la reproducción a pantalla completa gira a horizontal</string>
+<string name="back_from_fullscreen_closes_player_title">Atrás a pantalla completa zarra\'l videu</string>
+<string name="back_from_fullscreen_closes_player_summary">Calcar atrás demientres la reproducción a pantalla completa vuelve a la llista y para\'l videu, en llugar de dexalu abiertu nel mini reproductor</string>
 </resources>

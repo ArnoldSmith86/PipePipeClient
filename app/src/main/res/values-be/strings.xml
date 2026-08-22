@@ -496,4 +496,6 @@
 <string name="feed_refresh_progress">Абнаўленне стужкі: %s</string>
 <string name="portrait_outside_fullscreen_title">Трымаць праграму ў партрэтнай арыентацыі</string>
 <string name="portrait_outside_fullscreen_summary">Паказваць спісы, старонку відэа і налады вертыкальна, як бы ні трымалі прыладу. Толькі поўнаэкраннае прайграванне паварочваецца гарызантальна</string>
+<string name="back_from_fullscreen_closes_player_title">Назад у поўнаэкранным рэжыме закрывае відэа</string>
+<string name="back_from_fullscreen_closes_player_summary">Націск «Назад» падчас поўнаэкраннага прайгравання вяртае да спіса і спыняе відэа, замест таго каб пакінуць яго ў міні-прайгравальніку</string>
 </resources>

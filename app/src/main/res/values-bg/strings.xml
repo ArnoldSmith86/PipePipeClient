@@ -563,4 +563,6 @@
 <string name="feed_refresh_progress">Потокът се опреснява: %s</string>
 <string name="portrait_outside_fullscreen_title">Задържане на приложението в портретен режим</string>
 <string name="portrait_outside_fullscreen_summary">Показване на списъците, страницата на видеото и настройките вертикално, независимо как е държано устройството. Само възпроизвеждането на цял екран се завърта хоризонтално</string>
+<string name="back_from_fullscreen_closes_player_title">Назад на цял екран затваря видеото</string>
+<string name="back_from_fullscreen_closes_player_summary">Натискането на „Назад“ по време на възпроизвеждане на цял екран връща към списъка и спира видеото, вместо да го оставя отворено в мини плейъра</string>
 </resources>

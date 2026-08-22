@@ -1066,4 +1066,6 @@ Voulez-vous continuer?</string>
 <string name="feed_refresh_progress">Actualisation du flux : %s</string>
 <string name="portrait_outside_fullscreen_title">Garder l\'application en portrait</string>
 <string name="portrait_outside_fullscreen_summary">Afficher les listes, la page de la vidéo et les paramètres en portrait quelle que soit l\'orientation de l\'appareil. Seule la lecture en plein écran passe en paysage</string>
+<string name="back_from_fullscreen_closes_player_title">Retour en plein écran ferme la vidéo</string>
+<string name="back_from_fullscreen_closes_player_summary">Appuyer sur retour pendant la lecture en plein écran revient à la liste et arrête la vidéo, au lieu de la laisser ouverte dans le mini-lecteur</string>
 </resources>

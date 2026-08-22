@@ -423,4 +423,6 @@
 <string name="feed_refresh_progress">Се освежува каналот: %s</string>
 <string name="portrait_outside_fullscreen_title">Задржи ја апликацијата во портретна ориентација</string>
 <string name="portrait_outside_fullscreen_summary">Прикажувај ги списоците, страницата на видеото и поставките вертикално, без разлика како се држи уредот. Само репродукцијата на цел екран се врти хоризонтално</string>
+<string name="back_from_fullscreen_closes_player_title">Назад на цел екран го затвора видеото</string>
+<string name="back_from_fullscreen_closes_player_summary">Притискањето на „Назад“ при репродукција на цел екран се враќа на списокот и го запира видеото, наместо да го остави отворено во мини плеерот</string>
 </resources>

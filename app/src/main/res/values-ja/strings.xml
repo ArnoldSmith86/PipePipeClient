@@ -1072,4 +1072,6 @@
 <string name="feed_refresh_progress">フィードを更新中: %s</string>
 <string name="portrait_outside_fullscreen_title">アプリを縦向きのままにする</string>
 <string name="portrait_outside_fullscreen_summary">端末の向きにかかわらず、一覧・動画ページ・設定を縦向きで表示します。横向きになるのは全画面再生のときだけです</string>
+<string name="back_from_fullscreen_closes_player_title">全画面での戻るで動画を閉じる</string>
+<string name="back_from_fullscreen_closes_player_summary">全画面再生中に戻るを押すと、ミニプレーヤーに残さず一覧に戻って動画を停止します</string>
 </resources>

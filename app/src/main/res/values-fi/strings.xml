@@ -689,4 +689,6 @@
 <string name="feed_refresh_progress">Päivitetään syötettä: %s</string>
 <string name="portrait_outside_fullscreen_title">Pidä sovellus pystyasennossa</string>
 <string name="portrait_outside_fullscreen_summary">Näytä listat, videon sivu ja asetukset pystyasennossa riippumatta siitä, miten laitetta pidetään. Vain koko näytön toisto kääntyy vaaka-asentoon</string>
+<string name="back_from_fullscreen_closes_player_title">Takaisin koko näytöllä sulkee videon</string>
+<string name="back_from_fullscreen_closes_player_summary">Takaisin-painike koko näytön toiston aikana palaa listaan ja pysäyttää videon sen sijaan, että jättäisi sen auki minisoittimeen</string>
 </resources>

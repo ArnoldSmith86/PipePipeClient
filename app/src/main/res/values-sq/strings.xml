@@ -651,4 +651,6 @@
 <string name="feed_refresh_progress">Po rifreskohet burimi: %s</string>
 <string name="portrait_outside_fullscreen_title">Mbaje aplikacionin vertikalisht</string>
 <string name="portrait_outside_fullscreen_summary">Shfaq listat, faqen e videos dhe cilësimet vertikalisht, pavarësisht si mbahet pajisja. Vetëm luajtja në ekran të plotë kthehet horizontalisht</string>
+<string name="back_from_fullscreen_closes_player_title">Kthimi mbrapa në ekran të plotë e mbyll videon</string>
+<string name="back_from_fullscreen_closes_player_summary">Shtypja e butonit mbrapa gjatë luajtjes në ekran të plotë kthen te lista dhe ndalon videon, në vend që ta lërë të hapur në luajtësin e vogël</string>
 </resources>

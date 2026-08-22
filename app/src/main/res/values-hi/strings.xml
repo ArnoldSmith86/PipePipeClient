@@ -564,4 +564,6 @@
 <string name="feed_refresh_progress">फ़ीड ताज़ा हो रही है: %s</string>
 <string name="portrait_outside_fullscreen_title">ऐप को खड़ी दिशा में रखें</string>
 <string name="portrait_outside_fullscreen_summary">डिवाइस चाहे जैसे पकड़ा जाए, सूचियाँ, वीडियो का पन्ना और सेटिंग्स खड़ी दिशा में दिखाएँ। केवल पूर्ण स्क्रीन प्लेबैक ही आड़ी दिशा में घूमता है</string>
+<string name="back_from_fullscreen_closes_player_title">पूर्ण स्क्रीन में वापस दबाने पर वीडियो बंद हो</string>
+<string name="back_from_fullscreen_closes_player_summary">पूर्ण स्क्रीन प्लेबैक के दौरान वापस दबाने पर सूची पर लौटकर वीडियो रुक जाता है, बजाय इसके कि वह मिनी प्लेयर में खुला रह जाए</string>
 </resources>
