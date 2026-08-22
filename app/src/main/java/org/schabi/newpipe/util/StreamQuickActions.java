@@ -40,7 +40,8 @@ import java.util.function.Consumer;
  * button is only a second way to reach it.</p>
  *
  * <p>The catalogue is keyed by the enum constant's <em>name</em> rather than the constant itself,
- * and the icons are looked up by resource name. That is what lets a feature branch add an entry -
+ * and the icons are looked up by resource name - which is also why an icon here can name a
+ * drawable another feature branch ships, such as the cache's {@code ic_cached_offline}. That is what lets a feature branch add an entry -
  * the offline cache adds {@code CACHE} - and have it appear here automatically once the branches
  * are merged, without this class having to know that the entry exists.</p>
  */
@@ -82,7 +83,7 @@ public final class StreamQuickActions {
             new Action("ENQUEUE_NEXT", "ic_next"),
             new Action("START_HERE_ON_BACKGROUND", "ic_headset"),
             new Action("START_HERE_ON_POPUP", "ic_picture_in_picture"),
-            new Action("CACHE", "ic_offline_pin"),
+            new Action("CACHE", "ic_cached_offline"),
             new Action("DOWNLOAD", "ic_file_download"),
             new Action("APPEND_PLAYLIST", "ic_playlist_add_check"),
             new Action("MARK_AS_WATCHED", "ic_done"),
