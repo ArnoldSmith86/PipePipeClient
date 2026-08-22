@@ -37,5 +37,4 @@
     <string name="default_popup_resolution_title">डिफॉल्ट पॉप अप रेसिल्युशन</string>
     <string name="default_resolution_title">डीफॉल्ट रेसोल्युशन निवडा</string>
     <string name="controls_add_to_playlist_title">मध्ये टाका</string>
-<string name="feed_refresh_progress">फीड रिफ्रेश होत आहे: %s</string>
 </resources>

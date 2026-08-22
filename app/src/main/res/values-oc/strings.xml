@@ -49,5 +49,4 @@
     <string name="seek_duration_title">Durada d\'avançada/reculada rapida</string>
     <string name="download_thumbnail_title">Cargar las miniaturas</string>
     <string name="auto_queue_title">Apondre la vidèo seguenta dins la coa de lectura</string>
-<string name="feed_refresh_progress">Actualizacion del flux : %s</string>
 </resources>

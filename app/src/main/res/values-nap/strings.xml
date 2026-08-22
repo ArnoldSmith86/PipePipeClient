@@ -31,5 +31,4 @@
     <string name="no_player_found_toast">Nisciuno lettore truvato (può installà VLC p\' \'o reprodurre).</string>
     <string name="no_player_found">Nisciuno lettore truvato. Vuo\' installà VLC\?</string>
     <string name="main_bg_subtitle">Priemme \"Truova\" p\'accummencià</string>
-<string name="feed_refresh_progress">Se sta aggiornanno \'o flusso: %s</string>
 </resources>

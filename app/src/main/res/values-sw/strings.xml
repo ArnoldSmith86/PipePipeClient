@@ -36,5 +36,4 @@
     <string name="notification_action_buffering">Buffering</string>
     <string name="notification_action_nothing">Hakuna</string>
     <string name="use_inexact_seek_title">Use fast inexact seek</string>
-<string name="feed_refresh_progress">Inaonyesha upya mlisho: %s</string>
 </resources>

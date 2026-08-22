@@ -14,5 +14,4 @@
     <string name="no_player_found">لم يتم العثور على مشغل بث. يرجى تثبيت VLC؟</string>
     <string name="upload_date_text">تم النشر في %1$s</string>
     <string name="main_bg_subtitle">انقر على \"بحث\" للبدء</string>
-<string name="feed_refresh_progress">جارٍ تحديث الموجز: %s</string>
 </resources>

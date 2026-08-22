@@ -4,5 +4,4 @@
     <string name="did_you_mean">ඔබ අදහස් කළේ \"%1$s\" ද\?</string>
     <string name="settings">සැකසුම්</string>
     <string name="search">සොයන්න</string>
-<string name="feed_refresh_progress">සංග්‍රහය නැවුම් වෙමින්: %s</string>
 </resources>
