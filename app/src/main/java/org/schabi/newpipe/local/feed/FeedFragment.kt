@@ -124,6 +124,9 @@ class FeedFragment : BaseStateFragment<FeedState>() {
     private var originalItems = mutableListOf<StreamItem>()
     private var filteredItems = mutableListOf<StreamItem>()
     private var isFilterEnabled = false
+
+    /** What the user last typed into the feed filter, so a live update can keep it applied. */
+    private var filterQuery = ""
     private var isPullToRefreshEnabled = true
 
     private val textWatcher = object : TextWatcher {
@@ -555,8 +558,9 @@ class FeedFragment : BaseStateFragment<FeedState>() {
         }
     }
 
-    private fun filterItems(text: String) {
+    private fun filterItems(text: String, scrollToTop: Boolean = true) {
         isFilterEnabled = text.isNotEmpty()
+        filterQuery = text
         filteredItems.clear()
 
         if (text.isEmpty()) {
@@ -579,14 +583,18 @@ class FeedFragment : BaseStateFragment<FeedState>() {
             groupAdapter.updateAsync(if (isFilterEnabled) filteredItems else originalItems, null)
         }
 
-        // Always scroll to top when filter changes
-        feedBinding.itemsList.post {
-            feedBinding.itemsList.layoutManager?.scrollToPosition(0)
+        // Scroll to the top when the filter itself changes - but not when the list underneath it
+        // was rebuilt, where the user is still looking at the same results.
+        if (scrollToTop) {
+            feedBinding.itemsList.post {
+                feedBinding.itemsList.layoutManager?.scrollToPosition(0)
+            }
         }
     }
 
     private fun clearFilter() {
         isFilterEnabled = false
+        filterQuery = ""
         filteredItems.clear()
         // Cancel any ongoing diff operations before starting a new one
         try {
@@ -760,9 +768,16 @@ class FeedFragment : BaseStateFragment<FeedState>() {
         // This need to be saved in a variable as the update occurs async
         val oldOldestSubscriptionUpdate = oldestSubscriptionUpdate
 
-        groupAdapter.updateAsync(loadedState.items, false) {
-            oldOldestSubscriptionUpdate?.run {
-                highlightNewItemsAfter(oldOldestSubscriptionUpdate)
+        if (isFilterEnabled) {
+            // The list can be rebuilt underneath an active filter now that the database drives
+            // it; re-apply what the user typed instead of dropping them back to everything.
+            filterItems(filterQuery, scrollToTop = false)
+            oldOldestSubscriptionUpdate?.run { highlightNewItemsAfter(this) }
+        } else {
+            groupAdapter.updateAsync(loadedState.items, false) {
+                oldOldestSubscriptionUpdate?.run {
+                    highlightNewItemsAfter(oldOldestSubscriptionUpdate)
+                }
             }
         }
         listState?.run {
