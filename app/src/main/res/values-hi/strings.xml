@@ -519,4 +519,6 @@
     <string name="start_main_player_fullscreen_summary">मिनी प्लेयर में वीडियो शुरू न करें, लेकिन ऑटो रोटेशन लॉक होने पर सीधे फुल स्क्रीन मोड पर जाएं। आप अब भी फ़ुलस्क्रीन से बाहर निकलकर मिनी प्लेयर तक पहुंच सकते हैं।</string>
     <string name="comments_are_disabled">टिप्पणियाँ करना बंद है</string>
     <string name="mark_as_watched">देखा हुआ चिह्नित करें</string>
+<string name="portrait_outside_fullscreen_title">ऐप को खड़ी दिशा में रखें</string>
+<string name="portrait_outside_fullscreen_summary">डिवाइस चाहे जैसे पकड़ा जाए, सूचियाँ, वीडियो का पन्ना और सेटिंग्स खड़ी दिशा में दिखाएँ। केवल पूर्ण स्क्रीन प्लेबैक ही आड़ी दिशा में घूमता है</string>
 </resources>

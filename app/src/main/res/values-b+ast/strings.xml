@@ -537,4 +537,6 @@
     <string name="install">Instalar</string>
     <string name="no_player_found">Nun s\'atopó nengún reproductor de fluxos. ¿Instalar VLC\?</string>
     <string name="main_bg_subtitle">Toca «Buscar» pa entamar</string>
+<string name="portrait_outside_fullscreen_title">Caltener l\'aplicación en vertical</string>
+<string name="portrait_outside_fullscreen_summary">Amosar les llistes, la páxina del videu y los axustes en vertical, seya como seya que se sostenga\'l preséu. Namás la reproducción a pantalla completa gira a horizontal</string>
 </resources>

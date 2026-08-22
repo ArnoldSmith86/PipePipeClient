@@ -724,4 +724,6 @@
     <string name="auto_background_play_summary">Reproduzir automaticamente em segundo plano ao selecionar um item de uma playlist local</string>
     <string name="download_all">Transferir tudo</string>
     <string name="bullet_comments_opacity_title">Opacidade de comentários com bullet</string>
+<string name="portrait_outside_fullscreen_title">Manter o app na vertical</string>
+<string name="portrait_outside_fullscreen_summary">Mostrar as listas, a página do vídeo e as configurações na vertical, independentemente de como o aparelho for segurado. Apenas a reprodução em tela cheia gira para a horizontal</string>
 </resources>

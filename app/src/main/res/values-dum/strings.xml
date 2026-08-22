@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources><string name="portrait_outside_fullscreen_title">Die app rechtstaende houden</string>
+<string name="portrait_outside_fullscreen_summary">Listen, die videoside ende die instellinghen rechtstaende toghen, hoe men den toestel oec hout. Allene dat spelen in vollen scherme keert dwers</string>
+</resources>

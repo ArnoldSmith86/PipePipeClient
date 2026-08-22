@@ -1027,4 +1027,6 @@
 <string name="subscription_details_update_ongoing">チャンネルの詳細を取得中…</string>
 <string name="subscription_details_update_complete">チャンネルの詳細を更新しました</string>
 <string name="subscription_details_update_failed">チャンネルの詳細を更新できませんでした</string>
+<string name="portrait_outside_fullscreen_title">アプリを縦向きのままにする</string>
+<string name="portrait_outside_fullscreen_summary">端末の向きにかかわらず、一覧・動画ページ・設定を縦向きで表示します。横向きになるのは全画面再生のときだけです</string>
 </resources>

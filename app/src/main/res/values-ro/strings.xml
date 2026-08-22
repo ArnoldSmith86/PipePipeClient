@@ -650,4 +650,6 @@
     <string name="show_crash_the_player_title">Arată \"închiderea bruscă a player-ului video\"</string>
     <string name="show_error_snackbar">Arată o eroare de tip snackbar</string>
     <string name="feed_new_items">Elemente de flux noi</string>
+<string name="portrait_outside_fullscreen_title">Menține aplicația pe verticală</string>
+<string name="portrait_outside_fullscreen_summary">Arată listele, pagina videoclipului și setările pe verticală, indiferent cum este ținut dispozitivul. Doar redarea pe ecran complet se rotește pe orizontală</string>
 </resources>

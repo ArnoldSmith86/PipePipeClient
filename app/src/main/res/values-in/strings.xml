@@ -654,4 +654,6 @@
     <string name="enable_streams_notifications_title">Notifikasi stream baru</string>
     <string name="enable_streams_notifications_summary">Beritahu tentang stream baru dari notifikasi</string>
     <string name="you_successfully_subscribed">Anda sekarang berlangganan ke channel ini</string>
+<string name="portrait_outside_fullscreen_title">Jaga aplikasi tetap tegak</string>
+<string name="portrait_outside_fullscreen_summary">Tampilkan daftar, halaman video, dan pengaturan secara tegak, bagaimanapun perangkat dipegang. Hanya pemutaran layar penuh yang berputar ke mendatar</string>
 </resources>

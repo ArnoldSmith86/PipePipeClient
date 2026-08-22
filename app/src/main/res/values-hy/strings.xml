@@ -134,4 +134,6 @@
     <string name="title_activity_history">Պատմություն</string>
     <string name="action_history">Պատմություն</string>
     <string name="trending">Թրենդային</string>
+<string name="portrait_outside_fullscreen_title">Պահել հավելվածը ուղղաձիգ</string>
+<string name="portrait_outside_fullscreen_summary">Ցուցադրել ցանկերը, տեսանյութի էջը և կարգավորումները ուղղաձիգ՝ անկախ նրանից, թե ինչպես է սարքը պահվում։ Միայն լիաէկրան նվագարկումն է շրջվում հորիզոնական</string>
 </resources>

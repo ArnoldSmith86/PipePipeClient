@@ -36,4 +36,6 @@
         <item quantity="other">%d ଦିନ</item>
     </plurals>
     <string name="feed_create_new_group_button_title">ନୂଆ</string>
+<string name="portrait_outside_fullscreen_title">ଆପକୁ ଠିଆ ରଖନ୍ତୁ</string>
+<string name="portrait_outside_fullscreen_summary">ଯନ୍ତ୍ର ଯେମିତି ଧରାଯାଉ ନା କାହିଁକି, ତାଲିକା, ଭିଡିଓର ପୃଷ୍ଠା ଓ ସେଟିଂସ ଠିଆ ଦେଖାନ୍ତୁ। କେବଳ ପୂର୍ଣ୍ଣ ପରଦା ପ୍ଲେବ୍ୟାକ ହିଁ ଆଡ଼ ହୁଏ</string>
 </resources>

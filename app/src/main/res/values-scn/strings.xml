@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources><string name="portrait_outside_fullscreen_title">Teni l\'app dritta</string>
+<string name="portrait_outside_fullscreen_summary">Mustra li listi, la pàggina dû vidiu e li mpustazzioni dritti, comu si teni lu dispusitivu. Sulu la ripruduzzioni a schirmu chinu si vota di latu</string>
+</resources>

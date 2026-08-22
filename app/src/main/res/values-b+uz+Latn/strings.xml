@@ -531,4 +531,6 @@
     <string name="error_unable_to_load_comments">Fikrlarni yuklab bo‘lmadi</string>
     <string name="import_settings">Sozlamalarni ham import qilmoqchimisiz\?</string>
     <string name="override_current_data">Bu sizning joriy sozlamangizni bekor qiladi.</string>
+<string name="portrait_outside_fullscreen_title">Ilovani tik holatda saqlash</string>
+<string name="portrait_outside_fullscreen_summary">Qurilma qanday ushlanishidan qat\'i nazar ro\'yxatlarni, video sahifasini va sozlamalarni tik holatda ko\'rsatish. Faqat to\'liq ekranda ijro yonboshiga buriladi</string>
 </resources>

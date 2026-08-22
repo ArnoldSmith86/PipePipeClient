@@ -667,4 +667,6 @@
     <string name="enable_streams_notifications_title">Nya strömmnings notifikationer</string>
     <string name="settings_category_player_notification_title">Spelaravisering</string>
     <string name="toggle_all">Växla alla</string>
+<string name="portrait_outside_fullscreen_title">Håll appen i stående läge</string>
+<string name="portrait_outside_fullscreen_summary">Visa listor, videosidan och inställningarna i stående läge oavsett hur enheten hålls. Endast helskärmsuppspelning vrids till liggande</string>
 </resources>

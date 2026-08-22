@@ -1092,4 +1092,6 @@
     <string name="paid_content_new">يتوفر هذا المحتوى فقط للمستخدمين الذين دفعوا مقابله، لذلك لا يمكن بثه أو تنزيله عبر PipePipe.</string>
     <string name="playback_speed_gesture_control_title">اسحب للتحكم في سرعة التشغيل</string>
     <string name="playback_speed_gesture_control_summary">اسحب من المنتصف للتحكم في سرعة التشغيل. يؤدي ذلك إلى تعطيل إيماء التحكم في وضع ملء الشاشة</string>
+<string name="portrait_outside_fullscreen_title">إبقاء التطبيق عموديًا</string>
+<string name="portrait_outside_fullscreen_summary">عرض القوائم وصفحة الفيديو والإعدادات عموديًا مهما كانت وضعية الجهاز. التشغيل بملء الشاشة وحده هو الذي يدور أفقيًا</string>
 </resources>

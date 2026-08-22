@@ -31,4 +31,6 @@
     <string name="no_player_found_toast">Nisciuno lettore truvato (può installà VLC p\' \'o reprodurre).</string>
     <string name="no_player_found">Nisciuno lettore truvato. Vuo\' installà VLC\?</string>
     <string name="main_bg_subtitle">Priemme \"Truova\" p\'accummencià</string>
+<string name="portrait_outside_fullscreen_title">Tène ll\'app deritta</string>
+<string name="portrait_outside_fullscreen_summary">Mustra \'e liste, \'a paggena d\'\'o video e \'e mpustazzione deritte, comme se tène \'o dispositivo. Sulo \'a riproduzzione a schermo chino se vota \'e lato</string>
 </resources>

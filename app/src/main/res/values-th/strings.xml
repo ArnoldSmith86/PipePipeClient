@@ -338,4 +338,6 @@
     <string name="enable_playback_resume_summary">เล่นต่อจากที่เคยเล่นครั้งล่าสุด</string>
     <string name="settings_category_clear_data_title">ล้างข้อมูล</string>
     <string name="search_showing_result_for">กำลังแสดงผลลัพธ์สำหรับ: %s</string>
+<string name="portrait_outside_fullscreen_title">ให้แอปอยู่แนวตั้งเสมอ</string>
+<string name="portrait_outside_fullscreen_summary">แสดงรายการ หน้าวิดีโอ และการตั้งค่าในแนวตั้งไม่ว่าจะถืออุปกรณ์อย่างไร มีเพียงการเล่นแบบเต็มหน้าจอเท่านั้นที่หมุนเป็นแนวนอน</string>
 </resources>

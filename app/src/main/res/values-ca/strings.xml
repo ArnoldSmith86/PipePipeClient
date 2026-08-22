@@ -644,4 +644,6 @@
     <string name="show_crash_the_player_summary">Mostra una opció de fallada quan s\'utilitza el reproductor</string>
     <string name="show_image_indicators_summary">Mostra les cintes de color Picasso a la part superior de les imatges que indiquen la seva font: vermell per a la xarxa, blau per al disc i verd per a la memòria</string>
     <string name="leak_canary_not_available">El LeakCanary no està disponible</string>
+<string name="portrait_outside_fullscreen_title">Mantén l\'aplicació en vertical</string>
+<string name="portrait_outside_fullscreen_summary">Mostra les llistes, la pàgina del vídeo i la configuració en vertical, independentment de com se sostingui el dispositiu. Només la reproducció a pantalla completa gira a horitzontal</string>
 </resources>

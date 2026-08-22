@@ -1133,4 +1133,6 @@ PipePipe предлагает две стратегии загрузки лен�
     <string name="sabr_backoff_notification_channel_description">Уведомления, когда YouTube требует ожидания запроса на воспроизведение</string>
     <string name="sabr_backoff_notification_title">Ожидание ответа YouTube</string>
     <string name="sabr_backoff_notification_content">YouTube требует подождать %1$d сек. перед продолжением воспроизведения</string>
+<string name="portrait_outside_fullscreen_title">Держать приложение в портретной ориентации</string>
+<string name="portrait_outside_fullscreen_summary">Показывать списки, страницу видео и настройки вертикально, как бы ни было повёрнуто устройство. Только полноэкранное воспроизведение поворачивается горизонтально</string>
 </resources>

@@ -656,4 +656,6 @@
     <string name="crash_the_player">Užlūžo</string>
     <string name="error_report_channel_name">Klaidos pranešimo pranešimas</string>
     <string name="error_report_notification_toast">Įvyko klaida, peržiūrėti pranešimą</string>
+<string name="portrait_outside_fullscreen_title">Laikyti programą stačiai</string>
+<string name="portrait_outside_fullscreen_summary">Rodyti sąrašus, vaizdo įrašo puslapį ir nustatymus stačiai, nesvarbu, kaip laikomas įrenginys. Tik atkūrimas per visą ekraną pasisuka gulsčiai</string>
 </resources>

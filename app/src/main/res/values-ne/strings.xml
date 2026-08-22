@@ -514,4 +514,6 @@
     <string name="search_showing_result_for">%s : का लागि परिणामहरु देखाइँदैछ</string>
     <string name="open_with">सँँग खोल्नुहोस्</string>
     <string name="mark_as_watched">हेरेको भनि चिन्ह लगाउनुहोस्</string>
+<string name="portrait_outside_fullscreen_title">एप ठाडो राख्नुहोस्</string>
+<string name="portrait_outside_fullscreen_summary">यन्त्र जसरी समातिए पनि सूचीहरू, भिडियोको पृष्ठ र सेटिङ ठाडो देखाउनुहोस्। पूरा स्क्रिनको प्लेब्याक मात्र तेर्सो हुन्छ</string>
 </resources>

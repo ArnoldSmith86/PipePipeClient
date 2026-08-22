@@ -1010,4 +1010,6 @@
 <string name="webview_cookies_cleared">WebView çerezleri temizlendi</string>
 <string name="remove_from_playlist_confirmation">Bu öğe oynatma listesinden kaldırılsın mı?</string>
 <string name="local_playlist_swipe_action_title">Yerel oynatma listelerinde sağa kaydırma eylemi</string>
+<string name="portrait_outside_fullscreen_title">Uygulamayı dikey tut</string>
+<string name="portrait_outside_fullscreen_summary">Cihaz nasıl tutulursa tutulsun listeleri, video sayfasını ve ayarları dikey göster. Yalnızca tam ekran oynatma yatay döner</string>
 </resources>

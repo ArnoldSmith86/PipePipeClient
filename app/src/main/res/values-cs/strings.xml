@@ -658,4 +658,6 @@
     <string name="progressive_load_interval_summary">Změnit interval načítání (aktuálně %s). Menší hodnota může zrychlit počáteční načítání videa. Změna vyžaduje restart přehrávače.</string>
     <string name="leak_canary_not_available">LeakCanary není dostupné</string>
     <string name="progressive_load_interval_exoplayer_default">Výchozí ExoPlayer</string>
+<string name="portrait_outside_fullscreen_title">Držet aplikaci na výšku</string>
+<string name="portrait_outside_fullscreen_summary">Zobrazovat seznamy, stránku videa a nastavení na výšku bez ohledu na to, jak je zařízení drženo. Na šířku se otáčí jen přehrávání na celou obrazovku</string>
 </resources>

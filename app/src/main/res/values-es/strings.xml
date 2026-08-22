@@ -1060,4 +1060,6 @@
 <string name="subscription_details_update_ongoing">Obteniendo detalles del canal…</string>
 <string name="subscription_details_update_complete">Detalles del canal actualizados</string>
 <string name="subscription_details_update_failed">No se pudieron actualizar los detalles del canal</string>
+<string name="portrait_outside_fullscreen_title">Mantener la aplicación en vertical</string>
+<string name="portrait_outside_fullscreen_summary">Mostrar las listas, la página del vídeo y los ajustes en vertical sin importar cómo se sostenga el dispositivo. Solo la reproducción a pantalla completa gira a horizontal</string>
 </resources>

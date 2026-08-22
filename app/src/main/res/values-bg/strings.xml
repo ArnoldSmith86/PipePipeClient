@@ -518,4 +518,6 @@
     <string name="show_image_indicators_summary">Показвай цветни Picasso-панделки в горната част на изображенията като индикатор за техния произход (червен – от мрежата, син – от диска и червен – от паметта)</string>
     <string name="auto_device_theme_title">Автоматична (тази на устройството)</string>
     <string name="notification_scale_to_square_image_summary">Мащабиране на миниатюрата в известието от 16:9 към 1:1 формат (възможни са изкривявания)</string>
+<string name="portrait_outside_fullscreen_title">Задържане на приложението в портретен режим</string>
+<string name="portrait_outside_fullscreen_summary">Показване на списъците, страницата на видеото и настройките вертикално, независимо как е държано устройството. Само възпроизвеждането на цял екран се завърта хоризонтално</string>
 </resources>

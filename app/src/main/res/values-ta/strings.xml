@@ -330,4 +330,6 @@
     <string name="subscriptions_export_unsuccessful">சந்தாக்களை ஏற்றுமதி செய்ய முடியவில்லை</string>
     <string name="feed_group_dialog_select_subscriptions">சந்தாக்களைத் தேர்ந்தெடு</string>
     <string name="preferred_open_action_settings_title">நயமான \'திற\' செயல்</string>
+<string name="portrait_outside_fullscreen_title">செயலியை நெடுக்கமாக வைத்திரு</string>
+<string name="portrait_outside_fullscreen_summary">சாதனத்தை எப்படிப் பிடித்தாலும் பட்டியல்கள், வீடியோப் பக்கம் மற்றும் அமைப்புகளை நெடுக்கமாகக் காட்டு. முழுத்திரை இயக்கம் மட்டுமே கிடைமட்டமாகத் திரும்பும்</string>
 </resources>

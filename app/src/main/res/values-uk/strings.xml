@@ -684,4 +684,6 @@
     <string name="enable_streams_notifications_title">Сповіщення про нові трансляції</string>
     <string name="streams_notifications_interval_title">Частота перевірки</string>
     <string name="streams_notifications_network_title">Необхідний тип з\'єднання</string>
+<string name="portrait_outside_fullscreen_title">Тримати застосунок у портретній орієнтації</string>
+<string name="portrait_outside_fullscreen_summary">Показувати списки, сторінку відео та налаштування вертикально, хоч би як тримали пристрій. Лише повноекранне відтворення повертається горизонтально</string>
 </resources>

@@ -610,4 +610,6 @@
     <string name="show_image_indicators_title">Tus tilmaamayaasha sawirka</string>
     <string name="remote_search_suggestions">Soojeedinada raadinta banaanka</string>
     <string name="local_search_suggestions">Soojeedinada raadinta gudaha</string>
+<string name="portrait_outside_fullscreen_title">Ku hay abka si toosan</string>
+<string name="portrait_outside_fullscreen_summary">Tus liisaska, bogga muuqaalka iyo goobaha si toosan, si kastaba ha loo qabto qalabka. Kaliya ciyaarista shaashadda buuxda ayaa u rogmata si jiifa</string>
 </resources>

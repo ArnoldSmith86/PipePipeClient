@@ -496,4 +496,6 @@
     <string name="start_main_player_fullscreen_title">전체화면으로 주 플레이어 시작</string>
     <string name="hash_channel_name">비디오 해시 알림</string>
     <string name="error_report_open_issue_button_text">GitHub에 보고</string>
+<string name="portrait_outside_fullscreen_title">앱을 세로 방향으로 유지</string>
+<string name="portrait_outside_fullscreen_summary">기기를 어떻게 들든 목록, 동영상 페이지, 설정을 세로로 표시합니다. 전체 화면 재생만 가로로 돌아갑니다</string>
 </resources>

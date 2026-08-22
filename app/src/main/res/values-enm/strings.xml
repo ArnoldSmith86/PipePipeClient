@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources><string name="portrait_outside_fullscreen_title">Holde the app upright</string>
+<string name="portrait_outside_fullscreen_summary">Schewe listes, the video leef and the settynges upright, how so evere the engyn be holde. Only pleyinge in ful screne turneth on syde</string>
+</resources>

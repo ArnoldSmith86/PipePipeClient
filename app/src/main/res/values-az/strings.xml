@@ -263,4 +263,6 @@
     <string name="audio_streams_empty">Səs yayımı tapılmadı</string>
     <string name="permission_display_over_apps">Başqa proqramların üzərində göstərmə icazəsi ver</string>
     <string name="restore_defaults_confirmation">İlkin ayarları qaytarmaq istəyirsiniz\?</string>
+<string name="portrait_outside_fullscreen_title">Tətbiqi şaquli saxla</string>
+<string name="portrait_outside_fullscreen_summary">Cihaz necə tutulursa tutulsun siyahıları, video səhifəsini və ayarları şaquli göstər. Yalnız tam ekran oxutma üfüqi dönür</string>
 </resources>

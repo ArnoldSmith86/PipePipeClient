@@ -998,4 +998,6 @@
 <string name="subscription_details_update_ongoing">Recupero dei dettagli del canale in corso…</string>
 <string name="subscription_details_update_complete">Dettagli del canale aggiornati</string>
 <string name="subscription_details_update_failed">Impossibile aggiornare i dettagli del canale</string>
+<string name="portrait_outside_fullscreen_title">Mantieni l\'app in verticale</string>
+<string name="portrait_outside_fullscreen_summary">Mostra gli elenchi, la pagina del video e le impostazioni in verticale, comunque sia tenuto il dispositivo. Solo la riproduzione a schermo intero ruota in orizzontale</string>
 </resources>

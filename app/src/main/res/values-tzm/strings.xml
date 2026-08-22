@@ -169,4 +169,6 @@
     <string name="albums">Ilbumen</string>
     <string name="playlists">Tilgamin n tɣuri</string>
     <string name="autoplay_title">Taɣuri tawurmant</string>
+<string name="portrait_outside_fullscreen_title">Eǧǧ asnas ibedd</string>
+<string name="portrait_outside_fullscreen_summary">Sken tilgamin, asebter n usit d tsɣal ibedden, mamek d itwaṭṭef umssuds. War urar s ugdil ameqqran i itzzin s tama</string>
 </resources>

@@ -644,4 +644,6 @@
     <string name="show_crash_the_player_summary">Näytä soitinta käytettäessä soittimen kaatamisen vaihtoehto</string>
     <string name="show_error_snackbar">Näytä virheen ponnahdusilmoitus</string>
     <string name="feed_new_items">Uudet syötteet</string>
+<string name="portrait_outside_fullscreen_title">Pidä sovellus pystyasennossa</string>
+<string name="portrait_outside_fullscreen_summary">Näytä listat, videon sivu ja asetukset pystyasennossa riippumatta siitä, miten laitetta pidetään. Vain koko näytön toisto kääntyy vaaka-asentoon</string>
 </resources>

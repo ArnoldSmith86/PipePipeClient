@@ -49,4 +49,6 @@
     <string name="seek_duration_title">Durada d\'avançada/reculada rapida</string>
     <string name="download_thumbnail_title">Cargar las miniaturas</string>
     <string name="auto_queue_title">Apondre la vidèo seguenta dins la coa de lectura</string>
+<string name="portrait_outside_fullscreen_title">Gardar l\'aplicacion en retrach</string>
+<string name="portrait_outside_fullscreen_summary">Mostrar las listas, la pagina de la vidèo e los paramètres en retrach quina que siá la posicion de l\'aparelh. Sonque la lectura en ecran complet passa en païsatge</string>
 </resources>

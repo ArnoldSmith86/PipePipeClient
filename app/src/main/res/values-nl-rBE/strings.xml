@@ -583,4 +583,6 @@
     <string name="dont_show">Niet tonen</string>
     <string name="comments_are_disabled">Reacties zijn uitgeschakeld</string>
     <string name="show_image_indicators_title">Toon afbeeldingsindicatoren</string>
+<string name="portrait_outside_fullscreen_title">App in staande stand houden</string>
+<string name="portrait_outside_fullscreen_summary">Lijsten, de videopagina en de instellingen in staande stand tonen, hoe u het toestel ook houdt. Enkel video op volledig scherm draait naar liggend</string>
 </resources>

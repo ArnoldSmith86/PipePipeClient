@@ -640,4 +640,6 @@
         <item quantity="other">Lejupielādes pabeigtas</item>
     </plurals>
     <string name="description_select_note">Tagad varat atlasīt tekstu video aprakstā.</string>
+<string name="portrait_outside_fullscreen_title">Paturēt lietotni portreta režīmā</string>
+<string name="portrait_outside_fullscreen_summary">Rādīt sarakstus, video lapu un iestatījumus portreta režīmā neatkarīgi no tā, kā ierīce tiek turēta. Tikai atskaņošana pilnekrāna režīmā pagriežas ainavas režīmā</string>
 </resources>

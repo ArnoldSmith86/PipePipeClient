@@ -1004,4 +1004,6 @@
 <string name="subscription_details_update_ongoing">Kanaldetails werden abgerufen…</string>
 <string name="subscription_details_update_complete">Kanaldetails aktualisiert</string>
 <string name="subscription_details_update_failed">Kanaldetails konnten nicht aktualisiert werden</string>
+<string name="portrait_outside_fullscreen_title">App im Hochformat halten</string>
+<string name="portrait_outside_fullscreen_summary">Listen, die Videoseite und die Einstellungen im Hochformat anzeigen, unabhängig davon, wie das Gerät gehalten wird. Nur die Vollbildwiedergabe wechselt ins Querformat</string>
 </resources>

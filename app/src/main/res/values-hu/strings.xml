@@ -644,4 +644,6 @@
     </plurals>
     <string name="detail_pinned_comment_view_description">Rögzített megjegyzés</string>
     <string name="leak_canary_not_available">Nem érhető el a LeakCanary</string>
+<string name="portrait_outside_fullscreen_title">Az alkalmazás álló módban tartása</string>
+<string name="portrait_outside_fullscreen_summary">A listák, a videó oldala és a beállítások álló módban jelenjenek meg, bárhogy is tartod az eszközt. Csak a teljes képernyős lejátszás fordul fekvőbe</string>
 </resources>

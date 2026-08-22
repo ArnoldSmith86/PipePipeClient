@@ -407,4 +407,6 @@
     <string name="dont_show">Jangan tunjuk</string>
     <string name="unmute">Nyahbisu</string>
     <string name="notification_colorize_summary">Minta Android menyesuaikan warna pemberitahuan sesuai dengan warna utama di thumbnail (perhatikan bahawa ini tidak tersedia dalam semua perangkat)</string>
+<string name="portrait_outside_fullscreen_title">Kekalkan aplikasi menegak</string>
+<string name="portrait_outside_fullscreen_summary">Tunjukkan senarai, halaman video dan tetapan secara menegak, walau bagaimana peranti dipegang. Hanya main balik skrin penuh berpusing melintang</string>
 </resources>

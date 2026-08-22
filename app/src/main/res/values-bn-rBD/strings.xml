@@ -326,4 +326,6 @@
     <string name="metadata_language">ভাষা</string>
     <string name="metadata_age_limit">বয়স সীমা</string>
     <string name="main_page_content">প্রধান পাতার উপাদান সমূহ</string>
+<string name="portrait_outside_fullscreen_title">অ্যাপ খাড়াভাবে রাখুন</string>
+<string name="portrait_outside_fullscreen_summary">যন্ত্র যেভাবেই ধরা হোক, তালিকা, ভিডিওর পাতা ও সেটিংস খাড়াভাবে দেখান। শুধু পূর্ণ পর্দায় চালানোর সময়ই আড়াআড়ি হয়</string>
 </resources>

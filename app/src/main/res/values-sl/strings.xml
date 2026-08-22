@@ -429,4 +429,6 @@
     <string name="show_memory_leaks">Prikaži puščanje pomnilnika</string>
     <string name="show_channel_details">Prikaži detajle kanala</string>
     <string name="night_theme_title">Nočna tema</string>
+<string name="portrait_outside_fullscreen_title">Ohrani aplikacijo pokončno</string>
+<string name="portrait_outside_fullscreen_summary">Prikaži sezname, stran videoposnetka in nastavitve pokončno, ne glede na to, kako je naprava obrnjena. Samo predvajanje čez cel zaslon se obrne ležeče</string>
 </resources>

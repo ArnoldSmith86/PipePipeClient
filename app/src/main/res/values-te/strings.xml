@@ -390,4 +390,6 @@
     <string name="playlist_no_uploader">స్వయంచాలకంగా రూపొందించబడింది (ఎక్కించినవారు కనబడుటలేదు)</string>
     <string name="caption_auto_generated">స్వయంచాలకంగా రూపొందించబడింది</string>
     <string name="caption_setting_title">శీర్షికలు</string>
+<string name="portrait_outside_fullscreen_title">యాప్‌ను నిలువుగా ఉంచు</string>
+<string name="portrait_outside_fullscreen_summary">పరికరాన్ని ఎలా పట్టుకున్నా జాబితాలు, వీడియో పేజీ మరియు సెట్టింగ్‌లను నిలువుగా చూపు. పూర్తి తెర ప్లేబ్యాక్ మాత్రమే అడ్డంగా తిరుగుతుంది</string>
 </resources>

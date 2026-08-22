@@ -1068,4 +1068,6 @@
 <string name="subscription_details_update_ongoing">正在获取频道详情…</string>
 <string name="subscription_details_update_complete">频道详情已更新</string>
 <string name="subscription_details_update_failed">无法更新频道详情</string>
+<string name="portrait_outside_fullscreen_title">保持应用竖屏</string>
+<string name="portrait_outside_fullscreen_summary">无论设备如何握持，列表、视频页面和设置都以竖屏显示。只有全屏播放才会转为横屏</string>
 </resources>

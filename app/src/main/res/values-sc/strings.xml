@@ -667,4 +667,6 @@
     <string name="notifications">Notìficas</string>
     <string name="streams_notification_channel_name">Flussos noos</string>
     <string name="delete_downloaded_files_confirm">Iscantzellare totu sos archìvios iscarrigados dae su discu\?</string>
+<string name="portrait_outside_fullscreen_title">Mantene s\'aplicatzione in verticale</string>
+<string name="portrait_outside_fullscreen_summary">Mustra sas listas, sa pàgina de su vídeu e sas cunfiguratziones in verticale, comente si siat tentu su dispositivu. Isceti sa reprodutzione a ischermu prenu girat in orizontale</string>
 </resources>

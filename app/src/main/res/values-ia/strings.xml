@@ -215,4 +215,6 @@
     <string name="search_showing_result_for">Monstrante resultatos pro: %s</string>
     <string name="start_main_player_fullscreen_title">Initiar le reproductor principal in schermo plen</string>
     <string name="peertube_instance_add_https_only">Solmente le URLs HTTPS es supportate</string>
+<string name="portrait_outside_fullscreen_title">Mantener le application in vertical</string>
+<string name="portrait_outside_fullscreen_summary">Monstrar le listas, le pagina del video e le configurationes in vertical, non importa como on tene le apparato. Solo le reproduction a schermo plen rota a horizontal</string>
 </resources>

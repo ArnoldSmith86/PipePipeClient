@@ -641,4 +641,6 @@
     <string name="no_appropriate_file_manager_message_android_10">Installer en filbehandler som støtter lagringstilgangsrammeverk først.</string>
     <string name="leak_canary_not_available">LeakCanary er ikke tilgjengelig</string>
     <string name="progressive_load_interval_exoplayer_default">ExoPlayer-forvalg</string>
+<string name="portrait_outside_fullscreen_title">Hold appen i stående format</string>
+<string name="portrait_outside_fullscreen_summary">Vis lister, videosiden og innstillingene i stående format uansett hvordan enheten holdes. Bare fullskjermavspilling snur til liggende</string>
 </resources>

@@ -1058,4 +1058,6 @@
 <string name="subscription_details_update_ongoing">正在擷取頻道詳細資訊…</string>
 <string name="subscription_details_update_complete">頻道詳細資訊已更新</string>
 <string name="subscription_details_update_failed">無法更新頻道詳細資訊</string>
+<string name="portrait_outside_fullscreen_title">保持應用程式直向</string>
+<string name="portrait_outside_fullscreen_summary">無論裝置如何拿取，清單、影片頁面和設定都以直向顯示。只有全螢幕播放才會轉為橫向</string>
 </resources>

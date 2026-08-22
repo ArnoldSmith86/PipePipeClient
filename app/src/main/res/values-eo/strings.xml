@@ -518,4 +518,6 @@
     <string name="notification_action_1_title">Dua agobutono</string>
     <string name="notification_action_2_title">Tria agobutono</string>
     <string name="notification_action_3_title">Kvara agobutono</string>
+<string name="portrait_outside_fullscreen_title">Teni la aplikaĵon vertikala</string>
+<string name="portrait_outside_fullscreen_summary">Montri listojn, la videopaĝon kaj la agordojn vertikale, negrave kiel oni tenas la aparaton. Nur plenekrana ludado turniĝas horizontale</string>
 </resources>

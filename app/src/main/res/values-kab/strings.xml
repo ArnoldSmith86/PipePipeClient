@@ -140,4 +140,6 @@
     <string name="metadata_category">Taggayt</string>
     <string name="metadata_privacy">Tabaḍnit</string>
     <string name="metadata_licence">Turagt</string>
+<string name="portrait_outside_fullscreen_title">Eǧǧ asnas d abadu</string>
+<string name="portrait_outside_fullscreen_summary">Sken tibdarin, asebter n tvidyut d yiɣewwaren d ibedden, amek yebɣu yili yibenk. D aɣenneǧ s ugdil aččuran kan i ittuɣalen d aglawan</string>
 </resources>

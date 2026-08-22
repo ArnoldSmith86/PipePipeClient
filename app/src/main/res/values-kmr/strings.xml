@@ -550,4 +550,6 @@
     <string name="copyright">© %1$s bi %2$s di bin %3$s de</string>
     <string name="title_licenses">Lîsansên partiya sêyemîn</string>
     <string name="crash_the_app">Serlêdanê kilît bikin</string>
+<string name="portrait_outside_fullscreen_title">Sepanê stûnî bihêle</string>
+<string name="portrait_outside_fullscreen_summary">Lîsteyan, rûpela vîdyoyê û mîhengan stûnî nîşan bide, amûr çawa were girtin jî. Tenê lêxistina bi dîmendera tijî berbi berwarî ve dizivire</string>
 </resources>

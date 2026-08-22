@@ -378,4 +378,6 @@
     <string name="peertube_instance_url_summary">Одберете ги вашите омилени PeerTube пример</string>
     <string name="peertube_instance_url_help">Пронајдете ги примерите кои ви се допаѓаат на %s</string>
     <string name="peertube_instance_add_title">Додадете пример</string>
+<string name="portrait_outside_fullscreen_title">Задржи ја апликацијата во портретна ориентација</string>
+<string name="portrait_outside_fullscreen_summary">Прикажувај ги списоците, страницата на видеото и поставките вертикално, без разлика како се држи уредот. Само репродукцијата на цел екран се врти хоризонтално</string>
 </resources>

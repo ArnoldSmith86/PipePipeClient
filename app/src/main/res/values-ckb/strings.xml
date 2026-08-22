@@ -643,4 +643,6 @@
     <string name="leak_canary_not_available">LeakCanary بەردەست نییە</string>
     <string name="no_appropriate_file_manager_message_android_10">هیچ ڕێکخەرێکی فایلی گونجاو نەدۆزرایەوە بۆ ئەم کردارە.
 \nتکایە ڕێکخەرێکی فایلی دابمەزرێنە کە گونجاوبێت لەگەڵ دەسەڵاتی گەیشتن بە بیرگە.</string>
+<string name="portrait_outside_fullscreen_title">ئەپەکە بە ڕاستی ڕابگرە</string>
+<string name="portrait_outside_fullscreen_summary">لیستەکان و لاپەڕەی ڤیدیۆ و ڕێکخستنەکان بە ڕاستی پیشان بدە، جا ئامێرەکە بە هەر شێوەیەک ڕاگیرابێت. تەنها لێدانی پڕ-ڕوونما دەسوڕێتەوە بۆ پان</string>
 </resources>

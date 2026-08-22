@@ -667,4 +667,6 @@
     <string name="get_notified">Saa teavitusi</string>
     <string name="you_successfully_subscribed">Sa oled nüüd selle kanali tellija</string>
     <string name="toggle_all">Lülita kõik sisse</string>
+<string name="portrait_outside_fullscreen_title">Hoia rakendus püstpaigutuses</string>
+<string name="portrait_outside_fullscreen_summary">Näita loendeid, video lehte ja seadeid püstpaigutuses, ükskõik kuidas seadet hoitakse. Ainult täisekraanil esitamine pöördub rõhtpaigutusse</string>
 </resources>

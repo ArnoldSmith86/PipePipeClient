@@ -36,4 +36,6 @@
     <string name="notification_action_buffering">Buffering</string>
     <string name="notification_action_nothing">Hakuna</string>
     <string name="use_inexact_seek_title">Use fast inexact seek</string>
+<string name="portrait_outside_fullscreen_title">Weka programu wima</string>
+<string name="portrait_outside_fullscreen_summary">Onyesha orodha, ukurasa wa video na mipangilio kwa wima bila kujali kifaa kinashikwaje. Ni uchezaji wa skrini nzima pekee unaozunguka mlalo</string>
 </resources>

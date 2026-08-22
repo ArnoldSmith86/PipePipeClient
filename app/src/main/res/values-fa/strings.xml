@@ -667,4 +667,6 @@
     <string name="delete_downloaded_files_confirm">پاک کردن تمامی پرونده‌های بارگرفته از دیسک؟</string>
     <string name="any_network">هر شبکه‌ای</string>
     <string name="you_successfully_subscribed">اکنون مشترک این کانال شده‌اید</string>
+<string name="portrait_outside_fullscreen_title">نگه داشتن برنامه در حالت عمودی</string>
+<string name="portrait_outside_fullscreen_summary">نمایش فهرست‌ها، صفحهٔ ویدئو و تنظیمات به‌صورت عمودی، هرطور که دستگاه نگه داشته شود. تنها پخش تمام‌صفحه به حالت افقی می‌چرخد</string>
 </resources>

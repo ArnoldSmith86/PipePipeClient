@@ -461,4 +461,6 @@
     <string name="notification_scale_to_square_image_title">تھمب نیل کو 1:1 کی تناسب میں رکھیں</string>
     <string name="search_showing_result_for">%s کے لئے نتائج دکھا رہا ہے</string>
     <string name="open_with">کے ساتھ کھولیں</string>
+<string name="portrait_outside_fullscreen_title">ایپ کو عمودی رکھیں</string>
+<string name="portrait_outside_fullscreen_summary">فہرستیں، ویڈیو کا صفحہ اور ترتیبات عمودی دکھائیں، چاہے آلہ جیسے بھی پکڑا جائے۔ صرف پوری سکرین پر چلنے والی ویڈیو افقی ہوتی ہے</string>
 </resources>

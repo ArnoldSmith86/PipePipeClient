@@ -274,4 +274,6 @@
     <string name="notification_action_0_title">প্রথম অ্যাকশান বোতাম</string>
     <string name="notification_action_1_title">দ্বিতীয় অ্যাকশান বোতাম</string>
     <string name="streams_notification_channel_name">নতুন স্ট্রিম</string>
+<string name="portrait_outside_fullscreen_title">অ্যাপ খাড়াভাবে রাখুন</string>
+<string name="portrait_outside_fullscreen_summary">যন্ত্র যেভাবেই ধরা হোক, তালিকা, ভিডিওর পাতা ও সেটিংস খাড়াভাবে দেখান। শুধু পূর্ণ পর্দায় চালানোর সময়ই আড়াআড়ি হয়</string>
 </resources>

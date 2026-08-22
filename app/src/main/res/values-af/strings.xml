@@ -2,4 +2,6 @@
 <resources>
     <string name="no_player_found">Geen stream-speler gevind nie. Installeer VLC\?</string>
     <string name="main_bg_subtitle">Tik op \"Soek\" om aan die gang te kom</string>
+<string name="portrait_outside_fullscreen_title">Hou die program regop</string>
+<string name="portrait_outside_fullscreen_summary">Wys lyste, die videobladsy en die instellings regop, maak nie saak hoe die toestel gehou word nie. Net volskermterugspeel draai dwars</string>
 </resources>
