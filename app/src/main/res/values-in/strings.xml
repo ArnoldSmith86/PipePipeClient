@@ -654,4 +654,6 @@
     <string name="enable_streams_notifications_title">Notifikasi stream baru</string>
     <string name="enable_streams_notifications_summary">Beritahu tentang stream baru dari notifikasi</string>
     <string name="you_successfully_subscribed">Anda sekarang berlangganan ke channel ini</string>
+<string name="back_from_fullscreen_closes_player_title">Kembali saat layar penuh menutup video</string>
+<string name="back_from_fullscreen_closes_player_summary">Menekan kembali saat pemutaran layar penuh akan kembali ke daftar dan menghentikan video, alih-alih membiarkannya terbuka di pemutar mini</string>
 </resources>

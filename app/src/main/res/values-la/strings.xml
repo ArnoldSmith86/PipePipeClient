@@ -114,4 +114,6 @@
     <string name="resize_zoom">Retrahe</string>
     <string name="resize_fill">Satiatus</string>
     <string name="resize_fit">Aptus</string>
+<string name="back_from_fullscreen_closes_player_title">Retro in pleno schemate visionem claudit</string>
+<string name="back_from_fullscreen_closes_player_summary">Retro premere dum pleno schemate redditur ad indicem redit et visionem sistit, potius quam eam in parvo lusore apertam relinquere</string>
 </resources>

@@ -338,4 +338,6 @@
     <string name="enable_playback_resume_summary">เล่นต่อจากที่เคยเล่นครั้งล่าสุด</string>
     <string name="settings_category_clear_data_title">ล้างข้อมูล</string>
     <string name="search_showing_result_for">กำลังแสดงผลลัพธ์สำหรับ: %s</string>
+<string name="back_from_fullscreen_closes_player_title">ปุ่มย้อนกลับขณะเต็มหน้าจอจะปิดวิดีโอ</string>
+<string name="back_from_fullscreen_closes_player_summary">การกดย้อนกลับขณะเล่นเต็มหน้าจอจะกลับไปที่รายการและหยุดวิดีโอ แทนที่จะเปิดค้างไว้ในโปรแกรมเล่นขนาดเล็ก</string>
 </resources>

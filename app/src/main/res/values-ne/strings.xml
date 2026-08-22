@@ -514,4 +514,6 @@
     <string name="search_showing_result_for">%s : का लागि परिणामहरु देखाइँदैछ</string>
     <string name="open_with">सँँग खोल्नुहोस्</string>
     <string name="mark_as_watched">हेरेको भनि चिन्ह लगाउनुहोस्</string>
+<string name="back_from_fullscreen_closes_player_title">पूरा स्क्रिनमा पछाडि थिच्दा भिडियो बन्द हुन्छ</string>
+<string name="back_from_fullscreen_closes_player_summary">पूरा स्क्रिनमा बजिरहेको बेला पछाडि थिच्दा सूचीमा फर्किन्छ र भिडियो रोकिन्छ, मिनी प्लेयरमा खुला छोड्नुको सट्टा</string>
 </resources>

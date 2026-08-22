@@ -429,4 +429,6 @@
     <string name="show_memory_leaks">Prikaži puščanje pomnilnika</string>
     <string name="show_channel_details">Prikaži detajle kanala</string>
     <string name="night_theme_title">Nočna tema</string>
+<string name="back_from_fullscreen_closes_player_title">Nazaj čez cel zaslon zapre videoposnetek</string>
+<string name="back_from_fullscreen_closes_player_summary">Pritisk na »Nazaj« med predvajanjem čez cel zaslon se vrne na seznam in ustavi videoposnetek, namesto da bi ga pustil odprtega v mini predvajalniku</string>
 </resources>

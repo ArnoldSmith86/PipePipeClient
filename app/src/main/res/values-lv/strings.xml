@@ -640,4 +640,6 @@
         <item quantity="other">Lejupielādes pabeigtas</item>
     </plurals>
     <string name="description_select_note">Tagad varat atlasīt tekstu video aprakstā.</string>
+<string name="back_from_fullscreen_closes_player_title">Atpakaļ pilnekrāna režīmā aizver video</string>
+<string name="back_from_fullscreen_closes_player_summary">Nospiežot atpakaļ pilnekrāna atskaņošanas laikā, tiek atgriezts saraksts un video tiek apturēts, nevis atstāts atvērts mini atskaņotājā</string>
 </resources>

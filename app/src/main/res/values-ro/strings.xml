@@ -650,4 +650,6 @@
     <string name="show_crash_the_player_title">Arată \"închiderea bruscă a player-ului video\"</string>
     <string name="show_error_snackbar">Arată o eroare de tip snackbar</string>
     <string name="feed_new_items">Elemente de flux noi</string>
+<string name="back_from_fullscreen_closes_player_title">Înapoi pe ecran complet închide videoclipul</string>
+<string name="back_from_fullscreen_closes_player_summary">Apăsarea pe înapoi în timpul redării pe ecran complet revine la listă și oprește videoclipul, în loc să îl lase deschis în mini-player</string>
 </resources>

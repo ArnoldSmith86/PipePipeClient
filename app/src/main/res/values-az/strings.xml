@@ -263,4 +263,6 @@
     <string name="audio_streams_empty">Səs yayımı tapılmadı</string>
     <string name="permission_display_over_apps">Başqa proqramların üzərində göstərmə icazəsi ver</string>
     <string name="restore_defaults_confirmation">İlkin ayarları qaytarmaq istəyirsiniz\?</string>
+<string name="back_from_fullscreen_closes_player_title">Tam ekranda geri videonu bağlayır</string>
+<string name="back_from_fullscreen_closes_player_summary">Tam ekran oxutma zamanı geri düyməsinə basmaq siyahıya qaytarır və videonu dayandırır, onu mini oxuducuda açıq qoymaq əvəzinə</string>
 </resources>

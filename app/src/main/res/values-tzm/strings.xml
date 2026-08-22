@@ -169,4 +169,6 @@
     <string name="albums">Ilbumen</string>
     <string name="playlists">Tilgamin n tɣuri</string>
     <string name="autoplay_title">Taɣuri tawurmant</string>
+<string name="back_from_fullscreen_closes_player_title">Adfar deg ugdil ameqqran ad iqqen asit</string>
+<string name="back_from_fullscreen_closes_player_summary">Tikki n tneqqiḍt n udfar deg urar s ugdil ameqqran ad tarar ɣer tlgamt tsbedd asit, maca ur t-tettaǧǧa yurez deg umurar amezzyan</string>
 </resources>

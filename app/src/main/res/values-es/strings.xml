@@ -1060,4 +1060,6 @@
 <string name="subscription_details_update_ongoing">Obteniendo detalles del canal…</string>
 <string name="subscription_details_update_complete">Detalles del canal actualizados</string>
 <string name="subscription_details_update_failed">No se pudieron actualizar los detalles del canal</string>
+<string name="back_from_fullscreen_closes_player_title">Atrás en pantalla completa cierra el vídeo</string>
+<string name="back_from_fullscreen_closes_player_summary">Pulsar atrás durante la reproducción a pantalla completa vuelve a la lista y detiene el vídeo, en lugar de dejarlo abierto en el minirreproductor</string>
 </resources>

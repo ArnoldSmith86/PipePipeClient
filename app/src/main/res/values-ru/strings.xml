@@ -1133,4 +1133,6 @@ PipePipe предлагает две стратегии загрузки лен�
     <string name="sabr_backoff_notification_channel_description">Уведомления, когда YouTube требует ожидания запроса на воспроизведение</string>
     <string name="sabr_backoff_notification_title">Ожидание ответа YouTube</string>
     <string name="sabr_backoff_notification_content">YouTube требует подождать %1$d сек. перед продолжением воспроизведения</string>
+<string name="back_from_fullscreen_closes_player_title">Назад в полноэкранном режиме закрывает видео</string>
+<string name="back_from_fullscreen_closes_player_summary">Нажатие «Назад» во время полноэкранного воспроизведения возвращает к списку и останавливает видео, вместо того чтобы оставить его в мини-проигрывателе</string>
 </resources>

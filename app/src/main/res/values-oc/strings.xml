@@ -49,4 +49,6 @@
     <string name="seek_duration_title">Durada d\'avançada/reculada rapida</string>
     <string name="download_thumbnail_title">Cargar las miniaturas</string>
     <string name="auto_queue_title">Apondre la vidèo seguenta dins la coa de lectura</string>
+<string name="back_from_fullscreen_closes_player_title">Retorn en ecran complet tanca la vidèo</string>
+<string name="back_from_fullscreen_closes_player_summary">Quichar sus retorn pendent la lectura en ecran complet torna a la lista e arrèsta la vidèo, allòc de la daissar dubèrta dins lo mini-lector</string>
 </resources>

@@ -140,4 +140,6 @@
     <string name="metadata_category">Taggayt</string>
     <string name="metadata_privacy">Tabaḍnit</string>
     <string name="metadata_licence">Turagt</string>
+<string name="back_from_fullscreen_closes_player_title">Tuɣalin ɣer deffir deg ugdil aččuran tmeddel tavidyut</string>
+<string name="back_from_fullscreen_closes_player_summary">Asiti ɣef tuɣalin ɣer deffir deg uɣenneǧ s ugdil aččuran yettuɣal ɣer tebdart yerna yeḥbes tavidyut, deg umkan n tuǧǧa-s teldi deg umeɣnaǧ amecṭuḥ</string>
 </resources>

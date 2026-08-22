@@ -461,4 +461,6 @@
     <string name="notification_scale_to_square_image_title">تھمب نیل کو 1:1 کی تناسب میں رکھیں</string>
     <string name="search_showing_result_for">%s کے لئے نتائج دکھا رہا ہے</string>
     <string name="open_with">کے ساتھ کھولیں</string>
+<string name="back_from_fullscreen_closes_player_title">پوری سکرین میں واپسی ویڈیو بند کر دیتی ہے</string>
+<string name="back_from_fullscreen_closes_player_summary">پوری سکرین پر چلتے وقت واپس دبانا فہرست پر لوٹاتا ہے اور ویڈیو روک دیتا ہے، بجائے اسے منی پلیئر میں کھلا چھوڑنے کے</string>
 </resources>

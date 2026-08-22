@@ -102,4 +102,6 @@
     <string name="did_you_mean">ⵎⵉⵏ ⵜⵅⵙⴷ ⴰⴷ ⵜⵉⵏⵉⴷ:\"%1$s\"\?</string>
     <string name="main_bg_subtitle">ⴰⴷⵔ ⵅ \"ⵔⵣⵓ\"ⴰⴼⴰⴷ ⴰⴷ ⵜⵜⴰⵡⵍⴷ</string>
     <string name="theme_title">ⴰⵙⴳⵓⵎ</string>
+<string name="back_from_fullscreen_closes_player_title">ⴰⴷⴼⴰⵔ ⴳ ⵓⴳⴷⵉⵍ ⴰⵎⵇⵇⵔⴰⵏ ⴰⴷ ⵉⵔⴳⵍ ⴰⵙⵉⵜ</string>
+<string name="back_from_fullscreen_closes_player_summary">ⵜⵉⴽⴽⵉ ⵏ ⵜⵏⴰⵙⵜ ⵏ ⵓⴷⴼⴰⵔ ⴳ ⵓⵔⴰⵔ ⵙ ⵓⴳⴷⵉⵍ ⴰⵎⵇⵇⵔⴰⵏ ⴰⴷ ⵜⵔⴰⵔ ⵖⵔ ⵜⵍⴳⴰⵎⵜ ⵜⵙⴱⴷ ⴰⵙⵉⵜ, ⵎⴰⵛⴰ ⵓⵔ ⵜ ⵜⵜⴰⵊⵊⴰ ⵢⵓⵔⵣ ⴳ ⵓⵎⵓⵔⴰⵔ ⴰⵎⵥⵥⵢⴰⵏ</string>
 </resources>

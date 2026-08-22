@@ -1084,4 +1084,6 @@
 <string name="subscription_details_update_ongoing">Pobieranie szczegółów kanału…</string>
 <string name="subscription_details_update_complete">Zaktualizowano szczegóły kanału</string>
 <string name="subscription_details_update_failed">Nie udało się zaktualizować szczegółów kanału</string>
+<string name="back_from_fullscreen_closes_player_title">Wstecz na pełnym ekranie zamyka film</string>
+<string name="back_from_fullscreen_closes_player_summary">Naciśnięcie wstecz podczas odtwarzania pełnoekranowego wraca do listy i zatrzymuje film, zamiast zostawiać go otwartym w miniodtwarzaczu</string>
 </resources>

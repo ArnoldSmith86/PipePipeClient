@@ -610,4 +610,6 @@
     <string name="show_image_indicators_title">Tus tilmaamayaasha sawirka</string>
     <string name="remote_search_suggestions">Soojeedinada raadinta banaanka</string>
     <string name="local_search_suggestions">Soojeedinada raadinta gudaha</string>
+<string name="back_from_fullscreen_closes_player_title">Dib u noqoshada shaashadda buuxda way xirtaa muuqaalka</string>
+<string name="back_from_fullscreen_closes_player_summary">Riixidda dib u noqoshada inta lagu jiro shaashadda buuxda waxay ku celisaa liiska oo joojisaa muuqaalka, halkii laga dhigi lahaa mid ku furan ciyaaraha yar</string>
 </resources>

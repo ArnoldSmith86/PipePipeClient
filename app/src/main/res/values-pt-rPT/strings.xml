@@ -667,4 +667,6 @@
     <string name="get_notified">Seja notificado</string>
     <string name="you_successfully_subscribed">Agora assinou este canal</string>
     <string name="streams_notification_channel_name">Novos fluxos</string>
+<string name="back_from_fullscreen_closes_player_title">Retroceder em ecrã inteiro fecha o vídeo</string>
+<string name="back_from_fullscreen_closes_player_summary">Premir retroceder durante a reprodução em ecrã inteiro volta à lista e para o vídeo, em vez de o deixar aberto no mini-reprodutor</string>
 </resources>

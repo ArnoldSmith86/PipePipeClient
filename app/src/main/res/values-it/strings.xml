@@ -998,4 +998,6 @@
 <string name="subscription_details_update_ongoing">Recupero dei dettagli del canale in corso…</string>
 <string name="subscription_details_update_complete">Dettagli del canale aggiornati</string>
 <string name="subscription_details_update_failed">Impossibile aggiornare i dettagli del canale</string>
+<string name="back_from_fullscreen_closes_player_title">Indietro a schermo intero chiude il video</string>
+<string name="back_from_fullscreen_closes_player_summary">Premere indietro durante la riproduzione a schermo intero torna all\'elenco e ferma il video, invece di lasciarlo aperto nel mini lettore</string>
 </resources>

@@ -57,4 +57,6 @@
     <string name="play_audio">ᱥᱟᱰᱮ</string>
     <string name="mark_as_watched">ᱧᱮᱞ ᱠᱟᱱ ᱞᱮᱠᱷᱟ ᱪᱤᱱᱦᱟᱹ ᱠᱟᱜ ᱢᱮ</string>
     <string name="crash_the_player">ᱯᱞᱮᱭᱚᱨ ᱠᱨᱟᱥ ᱠᱟᱜ ᱢᱮ</string>
+<string name="back_from_fullscreen_closes_player_title">ᱯᱩᱨᱟᱹ ᱥᱠᱨᱤᱱ ᱨᱮ ᱛᱟᱭᱚᱢ ᱥᱮᱱ ᱠᱷᱟᱱ ᱣᱤᱰᱤᱭᱳ ᱵᱚᱸᱫᱚᱜᱼᱟ</string>
+<string name="back_from_fullscreen_closes_player_summary">ᱯᱩᱨᱟᱹ ᱥᱠᱨᱤᱱ ᱮᱱᱮᱡ ᱡᱚᱠᱷᱚᱱ ᱛᱟᱭᱚᱢ ᱚᱛᱟᱭ ᱠᱷᱟᱱ ᱞᱤᱥᱴᱤ ᱛᱮ ᱨᱩᱣᱟᱹᱲᱚᱜᱼᱟ ᱟᱨ ᱣᱤᱰᱤᱭᱳ ᱛᱷᱤᱨᱚᱜᱼᱟ, ᱢᱤᱱᱤ ᱯᱞᱮᱭᱟᱨ ᱨᱮ ᱠᱷᱩᱞᱟᱹ ᱛᱷᱚᱲᱟ ᱵᱟᱫᱟᱞ ᱨᱮ</string>
 </resources>

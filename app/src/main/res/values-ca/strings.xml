@@ -644,4 +644,6 @@
     <string name="show_crash_the_player_summary">Mostra una opció de fallada quan s\'utilitza el reproductor</string>
     <string name="show_image_indicators_summary">Mostra les cintes de color Picasso a la part superior de les imatges que indiquen la seva font: vermell per a la xarxa, blau per al disc i verd per a la memòria</string>
     <string name="leak_canary_not_available">El LeakCanary no està disponible</string>
+<string name="back_from_fullscreen_closes_player_title">Enrere a pantalla completa tanca el vídeo</string>
+<string name="back_from_fullscreen_closes_player_summary">Prémer enrere durant la reproducció a pantalla completa torna a la llista i atura el vídeo, en lloc de deixar-lo obert al minireproductor</string>
 </resources>

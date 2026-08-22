@@ -531,4 +531,6 @@
     <string name="error_unable_to_load_comments">Fikrlarni yuklab bo‘lmadi</string>
     <string name="import_settings">Sozlamalarni ham import qilmoqchimisiz\?</string>
     <string name="override_current_data">Bu sizning joriy sozlamangizni bekor qiladi.</string>
+<string name="back_from_fullscreen_closes_player_title">To\'liq ekranda orqaga videoni yopadi</string>
+<string name="back_from_fullscreen_closes_player_summary">To\'liq ekranda ijro paytida orqaga bosish ro\'yxatga qaytaradi va videoni to\'xtatadi, uni mini pleyerda ochiq qoldirish o\'rniga</string>
 </resources>

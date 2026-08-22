@@ -59,4 +59,6 @@
     <string name="no_player_found">Pamuter ora ditemokke. Pasang VLC\?</string>
     <string name="upload_date_text">Diterbitake ing %1$s</string>
     <string name="main_bg_subtitle">Pencet lup kanggo nglekasi</string>
+<string name="back_from_fullscreen_closes_player_title">Bali ing layar kebak nutup video</string>
+<string name="back_from_fullscreen_closes_player_summary">Mencet bali nalika muter layar kebak bakal bali menyang dhaptar lan mandhegake video, tinimbang ninggal kabuka ing pemuter cilik</string>
 </resources>

@@ -518,4 +518,6 @@
     <string name="notification_action_1_title">Dua agobutono</string>
     <string name="notification_action_2_title">Tria agobutono</string>
     <string name="notification_action_3_title">Kvara agobutono</string>
+<string name="back_from_fullscreen_closes_player_title">Reen en plenekrano fermas la videon</string>
+<string name="back_from_fullscreen_closes_player_summary">Premi reen dum plenekrana ludado revenas al la listo kaj haltigas la videon, anstataŭ lasi ĝin malfermita en la mini-ludilo</string>
 </resources>

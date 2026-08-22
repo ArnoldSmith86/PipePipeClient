@@ -1021,4 +1021,6 @@ Voulez-vous continuer?</string>
 <string name="subscription_details_update_ongoing">Récupération des détails de la chaîne…</string>
 <string name="subscription_details_update_complete">Détails de la chaîne mis à jour</string>
 <string name="subscription_details_update_failed">Impossible de mettre à jour les détails de la chaîne</string>
+<string name="back_from_fullscreen_closes_player_title">Retour en plein écran ferme la vidéo</string>
+<string name="back_from_fullscreen_closes_player_summary">Appuyer sur retour pendant la lecture en plein écran revient à la liste et arrête la vidéo, au lieu de la laisser ouverte dans le mini-lecteur</string>
 </resources>

@@ -667,4 +667,6 @@
     <string name="streams_notifications_network_title">Je vyžadované pripojenie na internet</string>
     <string name="you_successfully_subscribed">Začali ste odoberať tento kanál</string>
     <string name="toggle_all">Zapnúť všetko</string>
+<string name="back_from_fullscreen_closes_player_title">Späť na celej obrazovke zatvorí video</string>
+<string name="back_from_fullscreen_closes_player_summary">Stlačenie späť počas prehrávania na celú obrazovku sa vráti do zoznamu a zastaví video, namiesto toho, aby ho nechalo otvorené v miniprehrávači</string>
 </resources>

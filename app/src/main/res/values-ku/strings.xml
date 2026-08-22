@@ -530,4 +530,6 @@
     <string name="notification_colorize_summary">شازدانی ڕەنگی پەیامەکانی ئەندرۆید بەپێی ڕەنگی سەرەکی وێنۆچکە (تێبینی ئەمە لەسەرجەم ئامێرەکان بەردەست نییە)</string>
     <string name="notification_colorize_title">ڕەنگینی پەیام</string>
     <string name="open_with">کردنەوە بە</string>
+<string name="back_from_fullscreen_closes_player_title">Vegera di dîmendera tijî de vîdyoyê digire</string>
+<string name="back_from_fullscreen_closes_player_summary">Pêlkirina vegerê dema lêxistina bi dîmendera tijî vedigere lîsteyê û vîdyoyê radiwestîne, li şûna ku wê di lêdêra piçûk de vekirî bihêle</string>
 </resources>

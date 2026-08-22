@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources><string name="back_from_fullscreen_closes_player_title">Te rugghe in vollen scherme sluut den video</string>
+<string name="back_from_fullscreen_closes_player_summary">Te rugghe in vollen scherme keert weder ter listen ende stelpt den video, in stede van hem in den cleynen speler open te laten</string>
+</resources>

@@ -2,4 +2,6 @@
 <resources>
     <string name="no_player_found">Geen stream-speler gevind nie. Installeer VLC\?</string>
     <string name="main_bg_subtitle">Tik op \"Soek\" om aan die gang te kom</string>
+<string name="back_from_fullscreen_closes_player_title">Terug in volskerm sluit die video</string>
+<string name="back_from_fullscreen_closes_player_summary">Om terug te druk tydens volskermterugspeel keer terug na die lys en stop die video, in plaas daarvan om dit oop te laat in die minispeler</string>
 </resources>

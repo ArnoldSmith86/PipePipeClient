@@ -407,4 +407,6 @@
     <string name="dont_show">Jangan tunjuk</string>
     <string name="unmute">Nyahbisu</string>
     <string name="notification_colorize_summary">Minta Android menyesuaikan warna pemberitahuan sesuai dengan warna utama di thumbnail (perhatikan bahawa ini tidak tersedia dalam semua perangkat)</string>
+<string name="back_from_fullscreen_closes_player_title">Kembali semasa skrin penuh menutup video</string>
+<string name="back_from_fullscreen_closes_player_summary">Menekan kembali semasa main balik skrin penuh akan kembali ke senarai dan menghentikan video, bukannya membiarkannya terbuka dalam pemain mini</string>
 </resources>

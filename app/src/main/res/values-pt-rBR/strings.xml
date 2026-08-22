@@ -724,4 +724,6 @@
     <string name="auto_background_play_summary">Reproduzir automaticamente em segundo plano ao selecionar um item de uma playlist local</string>
     <string name="download_all">Transferir tudo</string>
     <string name="bullet_comments_opacity_title">Opacidade de comentários com bullet</string>
+<string name="back_from_fullscreen_closes_player_title">Voltar em tela cheia fecha o vídeo</string>
+<string name="back_from_fullscreen_closes_player_summary">Pressionar voltar durante a reprodução em tela cheia retorna à lista e para o vídeo, em vez de deixá-lo aberto no mini player</string>
 </resources>

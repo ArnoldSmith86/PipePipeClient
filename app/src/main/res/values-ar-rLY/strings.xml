@@ -14,4 +14,6 @@
     <string name="no_player_found">لم يتم العثور على مشغل بث. يرجى تثبيت VLC؟</string>
     <string name="upload_date_text">تم النشر في %1$s</string>
     <string name="main_bg_subtitle">انقر على \"بحث\" للبدء</string>
+<string name="back_from_fullscreen_closes_player_title">زر الرجوع في وضع ملء الشاشة يغلق الفيديو</string>
+<string name="back_from_fullscreen_closes_player_summary">الضغط على الرجوع أثناء التشغيل بملء الشاشة يعود إلى القائمة ويوقف الفيديو بدلًا من تركه مفتوحًا في المشغّل المصغّر</string>
 </resources>

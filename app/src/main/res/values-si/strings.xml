@@ -4,4 +4,6 @@
     <string name="did_you_mean">ඔබ අදහස් කළේ \"%1$s\" ද\?</string>
     <string name="settings">සැකසුම්</string>
     <string name="search">සොයන්න</string>
+<string name="back_from_fullscreen_closes_player_title">පූර්ණ තිරයේ ආපසු එබීම වීඩියෝව වසයි</string>
+<string name="back_from_fullscreen_closes_player_summary">පූර්ණ තිර වාදනයේදී ආපසු එබූ විට ලැයිස්තුවට ගොස් වීඩියෝව නවතී, කුඩා වාදකයේ විවෘතව තැබීම වෙනුවට</string>
 </resources>

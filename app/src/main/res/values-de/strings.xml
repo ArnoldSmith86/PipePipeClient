@@ -1004,4 +1004,6 @@
 <string name="subscription_details_update_ongoing">Kanaldetails werden abgerufen…</string>
 <string name="subscription_details_update_complete">Kanaldetails aktualisiert</string>
 <string name="subscription_details_update_failed">Kanaldetails konnten nicht aktualisiert werden</string>
+<string name="back_from_fullscreen_closes_player_title">Zurück im Vollbild schließt das Video</string>
+<string name="back_from_fullscreen_closes_player_summary">Zurück während der Vollbildwiedergabe kehrt zur Liste zurück und stoppt das Video, statt es im Mini-Player offen zu lassen</string>
 </resources>

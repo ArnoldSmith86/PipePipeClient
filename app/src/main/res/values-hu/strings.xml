@@ -644,4 +644,6 @@
     </plurals>
     <string name="detail_pinned_comment_view_description">Rögzített megjegyzés</string>
     <string name="leak_canary_not_available">Nem érhető el a LeakCanary</string>
+<string name="back_from_fullscreen_closes_player_title">A vissza teljes képernyőn bezárja a videót</string>
+<string name="back_from_fullscreen_closes_player_summary">A vissza gomb teljes képernyős lejátszás közben visszatér a listához és leállítja a videót, ahelyett hogy nyitva hagyná a mini lejátszóban</string>
 </resources>

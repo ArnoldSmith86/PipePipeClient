@@ -496,4 +496,6 @@
     <string name="start_main_player_fullscreen_title">전체화면으로 주 플레이어 시작</string>
     <string name="hash_channel_name">비디오 해시 알림</string>
     <string name="error_report_open_issue_button_text">GitHub에 보고</string>
+<string name="back_from_fullscreen_closes_player_title">전체 화면에서 뒤로 가면 동영상을 닫음</string>
+<string name="back_from_fullscreen_closes_player_summary">전체 화면 재생 중 뒤로를 누르면 미니 재생기에 남기지 않고 목록으로 돌아가 동영상을 멈춥니다</string>
 </resources>

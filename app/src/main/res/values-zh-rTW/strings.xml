@@ -1058,4 +1058,6 @@
 <string name="subscription_details_update_ongoing">正在擷取頻道詳細資訊…</string>
 <string name="subscription_details_update_complete">頻道詳細資訊已更新</string>
 <string name="subscription_details_update_failed">無法更新頻道詳細資訊</string>
+<string name="back_from_fullscreen_closes_player_title">全螢幕時返回即關閉影片</string>
+<string name="back_from_fullscreen_closes_player_summary">全螢幕播放時按返回會回到清單並停止影片，而不是讓它在迷你播放器中繼續開啟</string>
 </resources>

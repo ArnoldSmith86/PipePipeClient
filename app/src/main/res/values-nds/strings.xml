@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources><string name="back_from_fullscreen_closes_player_title">Torüch in\'t Vullbild maakt dat Video to</string>
+<string name="back_from_fullscreen_closes_player_summary">Torüch bi\'t Afspelen in\'t Vullbild geiht na de List torüch un stoppt dat Video, ansteed dat in\'n Mini-Speler apen to laten</string>
+</resources>

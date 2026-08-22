@@ -667,4 +667,6 @@
     </plurals>
     <string name="get_notified">Seja notificado</string>
     <string name="notifications_disabled">Notificações são desativadas</string>
+<string name="back_from_fullscreen_closes_player_title">Voltar em tela cheia fecha o vídeo</string>
+<string name="back_from_fullscreen_closes_player_summary">Pressionar voltar durante a reprodução em tela cheia retorna à lista e para o vídeo, em vez de deixá-lo aberto no mini player</string>
 </resources>

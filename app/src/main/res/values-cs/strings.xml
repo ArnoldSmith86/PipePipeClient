@@ -658,4 +658,6 @@
     <string name="progressive_load_interval_summary">Změnit interval načítání (aktuálně %s). Menší hodnota může zrychlit počáteční načítání videa. Změna vyžaduje restart přehrávače.</string>
     <string name="leak_canary_not_available">LeakCanary není dostupné</string>
     <string name="progressive_load_interval_exoplayer_default">Výchozí ExoPlayer</string>
+<string name="back_from_fullscreen_closes_player_title">Zpět na celé obrazovce zavře video</string>
+<string name="back_from_fullscreen_closes_player_summary">Stisknutí zpět během přehrávání na celou obrazovku se vrátí do seznamu a zastaví video, místo aby ho nechalo otevřené v minipřehrávači</string>
 </resources>

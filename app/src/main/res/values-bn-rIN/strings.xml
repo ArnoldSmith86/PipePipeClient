@@ -274,4 +274,6 @@
     <string name="notification_action_0_title">প্রথম অ্যাকশান বোতাম</string>
     <string name="notification_action_1_title">দ্বিতীয় অ্যাকশান বোতাম</string>
     <string name="streams_notification_channel_name">নতুন স্ট্রিম</string>
+<string name="back_from_fullscreen_closes_player_title">পূর্ণ পর্দায় ফিরে যাওয়া ভিডিও বন্ধ করে</string>
+<string name="back_from_fullscreen_closes_player_summary">পূর্ণ পর্দায় চলার সময় ফিরে যাওয়ার বোতাম চাপলে তালিকায় ফিরে গিয়ে ভিডিও থেমে যায়, মিনি প্লেয়ারে খোলা থাকার বদলে</string>
 </resources>

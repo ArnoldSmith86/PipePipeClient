@@ -31,4 +31,6 @@
     <string name="no_player_found_toast">Nisciuno lettore truvato (può installà VLC p\' \'o reprodurre).</string>
     <string name="no_player_found">Nisciuno lettore truvato. Vuo\' installà VLC\?</string>
     <string name="main_bg_subtitle">Priemme \"Truova\" p\'accummencià</string>
+<string name="back_from_fullscreen_closes_player_title">Turnà arreto a schermo chino chiure \'o video</string>
+<string name="back_from_fullscreen_closes_player_summary">Turnà arreto mentre se vede a schermo chino porta arreto â lista e ferma \'o video, mparo \'e \'o lassà apierto dint\'ô mini-lettore</string>
 </resources>

@@ -518,4 +518,6 @@
     <string name="show_image_indicators_summary">Показвай цветни Picasso-панделки в горната част на изображенията като индикатор за техния произход (червен – от мрежата, син – от диска и червен – от паметта)</string>
     <string name="auto_device_theme_title">Автоматична (тази на устройството)</string>
     <string name="notification_scale_to_square_image_summary">Мащабиране на миниатюрата в известието от 16:9 към 1:1 формат (възможни са изкривявания)</string>
+<string name="back_from_fullscreen_closes_player_title">Назад на цял екран затваря видеото</string>
+<string name="back_from_fullscreen_closes_player_summary">Натискането на „Назад“ по време на възпроизвеждане на цял екран връща към списъка и спира видеото, вместо да го оставя отворено в мини плейъра</string>
 </resources>

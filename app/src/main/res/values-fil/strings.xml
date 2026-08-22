@@ -180,4 +180,6 @@
         <item quantity="one">%d araw</item>
         <item quantity="other">mga %d araw</item>
     </plurals>
+<string name="back_from_fullscreen_closes_player_title">Ang back sa buong screen ay nagsasara ng video</string>
+<string name="back_from_fullscreen_closes_player_summary">Ang pagpindot ng back habang nanonood sa buong screen ay babalik sa listahan at ihihinto ang video, sa halip na iwang bukas ito sa mini player</string>
 </resources>

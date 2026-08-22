@@ -693,4 +693,6 @@
     <string name="delete_downloaded_files_confirm">למחוק את כל הקבצים שהורדו מהכונן\?</string>
     <string name="notifications_disabled">התראות מושבתות</string>
     <string name="you_successfully_subscribed">נרשמת לערוץ הזה</string>
+<string name="back_from_fullscreen_closes_player_title">חזרה במסך מלא סוגרת את הסרטון</string>
+<string name="back_from_fullscreen_closes_player_summary">לחיצה על חזרה בזמן נגינה במסך מלא חוזרת לרשימה ועוצרת את הסרטון, במקום להשאיר אותו פתוח בנגן המוקטן</string>
 </resources>

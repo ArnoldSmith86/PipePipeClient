@@ -545,4 +545,6 @@
         <item quantity="other">%sটি ডাউনলোড সমাপ্ত</item>
     </plurals>
     <string name="mark_as_watched">দেখা হয়েছে চিহ্নিত করো</string>
+<string name="back_from_fullscreen_closes_player_title">পূর্ণ পর্দায় ফিরে যাওয়া ভিডিও বন্ধ করে</string>
+<string name="back_from_fullscreen_closes_player_summary">পূর্ণ পর্দায় চলার সময় ফিরে যাওয়ার বোতাম চাপলে তালিকায় ফিরে গিয়ে ভিডিও থেমে যায়, মিনি প্লেয়ারে খোলা থাকার বদলে</string>
 </resources>

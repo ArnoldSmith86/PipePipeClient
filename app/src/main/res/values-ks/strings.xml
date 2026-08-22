@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources><string name="back_from_fullscreen_closes_player_title">پورٕ سکرینس منٛز بیک دبٲوِتھ گژھِ ویڈیو بند</string>
+<string name="back_from_fullscreen_closes_player_summary">پورٕ سکرین پلےبیکس دوران بیک دبٲوِتھ گژھِ فہرستس کُن واپس تہٕ ویڈیو رُکِ، منی پلیئرس منٛز کھلہٕ تھاونس بجاے</string>
+</resources>

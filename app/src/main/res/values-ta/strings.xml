@@ -330,4 +330,6 @@
     <string name="subscriptions_export_unsuccessful">சந்தாக்களை ஏற்றுமதி செய்ய முடியவில்லை</string>
     <string name="feed_group_dialog_select_subscriptions">சந்தாக்களைத் தேர்ந்தெடு</string>
     <string name="preferred_open_action_settings_title">நயமான \'திற\' செயல்</string>
+<string name="back_from_fullscreen_closes_player_title">முழுத்திரையில் பின் செல்வது வீடியோவை மூடும்</string>
+<string name="back_from_fullscreen_closes_player_summary">முழுத்திரையில் இயங்கும்போது பின் பொத்தானை அழுத்தினால் பட்டியலுக்குத் திரும்பி வீடியோ நிற்கும், சிறு பிளேயரில் திறந்திருக்காமல்</string>
 </resources>

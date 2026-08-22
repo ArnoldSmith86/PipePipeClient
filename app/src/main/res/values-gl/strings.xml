@@ -646,4 +646,6 @@
     <string name="show_crash_the_player_summary">Amosa unha opción de travamento ao usar o reprodutor</string>
     <string name="crash_the_player">Travar o reprodutor</string>
     <string name="leak_canary_not_available">LeakCanary non está dispoñíbel</string>
+<string name="back_from_fullscreen_closes_player_title">Atrás a pantalla completa pecha o vídeo</string>
+<string name="back_from_fullscreen_closes_player_summary">Premer atrás durante a reprodución a pantalla completa volve á lista e detén o vídeo, en vez de deixalo aberto no minirreprodutor</string>
 </resources>

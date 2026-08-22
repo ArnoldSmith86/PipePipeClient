@@ -134,4 +134,6 @@
     <string name="title_activity_history">Պատմություն</string>
     <string name="action_history">Պատմություն</string>
     <string name="trending">Թրենդային</string>
+<string name="back_from_fullscreen_closes_player_title">Հետ գնալը լիաէկրանում փակում է տեսանյութը</string>
+<string name="back_from_fullscreen_closes_player_summary">Լիաէկրան նվագարկման ժամանակ «Հետ» սեղմելը վերադառնում է ցանկ և կանգնեցնում տեսանյութը՝ մինի նվագարկիչում բաց թողնելու փոխարեն</string>
 </resources>

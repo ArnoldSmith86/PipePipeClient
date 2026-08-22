@@ -550,4 +550,6 @@
     <string name="copyright">© %1$s bi %2$s di bin %3$s de</string>
     <string name="title_licenses">Lîsansên partiya sêyemîn</string>
     <string name="crash_the_app">Serlêdanê kilît bikin</string>
+<string name="back_from_fullscreen_closes_player_title">Vegera di dîmendera tijî de vîdyoyê digire</string>
+<string name="back_from_fullscreen_closes_player_summary">Pêlkirina vegerê dema lêxistina bi dîmendera tijî vedigere lîsteyê û vîdyoyê radiwestîne, li şûna ku wê di lêdêra piçûk de vekirî bihêle</string>
 </resources>

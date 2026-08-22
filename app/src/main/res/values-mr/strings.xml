@@ -37,4 +37,6 @@
     <string name="default_popup_resolution_title">डिफॉल्ट पॉप अप रेसिल्युशन</string>
     <string name="default_resolution_title">डीफॉल्ट रेसोल्युशन निवडा</string>
     <string name="controls_add_to_playlist_title">मध्ये टाका</string>
+<string name="back_from_fullscreen_closes_player_title">पूर्ण स्क्रीनमध्ये मागे गेल्यास व्हिडिओ बंद होतो</string>
+<string name="back_from_fullscreen_closes_player_summary">पूर्ण स्क्रीन प्लेबॅक सुरू असताना मागे दाबल्यास यादीकडे परत जाऊन व्हिडिओ थांबतो, मिनी प्लेअरमध्ये उघडा राहण्याऐवजी</string>
 </resources>

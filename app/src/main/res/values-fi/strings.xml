@@ -644,4 +644,6 @@
     <string name="show_crash_the_player_summary">Näytä soitinta käytettäessä soittimen kaatamisen vaihtoehto</string>
     <string name="show_error_snackbar">Näytä virheen ponnahdusilmoitus</string>
     <string name="feed_new_items">Uudet syötteet</string>
+<string name="back_from_fullscreen_closes_player_title">Takaisin koko näytöllä sulkee videon</string>
+<string name="back_from_fullscreen_closes_player_summary">Takaisin-painike koko näytön toiston aikana palaa listaan ja pysäyttää videon sen sijaan, että jättäisi sen auki minisoittimeen</string>
 </resources>

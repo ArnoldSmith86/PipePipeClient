@@ -641,4 +641,6 @@
     <string name="no_appropriate_file_manager_message_android_10">Installer en filbehandler som støtter lagringstilgangsrammeverk først.</string>
     <string name="leak_canary_not_available">LeakCanary er ikke tilgjengelig</string>
     <string name="progressive_load_interval_exoplayer_default">ExoPlayer-forvalg</string>
+<string name="back_from_fullscreen_closes_player_title">Tilbake i fullskjerm lukker videoen</string>
+<string name="back_from_fullscreen_closes_player_summary">Å trykke tilbake under fullskjermavspilling går tilbake til listen og stopper videoen, i stedet for å la den være åpen i minispilleren</string>
 </resources>

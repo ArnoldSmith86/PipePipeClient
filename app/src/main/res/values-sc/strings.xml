@@ -667,4 +667,6 @@
     <string name="notifications">Notìficas</string>
     <string name="streams_notification_channel_name">Flussos noos</string>
     <string name="delete_downloaded_files_confirm">Iscantzellare totu sos archìvios iscarrigados dae su discu\?</string>
+<string name="back_from_fullscreen_closes_player_title">Torra a segus a ischermu prenu serrat su vídeu</string>
+<string name="back_from_fullscreen_closes_player_summary">Premende torra a segus in su ischermu prenu si torrat a sa lista e su vídeu s\'arrèstat, in logu de ddu lassare abertu in su mini reprodutore</string>
 </resources>

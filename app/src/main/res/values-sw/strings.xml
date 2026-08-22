@@ -36,4 +36,6 @@
     <string name="notification_action_buffering">Buffering</string>
     <string name="notification_action_nothing">Hakuna</string>
     <string name="use_inexact_seek_title">Use fast inexact seek</string>
+<string name="back_from_fullscreen_closes_player_title">Kurudi nyuma kwenye skrini nzima hufunga video</string>
+<string name="back_from_fullscreen_closes_player_summary">Kubonyeza kurudi nyuma wakati wa uchezaji wa skrini nzima hurudi kwenye orodha na kusimamisha video, badala ya kuiacha wazi kwenye kicheza kidogo</string>
 </resources>

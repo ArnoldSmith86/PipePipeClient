@@ -215,4 +215,6 @@
     <string name="search_showing_result_for">Monstrante resultatos pro: %s</string>
     <string name="start_main_player_fullscreen_title">Initiar le reproductor principal in schermo plen</string>
     <string name="peertube_instance_add_https_only">Solmente le URLs HTTPS es supportate</string>
+<string name="back_from_fullscreen_closes_player_title">Retro a schermo plen claude le video</string>
+<string name="back_from_fullscreen_closes_player_summary">Pressar retro durante le reproduction a schermo plen retorna al lista e stoppa le video, in vice de lassar lo aperte in le mini-reproductor</string>
 </resources>

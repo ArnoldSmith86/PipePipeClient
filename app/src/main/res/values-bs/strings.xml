@@ -100,4 +100,6 @@
     <string name="play_with_kodi_title">Pokrenite s KODI-jem</string>
     <string name="seek_duration_title">Vrijeme premotavanja naprijed/nazad</string>
     <string name="download_thumbnail_title">Učitajte sličice</string>
+<string name="back_from_fullscreen_closes_player_title">Nazad preko cijelog ekrana zatvara video</string>
+<string name="back_from_fullscreen_closes_player_summary">Pritisak na „Nazad“ tokom reprodukcije preko cijelog ekrana vraća na listu i zaustavlja video, umjesto da ga ostavi otvorenim u mini plejeru</string>
 </resources>

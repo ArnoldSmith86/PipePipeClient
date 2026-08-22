@@ -1027,4 +1027,6 @@
 <string name="subscription_details_update_ongoing">チャンネルの詳細を取得中…</string>
 <string name="subscription_details_update_complete">チャンネルの詳細を更新しました</string>
 <string name="subscription_details_update_failed">チャンネルの詳細を更新できませんでした</string>
+<string name="back_from_fullscreen_closes_player_title">全画面での戻るで動画を閉じる</string>
+<string name="back_from_fullscreen_closes_player_summary">全画面再生中に戻るを押すと、ミニプレーヤーに残さず一覧に戻って動画を停止します</string>
 </resources>

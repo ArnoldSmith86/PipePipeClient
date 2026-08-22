@@ -390,4 +390,6 @@
     <string name="playlist_no_uploader">స్వయంచాలకంగా రూపొందించబడింది (ఎక్కించినవారు కనబడుటలేదు)</string>
     <string name="caption_auto_generated">స్వయంచాలకంగా రూపొందించబడింది</string>
     <string name="caption_setting_title">శీర్షికలు</string>
+<string name="back_from_fullscreen_closes_player_title">పూర్తి తెరలో వెనక్కి నొక్కితే వీడియో మూసుకుంటుంది</string>
+<string name="back_from_fullscreen_closes_player_summary">పూర్తి తెర ప్లేబ్యాక్ సమయంలో వెనక్కి నొక్కితే జాబితాకు తిరిగి వెళ్లి వీడియో ఆగిపోతుంది, మినీ ప్లేయర్‌లో తెరిచి ఉంచడానికి బదులుగా</string>
 </resources>

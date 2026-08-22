@@ -577,4 +577,6 @@
     <string name="notification_action_2_title">ਤੀਜਾ ਕਾਰਵਾਈ ਬਟਨ</string>
     <string name="notification_action_1_title">ਦੂਜਾ ਕਾਰਵਾਈ ਬਟਨ</string>
     <string name="notification_action_0_title">ਪਹਿਲਾ ਕਾਰਵਾਈ ਬਟਨ</string>
+<string name="back_from_fullscreen_closes_player_title">ਪੂਰੀ ਸਕ੍ਰੀਨ ਵਿੱਚ ਪਿੱਛੇ ਜਾਣ ਨਾਲ ਵੀਡੀਓ ਬੰਦ ਹੁੰਦਾ ਹੈ</string>
+<string name="back_from_fullscreen_closes_player_summary">ਪੂਰੀ ਸਕ੍ਰੀਨ ਪਲੇਬੈਕ ਦੌਰਾਨ ਪਿੱਛੇ ਦਬਾਉਣ ਨਾਲ ਸੂਚੀ ਉੱਤੇ ਵਾਪਸ ਜਾ ਕੇ ਵੀਡੀਓ ਰੁਕ ਜਾਂਦਾ ਹੈ, ਮਿੰਨੀ ਪਲੇਅਰ ਵਿੱਚ ਖੁੱਲ੍ਹਾ ਰਹਿਣ ਦੀ ਬਜਾਏ</string>
 </resources>

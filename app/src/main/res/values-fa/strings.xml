@@ -667,4 +667,6 @@
     <string name="delete_downloaded_files_confirm">پاک کردن تمامی پرونده‌های بارگرفته از دیسک؟</string>
     <string name="any_network">هر شبکه‌ای</string>
     <string name="you_successfully_subscribed">اکنون مشترک این کانال شده‌اید</string>
+<string name="back_from_fullscreen_closes_player_title">بازگشت در حالت تمام‌صفحه ویدئو را می‌بندد</string>
+<string name="back_from_fullscreen_closes_player_summary">فشردن بازگشت هنگام پخش تمام‌صفحه به فهرست بازمی‌گردد و ویدئو را متوقف می‌کند، به‌جای آنکه آن را در پخش‌کنندهٔ کوچک باز بگذارد</string>
 </resources>
