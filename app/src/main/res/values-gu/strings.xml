@@ -60,6 +60,4 @@
     <string name="no_player_found">કોઈ સ્ટ્રીમ પ્લેયર મળ્યો નથી. વીએલસી સ્થાપિત કરીએ\?</string>
     <string name="upload_date_text">%1$s પર પ્રકાશિત</string>
     <string name="main_bg_subtitle">પ્રારંભ કરવા માટે વિપુલ - દર્શક કાચને ટેપ કરો.</string>
-<string name="portrait_outside_fullscreen_title">ઍપને ઊભી રાખો</string>
-<string name="portrait_outside_fullscreen_summary">ઉપકરણ ગમે તેમ પકડાયું હોય તોય યાદીઓ, વીડિયોનું પાનું અને સેટિંગ ઊભાં બતાવો. ફક્ત પૂર્ણ સ્ક્રીન પ્લેબૅક જ આડું ફરે છે</string>
 </resources>

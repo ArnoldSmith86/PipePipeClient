@@ -60,6 +60,4 @@
 \nBuksan ang \"%1$s\" sa ayos ng app kung gusto mong makita ito.</string>
     <string name="artists">Mga Artista</string>
     <string name="controls_popup_title">Nakalutang</string>
-<string name="portrait_outside_fullscreen_title">Panatilihing patayo ang app</string>
-<string name="portrait_outside_fullscreen_summary">Ipakita ang mga listahan, ang pahina ng video at ang mga setting nang patayo, kahit paano hawakan ang device. Ang panonood lang sa buong screen ang umiikot nang pahalang</string>
 </resources>

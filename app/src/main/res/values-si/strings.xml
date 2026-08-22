@@ -4,6 +4,4 @@
     <string name="did_you_mean">ඔබ අදහස් කළේ \"%1$s\" ද\?</string>
     <string name="settings">සැකසුම්</string>
     <string name="search">සොයන්න</string>
-<string name="portrait_outside_fullscreen_title">යෙදුම සිරස්ව තබන්න</string>
-<string name="portrait_outside_fullscreen_summary">උපාංගය කෙසේ අල්ලාගෙන සිටියත් ලැයිස්තු, වීඩියෝ පිටුව සහ සැකසුම් සිරස්ව පෙන්වන්න. පූර්ණ තිර වාදනය පමණක් තිරස් අතට හැරේ</string>
 </resources>

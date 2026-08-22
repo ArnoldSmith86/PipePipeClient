@@ -37,6 +37,4 @@
     <string name="default_popup_resolution_title">डिफॉल्ट पॉप अप रेसिल्युशन</string>
     <string name="default_resolution_title">डीफॉल्ट रेसोल्युशन निवडा</string>
     <string name="controls_add_to_playlist_title">मध्ये टाका</string>
-<string name="portrait_outside_fullscreen_title">अ‍ॅप उभ्या स्थितीत ठेवा</string>
-<string name="portrait_outside_fullscreen_summary">उपकरण कसेही धरले तरी याद्या, व्हिडिओचे पान आणि सेटिंग्ज उभ्या स्थितीत दाखवा. फक्त पूर्ण स्क्रीन प्लेबॅकच आडवा होतो</string>
 </resources>

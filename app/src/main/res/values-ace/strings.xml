@@ -15,6 +15,4 @@
     <string name="no_player_found">Hana jiteumeung stream player. Pasang VLC\?</string>
     <string name="upload_date_text">Peuleumah bak %1$s</string>
     <string name="main_bg_subtitle">Theun \"Seutot\" keu peuphon</string>
-<string name="portrait_outside_fullscreen_title">Peuduek aplikasi bak keadaan teungeut</string>
-<string name="portrait_outside_fullscreen_summary">Peudeuh dapeuta, laman video, ngon peungatoran bak keadaan teungeut, pane pih alat jimat. Mantong peuputa layar peunoh nyang meuputa u sisi</string>
 </resources>

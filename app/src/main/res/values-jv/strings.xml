@@ -59,6 +59,4 @@
     <string name="no_player_found">Pamuter ora ditemokke. Pasang VLC\?</string>
     <string name="upload_date_text">Diterbitake ing %1$s</string>
     <string name="main_bg_subtitle">Pencet lup kanggo nglekasi</string>
-<string name="portrait_outside_fullscreen_title">Ajeg ngadeg aplikasine</string>
-<string name="portrait_outside_fullscreen_summary">Tuduhake dhaptar, kaca video, lan setelan kanthi ngadeg, sanajan pirantine dicekel kepiye wae. Mung pamuteran layar kebak sing muter dadi mendhatar</string>
 </resources>
