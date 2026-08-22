@@ -1298,11 +1298,52 @@ public final class Player implements
         }
 
         binding.topControls.setPaddingRelative(controlsPad, playerTopPad, controlsPad, 0);
-        binding.bottomControls.setPaddingRelative(controlsPad, 0, controlsPad, 0);
+        binding.bottomControls.setPaddingRelative(controlsPad, 0, controlsPad,
+                popupPlayerSelected() ? 0 : getBottomControlsGestureClearance());
         binding.qualityTextView.setPadding(buttonsPad, buttonsPad, buttonsPad, buttonsPad);
         binding.playbackSpeed.setPadding(buttonsPad, buttonsPad, buttonsPad, buttonsPad);
         binding.playbackSpeed.setMinimumWidth(buttonsMinWidth);
         binding.captionTextView.setPadding(buttonsPad, buttonsPad, buttonsPad, buttonsPad);
+    }
+
+    /**
+     * How far the bottom control row has to sit above the bottom edge of the screen.
+     *
+     * <p>With gesture navigation the bottom strip of the display belongs to the system: a swipe
+     * up there goes home or switches apps, and an app cannot opt out of it -
+     * {@code setSystemGestureExclusionRects} only covers the back gesture on the side edges. The
+     * seek bar used to be flush against that edge, so dragging it low was regularly swallowed by
+     * the system gesture instead of seeking. Raising the row by the inset the system reports for
+     * its own gesture area keeps the whole seek bar reachable.</p>
+     *
+     * <p>{@link WindowInsetsCompat.Type#systemGestures()} is the inset to use here rather than
+     * {@code navigationBars()}: the gesture strip stays active in fullscreen, where the bars are
+     * hidden and their inset is 0 - which is exactly the case that was broken.</p>
+     */
+    private int getBottomControlsGestureClearance() {
+        final Resources res = context.getResources();
+        final int fallback =
+                res.getDimensionPixelSize(R.dimen.player_main_bottom_controls_gesture_clearance);
+        final WindowInsetsCompat insets = ViewCompat.getRootWindowInsets(binding.getRoot());
+        if (insets == null) {
+            // Not attached yet; onLayoutChange() re-applies this once insets are available.
+            return fallback;
+        }
+        final int gestureInset = insets.getInsets(WindowInsetsCompat.Type.systemGestures()).bottom;
+        if (gestureInset <= 0) {
+            // Three-button navigation: no gesture strip, but a small lift still helps the thumb.
+            return fallback;
+        }
+        return Math.min(gestureInset, res.getDimensionPixelSize(
+                R.dimen.player_main_bottom_controls_gesture_clearance_max));
+    }
+
+    private void updateBottomControlsGestureClearance() {
+        binding.bottomControls.setPaddingRelative(
+                binding.bottomControls.getPaddingStart(),
+                binding.bottomControls.getPaddingTop(),
+                binding.bottomControls.getPaddingEnd(),
+                popupPlayerSelected() ? 0 : getBottomControlsGestureClearance());
     }
 
     private void showHideKodiButton() {
@@ -5240,6 +5281,10 @@ case ERROR_CODE_DECODER_INIT_FAILED: {
 
             binding.volumeProgressBar.setMax(maxGestureLength);
             binding.brightnessProgressBar.setMax(maxGestureLength);
+
+            // Insets are not known when setupElementsSize() first runs, and the gesture inset
+            // changes with orientation and with entering/leaving fullscreen, so re-apply here.
+            updateBottomControlsGestureClearance();
 
             setInitialGestureValues();
             binding.itemsListPanel.getLayoutParams().height
