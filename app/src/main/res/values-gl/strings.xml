@@ -689,4 +689,6 @@
 <string name="cache_import_cleared_toast">Borráronse as marcas dos vídeos que non están neste dispositivo</string>
 <string name="refresh">Actualizar</string>
 <string name="feed_refresh_progress">Actualizando a fonte: %s</string>
+<string name="portrait_outside_fullscreen_title">Manter a aplicación en vertical</string>
+<string name="portrait_outside_fullscreen_summary">Amosar as listas, a páxina do vídeo e os axustes en vertical sen importar como se suxeite o dispositivo. Só a reprodución a pantalla completa xira a horizontal</string>
 </resources>

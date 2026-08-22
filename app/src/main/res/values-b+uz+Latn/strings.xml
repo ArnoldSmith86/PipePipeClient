@@ -574,4 +574,6 @@
 <string name="cache_import_cleared_toast">Bu qurilmada bo\'lmagan videolarning belgilari tozalandi</string>
 <string name="refresh">Yangilash</string>
 <string name="feed_refresh_progress">Oqim yangilanmoqda: %s</string>
+<string name="portrait_outside_fullscreen_title">Ilovani tik holatda saqlash</string>
+<string name="portrait_outside_fullscreen_summary">Qurilma qanday ushlanishidan qat\'i nazar ro\'yxatlarni, video sahifasini va sozlamalarni tik holatda ko\'rsatish. Faqat to\'liq ekranda ijro yonboshiga buriladi</string>
 </resources>

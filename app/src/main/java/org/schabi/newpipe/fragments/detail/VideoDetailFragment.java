@@ -182,6 +182,7 @@ public final class VideoDetailFragment
     @NonNull
     final List<Integer> tabContentDescriptions = new ArrayList<>();
     private boolean tabSettingsChanged = false;
+
     private int lastAppBarVerticalOffset = Integer.MAX_VALUE;
     private boolean stickyPlayerEnabled;
     private final SharedPreferences.OnSharedPreferenceChangeListener preferenceChangeListener =
@@ -1901,9 +1902,25 @@ public final class VideoDetailFragment
         // User can tap on Play button and video will be in fullscreen mode again
         // Note for tablet: trying to avoid orientation changes since it's not easy
         // to physically rotate the tablet every time
-        if (activity != null && !DeviceUtils.isTablet(activity)) {
-            activity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
-        }
+        releasePlaybackOrientationPin();
+    }
+
+    /**
+     * The orientation to request whenever a fullscreen video is not being shown.
+     *
+     * <p>{@link ActivityInfo#SCREEN_ORIENTATION_UNSPECIFIED} hands control back to the system.
+     * That matters: while an activity requests a fixed orientation Android neither rotates it nor
+     * offers the rotate-suggestion button that appears when auto-rotation is off, so as long as
+     * we keep the SENSOR_LANDSCAPE we asked for on the way into fullscreen, the app can never get
+     * back to portrait by any means the user has.</p>
+     *
+     * <p>With "keep the app in portrait" enabled the answer is portrait instead, so that only
+     * fullscreen playback ever turns.</p>
+     */
+    private int getOrientationOutsideFullscreen() {
+        return activity != null && PlayerHelper.isPortraitOutsideFullscreenEnabled(activity)
+                ? ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
+                : ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED;
     }
 
     /*//////////////////////////////////////////////////////////////////////////
@@ -2509,6 +2526,11 @@ public final class VideoDetailFragment
             binding.overlayPlayPauseButton.requestFocus();
         } else {
             showSystemUi();
+            // Fullscreen is the only reason we ever pin the orientation, so let go of it again
+            // here. Without this the SENSOR_LANDSCAPE requested on the way in outlives the
+            // fullscreen video, and since a fixed orientation also suppresses the system's
+            // rotate-suggestion button, the app stays landscape with no way back to portrait.
+            releasePlaybackOrientationPin();
         }
 
         if (binding.relatedItemsLayout != null) {
@@ -2524,6 +2546,23 @@ public final class VideoDetailFragment
         final boolean isLandscape = DeviceUtils.isLandscape(requireContext());
         final boolean isTablet    = DeviceUtils.isTablet(activity);
         final boolean autoLocked  = globalScreenOrientationLocked(activity);
+
+        // Leaving a fullscreen video while we are the ones holding the screen in landscape: this
+        // button is the way back out, whatever kind of device the app thinks this is. The tablet
+        // branch below only toggles fullscreen and leaves the orientation alone, which is fine
+        // for a tablet the user can physically turn - but not when we pinned SENSOR_LANDSCAPE
+        // ourselves, since a fixed requested orientation also stops Android offering its own
+        // rotate button.
+        //
+        // Only on the way out: in landscape but *not* fullscreen this same button is what enters
+        // fullscreen (Player#checkLandscape(), which would otherwise do it on rotation, is itself
+        // skipped on tablets), so it must fall through to the normal handling below.
+        if (isLandscape && isOrientationPinned()
+                && isPlayerAvailable() && player.isFullscreen()) {
+            player.toggleFullscreen();
+            releasePlaybackOrientationPin();
+            return;
+        }
 
         // 1. 平板且（系统可自动旋转 或 当前已横），直接切播放器全屏/非全屏
         if (isTablet && (!autoLocked || isLandscape)) {
@@ -2546,6 +2585,42 @@ public final class VideoDetailFragment
                             : ActivityInfo.SCREEN_ORIENTATION_SENSOR_LANDSCAPE
             );
         }
+    }
+
+    /**
+     * Gives back an orientation this fragment pinned for playback.
+     *
+     * <p>Skipped on tablets that we did not pin ourselves - there the player deliberately avoids
+     * orientation changes, since a tablet is awkward to turn. But "this device looks like a
+     * tablet" is a guess (it is a screen-size bucket, so a phone running at a reduced display
+     * density lands in it too), and when the guess is wrong that exemption is what strands the
+     * screen in landscape. Pinning is never a guess, so it always gets undone.</p>
+     */
+    private void releasePlaybackOrientationPin() {
+        if (activity == null) {
+            return;
+        }
+        if (DeviceUtils.isTablet(activity)
+                && !isOrientationPinned()
+                && !PlayerHelper.isPortraitOutsideFullscreenEnabled(activity)) {
+            return;
+        }
+        activity.setRequestedOrientation(getOrientationOutsideFullscreen());
+    }
+
+    /**
+     * Whether the activity is currently held at a fixed orientation. Nothing but this app ever
+     * asks for one, so anything other than UNSPECIFIED is a pin of ours that has to be
+     * releasable.
+     *
+     * <p>Read from the activity rather than remembered in a field on purpose: pinning landscape
+     * rotates the screen, which recreates the activity and this fragment with it, so a field
+     * would be back to its default by the time anything wanted to undo the pin. The requested
+     * orientation itself is kept by the system across that recreation.</p>
+     */
+    private boolean isOrientationPinned() {
+        return activity != null
+                && activity.getRequestedOrientation() != ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED;
     }
 
     /*

@@ -1135,4 +1135,6 @@
 <string name="cache_import_cleared_toast">مُسحت علامات المقاطع غير الموجودة على هذا الجهاز</string>
 <string name="refresh">تحديث</string>
 <string name="feed_refresh_progress">جارٍ تحديث الموجز: %s</string>
+<string name="portrait_outside_fullscreen_title">إبقاء التطبيق عموديًا</string>
+<string name="portrait_outside_fullscreen_summary">عرض القوائم وصفحة الفيديو والإعدادات عموديًا مهما كانت وضعية الجهاز. التشغيل بملء الشاشة وحده هو الذي يدور أفقيًا</string>
 </resources>

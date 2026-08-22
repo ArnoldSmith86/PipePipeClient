@@ -701,4 +701,6 @@
 <string name="cache_import_cleared_toast">Vymazána označení videí, která v tomto zařízení nejsou</string>
 <string name="refresh">Obnovit</string>
 <string name="feed_refresh_progress">Obnovování kanálu: %s</string>
+<string name="portrait_outside_fullscreen_title">Držet aplikaci na výšku</string>
+<string name="portrait_outside_fullscreen_summary">Zobrazovat seznamy, stránku videa a nastavení na výšku bez ohledu na to, jak je zařízení drženo. Na šířku se otáčí jen přehrávání na celou obrazovku</string>
 </resources>

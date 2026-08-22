@@ -562,4 +562,6 @@
 <string name="cache_import_cleared_toast">उन वीडियो के निशान मिटा दिए गए जो इस डिवाइस पर नहीं हैं</string>
 <string name="refresh">ताज़ा करें</string>
 <string name="feed_refresh_progress">फ़ीड ताज़ा हो रही है: %s</string>
+<string name="portrait_outside_fullscreen_title">ऐप को खड़ी दिशा में रखें</string>
+<string name="portrait_outside_fullscreen_summary">डिवाइस चाहे जैसे पकड़ा जाए, सूचियाँ, वीडियो का पन्ना और सेटिंग्स खड़ी दिशा में दिखाएँ। केवल पूर्ण स्क्रीन प्लेबैक ही आड़ी दिशा में घूमता है</string>
 </resources>

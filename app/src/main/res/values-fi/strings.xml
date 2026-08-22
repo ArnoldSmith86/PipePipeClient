@@ -687,4 +687,6 @@
 <string name="cache_import_cleared_toast">Tyhjennettiin niiden videoiden merkinnät, joita ei ole tällä laitteella</string>
 <string name="refresh">Päivitä</string>
 <string name="feed_refresh_progress">Päivitetään syötettä: %s</string>
+<string name="portrait_outside_fullscreen_title">Pidä sovellus pystyasennossa</string>
+<string name="portrait_outside_fullscreen_summary">Näytä listat, videon sivu ja asetukset pystyasennossa riippumatta siitä, miten laitetta pidetään. Vain koko näytön toisto kääntyy vaaka-asentoon</string>
 </resources>

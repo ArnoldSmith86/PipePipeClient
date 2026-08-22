@@ -686,4 +686,6 @@
 <string name="cache_import_cleared_toast">نیشانەی ئەو ڤیدیۆیانە سڕانەوە کە لەسەر ئەم ئامێرە نین</string>
 <string name="refresh">نوێکردنەوە</string>
 <string name="feed_refresh_progress">لێشاو نوێ دەکرێتەوە: %s</string>
+<string name="portrait_outside_fullscreen_title">ئەپەکە بە ڕاستی ڕابگرە</string>
+<string name="portrait_outside_fullscreen_summary">لیستەکان و لاپەڕەی ڤیدیۆ و ڕێکخستنەکان بە ڕاستی پیشان بدە، جا ئامێرەکە بە هەر شێوەیەک ڕاگیرابێت. تەنها لێدانی پڕ-ڕوونما دەسوڕێتەوە بۆ پان</string>
 </resources>

@@ -710,4 +710,6 @@
 <string name="cache_import_cleared_toast">Cantzelladas sas marcas de sos vídeos chi non sunt in custu dispositivu</string>
 <string name="refresh">Atualiza</string>
 <string name="feed_refresh_progress">Atualizende su flussu: %s</string>
+<string name="portrait_outside_fullscreen_title">Mantene s\'aplicatzione in verticale</string>
+<string name="portrait_outside_fullscreen_summary">Mustra sas listas, sa pàgina de su vídeu e sas cunfiguratziones in verticale, comente si siat tentu su dispositivu. Isceti sa reprodutzione a ischermu prenu girat in orizontale</string>
 </resources>

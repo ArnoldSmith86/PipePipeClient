@@ -693,4 +693,6 @@
 <string name="cache_import_cleared_toast">Au fost șterse marcajele videoclipurilor care nu sunt pe acest dispozitiv</string>
 <string name="refresh">Reîmprospătează</string>
 <string name="feed_refresh_progress">Se reîmprospătează fluxul: %s</string>
+<string name="portrait_outside_fullscreen_title">Menține aplicația pe verticală</string>
+<string name="portrait_outside_fullscreen_summary">Arată listele, pagina videoclipului și setările pe verticală, indiferent cum este ținut dispozitivul. Doar redarea pe ecran complet se rotește pe orizontală</string>
 </resources>

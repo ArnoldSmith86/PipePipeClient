@@ -381,4 +381,6 @@
 <string name="cache_import_cleared_toast">ล้างเครื่องหมายของวิดีโอที่ไม่อยู่ในอุปกรณ์นี้แล้ว</string>
 <string name="refresh">รีเฟรช</string>
 <string name="feed_refresh_progress">กำลังรีเฟรชฟีด: %s</string>
+<string name="portrait_outside_fullscreen_title">ให้แอปอยู่แนวตั้งเสมอ</string>
+<string name="portrait_outside_fullscreen_summary">แสดงรายการ หน้าวิดีโอ และการตั้งค่าในแนวตั้งไม่ว่าจะถืออุปกรณ์อย่างไร มีเพียงการเล่นแบบเต็มหน้าจอเท่านั้นที่หมุนเป็นแนวนอน</string>
 </resources>

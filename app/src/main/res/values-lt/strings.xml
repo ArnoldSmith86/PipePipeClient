@@ -699,4 +699,6 @@
 <string name="cache_import_cleared_toast">Išvalytos žymos vaizdo įrašų, kurių šiame įrenginyje nėra</string>
 <string name="refresh">Atnaujinti</string>
 <string name="feed_refresh_progress">Atnaujinamas srautas: %s</string>
+<string name="portrait_outside_fullscreen_title">Laikyti programą stačiai</string>
+<string name="portrait_outside_fullscreen_summary">Rodyti sąrašus, vaizdo įrašo puslapį ir nustatymus stačiai, nesvarbu, kaip laikomas įrenginys. Tik atkūrimas per visą ekraną pasisuka gulsčiai</string>
 </resources>

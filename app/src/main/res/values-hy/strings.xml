@@ -177,4 +177,6 @@
 <string name="cache_import_cleared_toast">Ջնջվեցին այն տեսանյութերի նշումները, որոնք այս սարքում չկան</string>
 <string name="refresh">Թարմացնել</string>
 <string name="feed_refresh_progress">Հոսքը թարմացվում է՝ %s</string>
+<string name="portrait_outside_fullscreen_title">Պահել հավելվածը ուղղաձիգ</string>
+<string name="portrait_outside_fullscreen_summary">Ցուցադրել ցանկերը, տեսանյութի էջը և կարգավորումները ուղղաձիգ՝ անկախ նրանից, թե ինչպես է սարքը պահվում։ Միայն լիաէկրան նվագարկումն է շրջվում հորիզոնական</string>
 </resources>

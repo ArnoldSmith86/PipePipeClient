@@ -557,4 +557,6 @@
 <string name="cache_import_cleared_toast">यो यन्त्रमा नभएका भिडियोका चिन्हहरू मेटिए</string>
 <string name="refresh">ताजा गर्नुहोस्</string>
 <string name="feed_refresh_progress">फिड ताजा गर्दै: %s</string>
+<string name="portrait_outside_fullscreen_title">एप ठाडो राख्नुहोस्</string>
+<string name="portrait_outside_fullscreen_summary">यन्त्र जसरी समातिए पनि सूचीहरू, भिडियोको पृष्ठ र सेटिङ ठाडो देखाउनुहोस्। पूरा स्क्रिनको प्लेब्याक मात्र तेर्सो हुन्छ</string>
 </resources>

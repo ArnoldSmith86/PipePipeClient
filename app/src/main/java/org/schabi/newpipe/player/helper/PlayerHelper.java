@@ -355,6 +355,15 @@ public final class PlayerHelper {
                 .getBoolean(context.getString(R.string.start_main_player_fullscreen_key), false);
     }
 
+    /**
+     * Whether everything except fullscreen video playback should stay in portrait, regardless of
+     * how the device is held and of the system auto-rotation setting.
+     */
+    public static boolean isPortraitOutsideFullscreenEnabled(@NonNull final Context context) {
+        return getPreferences(context)
+                .getBoolean(context.getString(R.string.portrait_outside_fullscreen_key), false);
+    }
+
     public static boolean isAutoQueueEnabled(@NonNull final Context context) {
         return getPreferences(context)
                 .getBoolean(context.getString(R.string.auto_queue_key), false);

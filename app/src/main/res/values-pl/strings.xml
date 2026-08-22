@@ -1127,4 +1127,6 @@
 <string name="cache_import_cleared_toast">Wyczyszczono oznaczenia filmów, których nie ma na tym urządzeniu</string>
 <string name="refresh">Odśwież</string>
 <string name="feed_refresh_progress">Odświeżanie subskrypcji: %s</string>
+<string name="portrait_outside_fullscreen_title">Trzymaj aplikację w pionie</string>
+<string name="portrait_outside_fullscreen_summary">Pokazuj listy, stronę filmu i ustawienia w pionie niezależnie od tego, jak trzymane jest urządzenie. Tylko odtwarzanie pełnoekranowe obraca się w poziom</string>
 </resources>

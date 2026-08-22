@@ -1070,4 +1070,6 @@
 <string name="cache_import_cleared_toast">この端末にない動画の印を消去しました</string>
 <string name="refresh">更新</string>
 <string name="feed_refresh_progress">フィードを更新中: %s</string>
+<string name="portrait_outside_fullscreen_title">アプリを縦向きのままにする</string>
+<string name="portrait_outside_fullscreen_summary">端末の向きにかかわらず、一覧・動画ページ・設定を縦向きで表示します。横向きになるのは全画面再生のときだけです</string>
 </resources>

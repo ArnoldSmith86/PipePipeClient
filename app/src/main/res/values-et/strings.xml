@@ -710,4 +710,6 @@
 <string name="cache_import_cleared_toast">Kustutati märked videotelt, mida pole selles seadmes</string>
 <string name="refresh">Värskenda</string>
 <string name="feed_refresh_progress">Voo värskendamine: %s</string>
+<string name="portrait_outside_fullscreen_title">Hoia rakendus püstpaigutuses</string>
+<string name="portrait_outside_fullscreen_summary">Näita loendeid, video lehte ja seadeid püstpaigutuses, ükskõik kuidas seadet hoitakse. Ainult täisekraanil esitamine pöördub rõhtpaigutusse</string>
 </resources>

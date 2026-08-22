@@ -373,4 +373,6 @@
 <string name="cache_import_cleared_toast">இந்தச் சாதனத்தில் இல்லாத வீடியோக்களின் குறியீடுகள் அழிக்கப்பட்டன</string>
 <string name="refresh">புதுப்பி</string>
 <string name="feed_refresh_progress">ஊட்டம் புதுப்பிக்கப்படுகிறது: %s</string>
+<string name="portrait_outside_fullscreen_title">செயலியை நெடுக்கமாக வைத்திரு</string>
+<string name="portrait_outside_fullscreen_summary">சாதனத்தை எப்படிப் பிடித்தாலும் பட்டியல்கள், வீடியோப் பக்கம் மற்றும் அமைப்புகளை நெடுக்கமாகக் காட்டு. முழுத்திரை இயக்கம் மட்டுமே கிடைமட்டமாகத் திரும்பும்</string>
 </resources>

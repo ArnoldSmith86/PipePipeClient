@@ -494,4 +494,6 @@
 <string name="cache_import_cleared_toast">Знятыя пазнакі відэа, якіх няма на гэтай прыладзе</string>
 <string name="refresh">Абнавіць</string>
 <string name="feed_refresh_progress">Абнаўленне стужкі: %s</string>
+<string name="portrait_outside_fullscreen_title">Трымаць праграму ў партрэтнай арыентацыі</string>
+<string name="portrait_outside_fullscreen_summary">Паказваць спісы, старонку відэа і налады вертыкальна, як бы ні трымалі прыладу. Толькі поўнаэкраннае прайграванне паварочваецца гарызантальна</string>
 </resources>

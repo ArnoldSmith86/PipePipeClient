@@ -687,4 +687,6 @@
 <string name="cache_import_cleared_toast">Törölve azon videók jelölései, amelyek nincsenek ezen az eszközön</string>
 <string name="refresh">Frissítés</string>
 <string name="feed_refresh_progress">Hírfolyam frissítése: %s</string>
+<string name="portrait_outside_fullscreen_title">Az alkalmazás álló módban tartása</string>
+<string name="portrait_outside_fullscreen_summary">A listák, a videó oldala és a beállítások álló módban jelenjenek meg, bárhogy is tartod az eszközt. Csak a teljes képernyős lejátszás fordul fekvőbe</string>
 </resources>

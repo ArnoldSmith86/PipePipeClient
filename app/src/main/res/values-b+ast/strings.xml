@@ -580,4 +580,6 @@
 <string name="cache_import_cleared_toast">Llimpiáronse les marques de los videos que nun tán nesti preséu</string>
 <string name="refresh">Anovar</string>
 <string name="feed_refresh_progress">Anovando\'l fluxu: %s</string>
+<string name="portrait_outside_fullscreen_title">Caltener l\'aplicación en vertical</string>
+<string name="portrait_outside_fullscreen_summary">Amosar les llistes, la páxina del videu y los axustes en vertical, seya como seya que se sostenga\'l preséu. Namás la reproducción a pantalla completa gira a horizontal</string>
 </resources>

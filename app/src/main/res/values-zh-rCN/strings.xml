@@ -1111,4 +1111,6 @@
 <string name="cache_import_cleared_toast">已清除不在本设备上的视频的缓存标记</string>
 <string name="refresh">刷新</string>
 <string name="feed_refresh_progress">正在刷新订阅：%s</string>
+<string name="portrait_outside_fullscreen_title">保持应用竖屏</string>
+<string name="portrait_outside_fullscreen_summary">无论设备如何握持，列表、视频页面和设置都以竖屏显示。只有全屏播放才会转为横屏</string>
 </resources>

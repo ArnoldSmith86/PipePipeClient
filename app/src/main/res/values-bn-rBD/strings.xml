@@ -369,4 +369,6 @@
 <string name="cache_import_cleared_toast">এই যন্ত্রে নেই এমন ভিডিওর চিহ্ন মুছে ফেলা হয়েছে</string>
 <string name="refresh">রিফ্রেশ</string>
 <string name="feed_refresh_progress">ফিড রিফ্রেশ হচ্ছে: %s</string>
+<string name="portrait_outside_fullscreen_title">অ্যাপ খাড়াভাবে রাখুন</string>
+<string name="portrait_outside_fullscreen_summary">যন্ত্র যেভাবেই ধরা হোক, তালিকা, ভিডিওর পাতা ও সেটিংস খাড়াভাবে দেখান। শুধু পূর্ণ পর্দায় চালানোর সময়ই আড়াআড়ি হয়</string>
 </resources>

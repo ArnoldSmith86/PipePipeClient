@@ -561,4 +561,6 @@
 <string name="cache_import_cleared_toast">Forviŝitaj la markoj de la videoj kiuj ne estas en ĉi tiu aparato</string>
 <string name="refresh">Aktualigi</string>
 <string name="feed_refresh_progress">Aktualigo de la fluo: %s</string>
+<string name="portrait_outside_fullscreen_title">Teni la aplikaĵon vertikala</string>
+<string name="portrait_outside_fullscreen_summary">Montri listojn, la videopaĝon kaj la agordojn vertikale, negrave kiel oni tenas la aparaton. Nur plenekrana ludado turniĝas horizontale</string>
 </resources>

@@ -306,4 +306,6 @@
 <string name="cache_import_cleared_toast">Bu cihazda olmayan videoların işarələri təmizləndi</string>
 <string name="refresh">Yenilə</string>
 <string name="feed_refresh_progress">Axın yenilənir: %s</string>
+<string name="portrait_outside_fullscreen_title">Tətbiqi şaquli saxla</string>
+<string name="portrait_outside_fullscreen_summary">Cihaz necə tutulursa tutulsun siyahıları, video səhifəsini və ayarları şaquli göstər. Yalnız tam ekran oxutma üfüqi dönür</string>
 </resources>

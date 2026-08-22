@@ -710,4 +710,6 @@
 <string name="cache_import_cleared_toast">Rensade markeringarna för videor som inte finns på den här enheten</string>
 <string name="refresh">Uppdatera</string>
 <string name="feed_refresh_progress">Uppdaterar flödet: %s</string>
+<string name="portrait_outside_fullscreen_title">Håll appen i stående läge</string>
+<string name="portrait_outside_fullscreen_summary">Visa listor, videosidan och inställningarna i stående läge oavsett hur enheten hålls. Endast helskärmsuppspelning vrids till liggande</string>
 </resources>

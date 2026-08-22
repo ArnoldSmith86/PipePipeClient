@@ -212,4 +212,6 @@
 <string name="cache_import_cleared_toast">Ttwakksent timatarin n isiten ur nelli deg umssuds-ad</string>
 <string name="refresh">Smaynu</string>
 <string name="feed_refresh_progress">Asmaynu n usagem: %s</string>
+<string name="portrait_outside_fullscreen_title">Eǧǧ asnas ibedd</string>
+<string name="portrait_outside_fullscreen_summary">Sken tilgamin, asebter n usit d tsɣal ibedden, mamek d itwaṭṭef umssuds. War urar s ugdil ameqqran i itzzin s tama</string>
 </resources>

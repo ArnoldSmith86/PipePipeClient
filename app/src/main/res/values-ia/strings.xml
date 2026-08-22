@@ -258,4 +258,6 @@
 <string name="cache_import_cleared_toast">Marcas efface del videos que non es in iste apparato</string>
 <string name="refresh">Actualisar</string>
 <string name="feed_refresh_progress">Actualisante le fluxo: %s</string>
+<string name="portrait_outside_fullscreen_title">Mantener le application in vertical</string>
+<string name="portrait_outside_fullscreen_summary">Monstrar le listas, le pagina del video e le configurationes in vertical, non importa como on tene le apparato. Solo le reproduction a schermo plen rota a horizontal</string>
 </resources>

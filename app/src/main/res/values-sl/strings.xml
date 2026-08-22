@@ -472,4 +472,6 @@
 <string name="cache_import_cleared_toast">Počiščene so oznake videoposnetkov, ki jih ni v tej napravi</string>
 <string name="refresh">Osveži</string>
 <string name="feed_refresh_progress">Osveževanje vira: %s</string>
+<string name="portrait_outside_fullscreen_title">Ohrani aplikacijo pokončno</string>
+<string name="portrait_outside_fullscreen_summary">Prikaži sezname, stran videoposnetka in nastavitve pokončno, ne glede na to, kako je naprava obrnjena. Samo predvajanje čez cel zaslon se obrne ležeče</string>
 </resources>

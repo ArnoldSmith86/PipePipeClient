@@ -736,4 +736,6 @@
 <string name="cache_import_cleared_toast">נמחקו הסימונים של סרטונים שאינם במכשיר הזה</string>
 <string name="refresh">רענון</string>
 <string name="feed_refresh_progress">מרענן את הפיד: %s</string>
+<string name="portrait_outside_fullscreen_title">להשאיר את האפליקציה לאורך</string>
+<string name="portrait_outside_fullscreen_summary">להציג רשימות, את דף הסרטון ואת ההגדרות לאורך, לא משנה איך מחזיקים את המכשיר. רק נגינה במסך מלא מסתובבת לרוחב</string>
 </resources>

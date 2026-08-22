@@ -539,4 +539,6 @@
 <string name="cache_import_cleared_toast">이 기기에 없는 동영상의 표시를 지웠습니다</string>
 <string name="refresh">새로 고침</string>
 <string name="feed_refresh_progress">피드 새로 고치는 중: %s</string>
+<string name="portrait_outside_fullscreen_title">앱을 세로 방향으로 유지</string>
+<string name="portrait_outside_fullscreen_summary">기기를 어떻게 들든 목록, 동영상 페이지, 설정을 세로로 표시합니다. 전체 화면 재생만 가로로 돌아갑니다</string>
 </resources>

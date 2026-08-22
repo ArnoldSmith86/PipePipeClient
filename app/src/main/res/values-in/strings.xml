@@ -697,4 +697,6 @@
 <string name="cache_import_cleared_toast">Tanda video yang tidak ada di perangkat ini telah dihapus</string>
 <string name="refresh">Segarkan</string>
 <string name="feed_refresh_progress">Menyegarkan umpan: %s</string>
+<string name="portrait_outside_fullscreen_title">Jaga aplikasi tetap tegak</string>
+<string name="portrait_outside_fullscreen_summary">Tampilkan daftar, halaman video, dan pengaturan secara tegak, bagaimanapun perangkat dipegang. Hanya pemutaran layar penuh yang berputar ke mendatar</string>
 </resources>

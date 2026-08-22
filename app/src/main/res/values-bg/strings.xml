@@ -561,4 +561,6 @@
 <string name="cache_import_cleared_toast">Изчистени са отметките на видеата, които не са на това устройство</string>
 <string name="refresh">Опресняване</string>
 <string name="feed_refresh_progress">Потокът се опреснява: %s</string>
+<string name="portrait_outside_fullscreen_title">Задържане на приложението в портретен режим</string>
+<string name="portrait_outside_fullscreen_summary">Показване на списъците, страницата на видеото и настройките вертикално, независимо как е държано устройството. Само възпроизвеждането на цял екран се завърта хоризонтално</string>
 </resources>

@@ -1103,4 +1103,6 @@
 <string name="cache_import_cleared_toast">Se han borrado las marcas de los vídeos que no están en este dispositivo</string>
 <string name="refresh">Actualizar</string>
 <string name="feed_refresh_progress">Actualizando la suscripción: %s</string>
+<string name="portrait_outside_fullscreen_title">Mantener la aplicación en vertical</string>
+<string name="portrait_outside_fullscreen_summary">Mostrar las listas, la página del vídeo y los ajustes en vertical sin importar cómo se sostenga el dispositivo. Solo la reproducción a pantalla completa gira a horizontal</string>
 </resources>

@@ -1064,4 +1064,6 @@ Voulez-vous continuer?</string>
 <string name="cache_import_cleared_toast">Marques effacées des vidéos qui ne sont pas sur cet appareil</string>
 <string name="refresh">Actualiser</string>
 <string name="feed_refresh_progress">Actualisation du flux : %s</string>
+<string name="portrait_outside_fullscreen_title">Garder l\'application en portrait</string>
+<string name="portrait_outside_fullscreen_summary">Afficher les listes, la page de la vidéo et les paramètres en portrait quelle que soit l\'orientation de l\'appareil. Seule la lecture en plein écran passe en paysage</string>
 </resources>

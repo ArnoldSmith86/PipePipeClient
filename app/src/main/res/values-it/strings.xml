@@ -1041,4 +1041,6 @@
 <string name="cache_import_cleared_toast">Cancellati i contrassegni dei video che non sono su questo dispositivo</string>
 <string name="refresh">Aggiorna</string>
 <string name="feed_refresh_progress">Aggiornamento del feed: %s</string>
+<string name="portrait_outside_fullscreen_title">Mantieni l\'app in verticale</string>
+<string name="portrait_outside_fullscreen_summary">Mostra gli elenchi, la pagina del video e le impostazioni in verticale, comunque sia tenuto il dispositivo. Solo la riproduzione a schermo intero ruota in orizzontale</string>
 </resources>

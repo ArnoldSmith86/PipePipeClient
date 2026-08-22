@@ -649,4 +649,6 @@
 <string name="cache_import_cleared_toast">U pastruan shënimet e videove që nuk janë në këtë pajisje</string>
 <string name="refresh">Rifresko</string>
 <string name="feed_refresh_progress">Po rifreskohet burimi: %s</string>
+<string name="portrait_outside_fullscreen_title">Mbaje aplikacionin vertikalisht</string>
+<string name="portrait_outside_fullscreen_summary">Shfaq listat, faqen e videos dhe cilësimet vertikalisht, pavarësisht si mbahet pajisja. Vetëm luajtja në ekran të plotë kthehet horizontalisht</string>
 </resources>

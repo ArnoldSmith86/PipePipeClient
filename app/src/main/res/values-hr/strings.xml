@@ -714,4 +714,6 @@
 <string name="cache_import_cleared_toast">Izbrisane su oznake videozapisa koji nisu na ovom uređaju</string>
 <string name="refresh">Osvježi</string>
 <string name="feed_refresh_progress">Osvježavanje kanala: %s</string>
+<string name="portrait_outside_fullscreen_title">Zadrži aplikaciju u okomitom položaju</string>
+<string name="portrait_outside_fullscreen_summary">Prikazuj popise, stranicu videozapisa i postavke okomito, bez obzira na to kako se uređaj drži. Samo reprodukcija preko cijelog zaslona okreće se vodoravno</string>
 </resources>

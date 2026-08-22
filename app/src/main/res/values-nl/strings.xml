@@ -689,4 +689,6 @@
 <string name="cache_import_cleared_toast">Markeringen gewist van video\'s die niet op dit apparaat staan</string>
 <string name="refresh">Vernieuwen</string>
 <string name="feed_refresh_progress">Feed vernieuwen: %s</string>
+<string name="portrait_outside_fullscreen_title">App in staande stand houden</string>
+<string name="portrait_outside_fullscreen_summary">Lijsten, de videopagina en de instellingen in staande stand tonen, hoe je het apparaat ook houdt. Alleen video op volledig scherm draait naar liggend</string>
 </resources>

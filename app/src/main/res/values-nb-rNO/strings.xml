@@ -684,4 +684,6 @@
 <string name="cache_import_cleared_toast">Fjernet merkene for videoer som ikke finnes på denne enheten</string>
 <string name="refresh">Oppdater</string>
 <string name="feed_refresh_progress">Oppdaterer strømmen: %s</string>
+<string name="portrait_outside_fullscreen_title">Hold appen i stående format</string>
+<string name="portrait_outside_fullscreen_summary">Vis lister, videosiden og innstillingene i stående format uansett hvordan enheten holdes. Bare fullskjermavspilling snur til liggende</string>
 </resources>

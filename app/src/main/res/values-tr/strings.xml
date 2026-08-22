@@ -1053,4 +1053,6 @@
 <string name="cache_import_cleared_toast">Bu cihazda olmayan videoların işaretleri temizlendi</string>
 <string name="refresh">Yenile</string>
 <string name="feed_refresh_progress">Akış yenileniyor: %s</string>
+<string name="portrait_outside_fullscreen_title">Uygulamayı dikey tut</string>
+<string name="portrait_outside_fullscreen_summary">Cihaz nasıl tutulursa tutulsun listeleri, video sayfasını ve ayarları dikey göster. Yalnızca tam ekran oynatma yatay döner</string>
 </resources>

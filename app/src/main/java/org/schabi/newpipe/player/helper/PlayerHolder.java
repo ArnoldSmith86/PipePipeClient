@@ -72,6 +72,14 @@ public final class PlayerHolder {
     }
 
     /**
+     * Whether a video is currently being shown fullscreen. Callers that pin the activity's
+     * orientation need this so they do not pull a fullscreen video out of landscape.
+     */
+    public boolean isFullscreen() {
+        return player != null && player.isFullscreen();
+    }
+
+    /**
      * Use this method to only allow the user to manipulate the play queue (e.g. by enqueueing via
      * the stream long press menu) when there actually is a play queue to manipulate.
      * @return true only if the player is open and its play queue is ready (i.e. it is not null)

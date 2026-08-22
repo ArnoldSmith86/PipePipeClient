@@ -683,4 +683,6 @@
 <string name="cache_import_cleared_toast">Notīrītas to video atzīmes, kuru nav šajā ierīcē</string>
 <string name="refresh">Atsvaidzināt</string>
 <string name="feed_refresh_progress">Atsvaidzina plūsmu: %s</string>
+<string name="portrait_outside_fullscreen_title">Paturēt lietotni portreta režīmā</string>
+<string name="portrait_outside_fullscreen_summary">Rādīt sarakstus, video lapu un iestatījumus portreta režīmā neatkarīgi no tā, kā ierīce tiek turēta. Tikai atskaņošana pilnekrāna režīmā pagriežas ainavas režīmā</string>
 </resources>

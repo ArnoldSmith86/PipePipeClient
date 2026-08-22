@@ -727,4 +727,6 @@
 <string name="cache_import_cleared_toast">Знято позначки відео, яких немає на цьому пристрої</string>
 <string name="refresh">Оновити</string>
 <string name="feed_refresh_progress">Оновлення стрічки: %s</string>
+<string name="portrait_outside_fullscreen_title">Тримати застосунок у портретній орієнтації</string>
+<string name="portrait_outside_fullscreen_summary">Показувати списки, сторінку відео та налаштування вертикально, хоч би як тримали пристрій. Лише повноекранне відтворення повертається горизонтально</string>
 </resources>

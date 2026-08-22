@@ -710,4 +710,6 @@
 <string name="cache_import_cleared_toast">علامت ویدئوهایی که روی این دستگاه نیستند پاک شد</string>
 <string name="refresh">نوسازی</string>
 <string name="feed_refresh_progress">در حال نوسازی خوراک: %s</string>
+<string name="portrait_outside_fullscreen_title">نگه داشتن برنامه در حالت عمودی</string>
+<string name="portrait_outside_fullscreen_summary">نمایش فهرست‌ها، صفحهٔ ویدئو و تنظیمات به‌صورت عمودی، هرطور که دستگاه نگه داشته شود. تنها پخش تمام‌صفحه به حالت افقی می‌چرخد</string>
 </resources>

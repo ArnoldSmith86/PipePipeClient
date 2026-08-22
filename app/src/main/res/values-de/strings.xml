@@ -1047,4 +1047,6 @@
 <string name="cache_import_cleared_toast">Markierungen von Videos entfernt, die nicht auf diesem Gerät sind</string>
 <string name="refresh">Aktualisieren</string>
 <string name="feed_refresh_progress">Feed wird aktualisiert: %s</string>
+<string name="portrait_outside_fullscreen_title">App im Hochformat halten</string>
+<string name="portrait_outside_fullscreen_summary">Listen, die Videoseite und die Einstellungen im Hochformat anzeigen, unabhängig davon, wie das Gerät gehalten wird. Nur die Vollbildwiedergabe wechselt ins Querformat</string>
 </resources>

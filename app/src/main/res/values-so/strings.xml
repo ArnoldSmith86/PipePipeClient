@@ -653,4 +653,6 @@
 <string name="cache_import_cleared_toast">Waa la tirtiray calaamadaha muuqaallada aan ku jirin qalabkan</string>
 <string name="refresh">Cusboonaysii</string>
 <string name="feed_refresh_progress">Waa la cusboonaysiinayaa xogta: %s</string>
+<string name="portrait_outside_fullscreen_title">Ku hay abka si toosan</string>
+<string name="portrait_outside_fullscreen_summary">Tus liisaska, bogga muuqaalka iyo goobaha si toosan, si kastaba ha loo qabto qalabka. Kaliya ciyaarista shaashadda buuxda ayaa u rogmata si jiifa</string>
 </resources>

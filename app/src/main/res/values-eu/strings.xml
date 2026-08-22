@@ -710,4 +710,6 @@
 <string name="cache_import_cleared_toast">Gailu honetan ez dauden bideoen markak garbitu dira</string>
 <string name="refresh">Freskatu</string>
 <string name="feed_refresh_progress">Jarioa freskatzen: %s</string>
+<string name="portrait_outside_fullscreen_title">Mantendu aplikazioa bertikalean</string>
+<string name="portrait_outside_fullscreen_summary">Erakutsi zerrendak, bideoaren orria eta ezarpenak bertikalean, gailua nola eutsita ere. Pantaila osoko erreprodukzioa soilik biratzen da horizontalera</string>
 </resources>

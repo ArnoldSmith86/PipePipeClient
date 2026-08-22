@@ -504,4 +504,6 @@
 <string name="cache_import_cleared_toast">ان ویڈیوز کے نشان مٹا دیے گئے جو اس آلے پر نہیں ہیں</string>
 <string name="refresh">تازہ کریں</string>
 <string name="feed_refresh_progress">فیڈ تازہ ہو رہی ہے: %s</string>
+<string name="portrait_outside_fullscreen_title">ایپ کو عمودی رکھیں</string>
+<string name="portrait_outside_fullscreen_summary">فہرستیں، ویڈیو کا صفحہ اور ترتیبات عمودی دکھائیں، چاہے آلہ جیسے بھی پکڑا جائے۔ صرف پوری سکرین پر چلنے والی ویڈیو افقی ہوتی ہے</string>
 </resources>

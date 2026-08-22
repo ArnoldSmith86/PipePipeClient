@@ -1156,4 +1156,6 @@ nSự khác biệt giữa hai loại này là cái nào nhanh thường thiếu 
 <string name="cache_import_cleared_toast">Đã xóa dấu của những video không có trên thiết bị này</string>
 <string name="refresh">Làm mới</string>
 <string name="feed_refresh_progress">Đang làm mới bảng tin: %s</string>
+<string name="portrait_outside_fullscreen_title">Giữ ứng dụng ở chế độ dọc</string>
+<string name="portrait_outside_fullscreen_summary">Hiển thị danh sách, trang video và cài đặt theo chiều dọc dù cầm thiết bị thế nào. Chỉ khi phát toàn màn hình mới xoay ngang</string>
 </resources>

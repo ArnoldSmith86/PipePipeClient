@@ -421,4 +421,6 @@
 <string name="cache_import_cleared_toast">Исчистени се ознаките на видеата што не се на овој уред</string>
 <string name="refresh">Освежи</string>
 <string name="feed_refresh_progress">Се освежува каналот: %s</string>
+<string name="portrait_outside_fullscreen_title">Задржи ја апликацијата во портретна ориентација</string>
+<string name="portrait_outside_fullscreen_summary">Прикажувај ги списоците, страницата на видеото и поставките вертикално, без разлика како се држи уредот. Само репродукцијата на цел екран се врти хоризонтално</string>
 </resources>

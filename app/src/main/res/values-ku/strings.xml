@@ -573,4 +573,6 @@
 <string name="cache_import_cleared_toast">Nîşanên vîdyoyên ku li ser vê amûrê nînin hatin paqijkirin</string>
 <string name="refresh">Nû bike</string>
 <string name="feed_refresh_progress">Weşan tê nûkirin: %s</string>
+<string name="portrait_outside_fullscreen_title">Sepanê stûnî bihêle</string>
+<string name="portrait_outside_fullscreen_summary">Lîsteyan, rûpela vîdyoyê û mîhengan stûnî nîşan bide, amûr çawa were girtin jî. Tenê lêxistina bi dîmendera tijî berbi berwarî ve dizivire</string>
 </resources>

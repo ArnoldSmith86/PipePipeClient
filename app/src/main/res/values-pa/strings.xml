@@ -620,4 +620,6 @@
 <string name="cache_import_cleared_toast">ਇਸ ਡਿਵਾਈਸ ਉੱਤੇ ਨਾ ਹੋਣ ਵਾਲੇ ਵੀਡੀਓ ਦੇ ਨਿਸ਼ਾਨ ਮਿਟਾਏ ਗਏ</string>
 <string name="refresh">ਤਾਜ਼ਾ ਕਰੋ</string>
 <string name="feed_refresh_progress">ਫੀਡ ਤਾਜ਼ੀ ਹੋ ਰਹੀ ਹੈ: %s</string>
+<string name="portrait_outside_fullscreen_title">ਐਪ ਨੂੰ ਖੜ੍ਹਾ ਰੱਖੋ</string>
+<string name="portrait_outside_fullscreen_summary">ਡਿਵਾਈਸ ਭਾਵੇਂ ਜਿਵੇਂ ਵੀ ਫੜਿਆ ਜਾਵੇ, ਸੂਚੀਆਂ, ਵੀਡੀਓ ਦਾ ਪੰਨਾ ਅਤੇ ਸੈਟਿੰਗਾਂ ਖੜ੍ਹੀਆਂ ਦਿਖਾਓ। ਸਿਰਫ਼ ਪੂਰੀ ਸਕ੍ਰੀਨ ਪਲੇਬੈਕ ਹੀ ਆੜਾ ਹੁੰਦਾ ਹੈ</string>
 </resources>

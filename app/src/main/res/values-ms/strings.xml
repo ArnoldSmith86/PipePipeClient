@@ -450,4 +450,6 @@
 <string name="cache_import_cleared_toast">Tanda video yang tiada pada peranti ini telah dikosongkan</string>
 <string name="refresh">Muat semula</string>
 <string name="feed_refresh_progress">Memuat semula suapan: %s</string>
+<string name="portrait_outside_fullscreen_title">Kekalkan aplikasi menegak</string>
+<string name="portrait_outside_fullscreen_summary">Tunjukkan senarai, halaman video dan tetapan secara menegak, walau bagaimana peranti dipegang. Hanya main balik skrin penuh berpusing melintang</string>
 </resources>

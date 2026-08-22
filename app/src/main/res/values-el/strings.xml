@@ -710,4 +710,6 @@
 <string name="cache_import_cleared_toast">Διαγράφηκαν οι σημάνσεις των βίντεο που δεν βρίσκονται σε αυτή τη συσκευή</string>
 <string name="refresh">Ανανέωση</string>
 <string name="feed_refresh_progress">Ανανέωση ροής: %s</string>
+<string name="portrait_outside_fullscreen_title">Διατήρηση της εφαρμογής σε κατακόρυφη προβολή</string>
+<string name="portrait_outside_fullscreen_summary">Εμφάνιση των λιστών, της σελίδας του βίντεο και των ρυθμίσεων σε κατακόρυφη προβολή, όπως και αν κρατιέται η συσκευή. Μόνο η αναπαραγωγή σε πλήρη οθόνη γυρίζει σε οριζόντια</string>
 </resources>
