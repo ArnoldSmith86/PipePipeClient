@@ -41,6 +41,7 @@ import org.schabi.newpipe.player.playqueue.PlayQueue;
 import org.schabi.newpipe.player.playqueue.SinglePlayQueue;
 import org.schabi.newpipe.settings.HistorySettingsFragment;
 import org.schabi.newpipe.util.NavigationHelper;
+import org.schabi.newpipe.util.StreamQuickActions;
 import org.schabi.newpipe.util.OnClickGesture;
 import org.schabi.newpipe.info_list.dialog.StreamDialogDefaultEntry;
 
@@ -174,6 +175,14 @@ public class StatisticsPlaylistFragment
             public void held(final LocalItem selectedItem) {
                 if (selectedItem instanceof StreamStatisticsEntry) {
                     showInfoItemDialog((StreamStatisticsEntry) selectedItem);
+                }
+            }
+
+            @Override
+            public void quickAction(final LocalItem selectedItem, final String actionName) {
+                if (selectedItem instanceof StreamStatisticsEntry) {
+                    StreamQuickActions.run(StatisticsPlaylistFragment.this,
+                            ((StreamStatisticsEntry) selectedItem).toStreamInfoItem(), actionName);
                 }
             }
         });

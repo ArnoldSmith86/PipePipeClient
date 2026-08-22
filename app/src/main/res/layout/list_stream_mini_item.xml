@@ -47,6 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_toEndOf="@+id/itemThumbnailView"
+        android:layout_toStartOf="@+id/itemQuickActions"
         android:layout_toRightOf="@+id/itemThumbnailView"
         android:ellipsize="end"
         android:maxLines="2"
@@ -60,6 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/itemVideoTitleView"
         android:layout_toEndOf="@+id/itemThumbnailView"
+        android:layout_toStartOf="@+id/itemQuickActions"
         android:layout_toRightOf="@+id/itemThumbnailView"
         android:lines="1"
         android:textAppearance="?android:attr/textAppearanceSmall"
@@ -76,5 +78,18 @@
         android:layout_alignEnd="@id/itemThumbnailView"
         android:layout_marginTop="-2dp"
         android:progressDrawable="?progress_horizontal_drawable" />
+
+
+    <LinearLayout
+        android:id="@+id/itemQuickActions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        tools:visibility="visible" />
 
 </RelativeLayout>

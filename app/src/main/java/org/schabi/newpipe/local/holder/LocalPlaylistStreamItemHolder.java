@@ -16,6 +16,7 @@ import org.schabi.newpipe.ktx.ViewUtils;
 import org.schabi.newpipe.local.LocalItemBuilder;
 import org.schabi.newpipe.local.history.HistoryRecordManager;
 import org.schabi.newpipe.util.PicassoHelper;
+import org.schabi.newpipe.util.StreamQuickActions;
 import org.schabi.newpipe.util.Localization;
 import org.schabi.newpipe.views.AnimatedProgressBar;
 
@@ -107,6 +108,12 @@ public class LocalPlaylistStreamItemHolder extends LocalItemHolder {
                 itemBuilder.getOnItemSelectedListener().held(item);
             }
             return true;
+        });
+
+        StreamQuickActions.bind(itemView.findViewById(R.id.itemQuickActions), actionName -> {
+            if (itemBuilder.getOnItemSelectedListener() != null) {
+                itemBuilder.getOnItemSelectedListener().quickAction(item, actionName);
+            }
         });
 
         itemHandleView.setOnTouchListener(getOnTouchListener(item));
