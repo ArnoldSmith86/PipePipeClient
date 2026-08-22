@@ -1110,4 +1110,5 @@
 <string name="cache_import_recaching_toast">正在重新缓存缺失的视频以便离线观看</string>
 <string name="cache_import_cleared_toast">已清除不在本设备上的视频的缓存标记</string>
 <string name="refresh">刷新</string>
+<string name="feed_refresh_progress">正在刷新订阅：%s</string>
 </resources>

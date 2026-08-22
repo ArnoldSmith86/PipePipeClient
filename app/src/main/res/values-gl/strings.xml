@@ -688,4 +688,5 @@
 <string name="cache_import_recaching_toast">Os vídeos que faltan estanse a gardar de novo para velos sen conexión</string>
 <string name="cache_import_cleared_toast">Borráronse as marcas dos vídeos que non están neste dispositivo</string>
 <string name="refresh">Actualizar</string>
+<string name="feed_refresh_progress">Actualizando a fonte: %s</string>
 </resources>

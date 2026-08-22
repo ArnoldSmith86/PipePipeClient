@@ -709,4 +709,5 @@
 <string name="cache_import_recaching_toast">ویدئوهای نبوده دوباره برای تماشای آفلاین ذخیره می‌شوند</string>
 <string name="cache_import_cleared_toast">علامت ویدئوهایی که روی این دستگاه نیستند پاک شد</string>
 <string name="refresh">نوسازی</string>
+<string name="feed_refresh_progress">در حال نوسازی خوراک: %s</string>
 </resources>

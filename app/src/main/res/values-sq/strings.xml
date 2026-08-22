@@ -648,4 +648,5 @@
 <string name="cache_import_recaching_toast">Videot që mungojnë po ruhen sërish për shikim offline</string>
 <string name="cache_import_cleared_toast">U pastruan shënimet e videove që nuk janë në këtë pajisje</string>
 <string name="refresh">Rifresko</string>
+<string name="feed_refresh_progress">Po rifreskohet burimi: %s</string>
 </resources>

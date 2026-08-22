@@ -685,4 +685,5 @@
 <string name="cache_import_recaching_toast">ڤیدیۆ نەماوەکان دووبارە بۆ بینینی دەرهێڵ پاشەکەوت دەکرێن</string>
 <string name="cache_import_cleared_toast">نیشانەی ئەو ڤیدیۆیانە سڕانەوە کە لەسەر ئەم ئامێرە نین</string>
 <string name="refresh">نوێکردنەوە</string>
+<string name="feed_refresh_progress">لێشاو نوێ دەکرێتەوە: %s</string>
 </resources>

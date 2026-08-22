@@ -698,4 +698,5 @@
 <string name="cache_import_recaching_toast">Trūkstami vaizdo įrašai įrašomi iš naujo žiūrėjimui neprisijungus</string>
 <string name="cache_import_cleared_toast">Išvalytos žymos vaizdo įrašų, kurių šiame įrenginyje nėra</string>
 <string name="refresh">Atnaujinti</string>
+<string name="feed_refresh_progress">Atnaujinamas srautas: %s</string>
 </resources>

@@ -1040,4 +1040,5 @@
 <string name="cache_import_recaching_toast">I video mancanti vengono salvati di nuovo per la visione offline</string>
 <string name="cache_import_cleared_toast">Cancellati i contrassegni dei video che non sono su questo dispositivo</string>
 <string name="refresh">Aggiorna</string>
+<string name="feed_refresh_progress">Aggiornamento del feed: %s</string>
 </resources>

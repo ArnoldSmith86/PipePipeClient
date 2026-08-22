@@ -619,4 +619,5 @@
 <string name="cache_import_recaching_toast">ਗੁੰਮ ਵੀਡੀਓ ਆਫ਼ਲਾਈਨ ਦੇਖਣ ਲਈ ਦੁਬਾਰਾ ਸੰਭਾਲੇ ਜਾ ਰਹੇ ਹਨ</string>
 <string name="cache_import_cleared_toast">ਇਸ ਡਿਵਾਈਸ ਉੱਤੇ ਨਾ ਹੋਣ ਵਾਲੇ ਵੀਡੀਓ ਦੇ ਨਿਸ਼ਾਨ ਮਿਟਾਏ ਗਏ</string>
 <string name="refresh">ਤਾਜ਼ਾ ਕਰੋ</string>
+<string name="feed_refresh_progress">ਫੀਡ ਤਾਜ਼ੀ ਹੋ ਰਹੀ ਹੈ: %s</string>
 </resources>

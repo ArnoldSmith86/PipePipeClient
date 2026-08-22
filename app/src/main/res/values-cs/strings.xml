@@ -700,4 +700,5 @@
 <string name="cache_import_recaching_toast">Chybějící videa se znovu ukládají pro sledování offline</string>
 <string name="cache_import_cleared_toast">Vymazána označení videí, která v tomto zařízení nejsou</string>
 <string name="refresh">Obnovit</string>
+<string name="feed_refresh_progress">Obnovování kanálu: %s</string>
 </resources>

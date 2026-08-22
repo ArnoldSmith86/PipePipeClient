@@ -372,4 +372,5 @@
 <string name="cache_import_recaching_toast">இல்லாத வீடியோக்கள் ஆஃப்லைனில் பார்க்க மீண்டும் சேமிக்கப்படுகின்றன</string>
 <string name="cache_import_cleared_toast">இந்தச் சாதனத்தில் இல்லாத வீடியோக்களின் குறியீடுகள் அழிக்கப்பட்டன</string>
 <string name="refresh">புதுப்பி</string>
+<string name="feed_refresh_progress">ஊட்டம் புதுப்பிக்கப்படுகிறது: %s</string>
 </resources>

@@ -692,4 +692,5 @@
 <string name="cache_import_recaching_toast">Videoclipurile lipsă sunt salvate din nou pentru vizionare offline</string>
 <string name="cache_import_cleared_toast">Au fost șterse marcajele videoclipurilor care nu sunt pe acest dispozitiv</string>
 <string name="refresh">Reîmprospătează</string>
+<string name="feed_refresh_progress">Se reîmprospătează fluxul: %s</string>
 </resources>

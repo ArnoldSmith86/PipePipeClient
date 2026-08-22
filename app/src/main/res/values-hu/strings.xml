@@ -686,4 +686,5 @@
 <string name="cache_import_recaching_toast">A hiányzó videók újra mentése offline megtekintéshez</string>
 <string name="cache_import_cleared_toast">Törölve azon videók jelölései, amelyek nincsenek ezen az eszközön</string>
 <string name="refresh">Frissítés</string>
+<string name="feed_refresh_progress">Hírfolyam frissítése: %s</string>
 </resources>

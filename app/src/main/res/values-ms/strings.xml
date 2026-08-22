@@ -449,4 +449,5 @@
 <string name="cache_import_recaching_toast">Video yang hilang sedang disimpan semula untuk tontonan luar talian</string>
 <string name="cache_import_cleared_toast">Tanda video yang tiada pada peranti ini telah dikosongkan</string>
 <string name="refresh">Muat semula</string>
+<string name="feed_refresh_progress">Memuat semula suapan: %s</string>
 </resources>

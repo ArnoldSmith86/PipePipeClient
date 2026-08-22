@@ -257,4 +257,5 @@
 <string name="cache_import_recaching_toast">Le videos mancante es salveguardate de novo pro reguardar foris de linea</string>
 <string name="cache_import_cleared_toast">Marcas efface del videos que non es in iste apparato</string>
 <string name="refresh">Actualisar</string>
+<string name="feed_refresh_progress">Actualisante le fluxo: %s</string>
 </resources>

@@ -1069,4 +1069,5 @@
 <string name="cache_import_recaching_toast">見つからない動画をオフライン視聴用に保存し直しています</string>
 <string name="cache_import_cleared_toast">この端末にない動画の印を消去しました</string>
 <string name="refresh">更新</string>
+<string name="feed_refresh_progress">フィードを更新中: %s</string>
 </resources>

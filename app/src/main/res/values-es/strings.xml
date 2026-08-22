@@ -1102,4 +1102,5 @@
 <string name="cache_import_recaching_toast">Los vídeos que faltan se están guardando de nuevo para verlos sin conexión</string>
 <string name="cache_import_cleared_toast">Se han borrado las marcas de los vídeos que no están en este dispositivo</string>
 <string name="refresh">Actualizar</string>
+<string name="feed_refresh_progress">Actualizando la suscripción: %s</string>
 </resources>

@@ -655,4 +655,5 @@
 <string name="cache_import_recaching_toast">കാണാനില്ലാത്ത വീഡിയോകൾ ഓഫ്‌ലൈനായി കാണാൻ വീണ്ടും സൂക്ഷിക്കുന്നു</string>
 <string name="cache_import_cleared_toast">ഈ ഉപകരണത്തിലില്ലാത്ത വീഡിയോകളുടെ അടയാളങ്ങൾ മായ്ച്ചു</string>
 <string name="refresh">പുതുക്കുക</string>
+<string name="feed_refresh_progress">ഫീഡ് പുതുക്കുന്നു: %s</string>
 </resources>

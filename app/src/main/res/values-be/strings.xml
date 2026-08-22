@@ -493,4 +493,5 @@
 <string name="cache_import_recaching_toast">Адсутныя відэа захоўваюцца зноў для прагляду па-за сеткай</string>
 <string name="cache_import_cleared_toast">Знятыя пазнакі відэа, якіх няма на гэтай прыладзе</string>
 <string name="refresh">Абнавіць</string>
+<string name="feed_refresh_progress">Абнаўленне стужкі: %s</string>
 </resources>

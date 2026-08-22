@@ -573,4 +573,5 @@
 <string name="cache_import_recaching_toast">Yetishmayotgan videolar oflayn ko\'rish uchun qaytadan saqlanmoqda</string>
 <string name="cache_import_cleared_toast">Bu qurilmada bo\'lmagan videolarning belgilari tozalandi</string>
 <string name="refresh">Yangilash</string>
+<string name="feed_refresh_progress">Oqim yangilanmoqda: %s</string>
 </resources>

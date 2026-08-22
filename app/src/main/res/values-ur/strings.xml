@@ -503,4 +503,5 @@
 <string name="cache_import_recaching_toast">غائب ویڈیوز آف لائن دیکھنے کے لیے دوبارہ محفوظ کی جا رہی ہیں</string>
 <string name="cache_import_cleared_toast">ان ویڈیوز کے نشان مٹا دیے گئے جو اس آلے پر نہیں ہیں</string>
 <string name="refresh">تازہ کریں</string>
+<string name="feed_refresh_progress">فیڈ تازہ ہو رہی ہے: %s</string>
 </resources>

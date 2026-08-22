@@ -1063,4 +1063,5 @@ Voulez-vous continuer?</string>
 <string name="cache_import_recaching_toast">Les vidéos manquantes sont de nouveau enregistrées pour le visionnage hors ligne</string>
 <string name="cache_import_cleared_toast">Marques effacées des vidéos qui ne sont pas sur cet appareil</string>
 <string name="refresh">Actualiser</string>
+<string name="feed_refresh_progress">Actualisation du flux : %s</string>
 </resources>

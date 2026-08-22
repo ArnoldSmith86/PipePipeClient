@@ -1100,4 +1100,5 @@
 <string name="cache_import_recaching_toast">正在重新快取遺失的影片以便離線觀看</string>
 <string name="cache_import_cleared_toast">已清除不在本裝置上的影片的快取標記</string>
 <string name="refresh">重新整理</string>
+<string name="feed_refresh_progress">正在重新整理訂閱：%s</string>
 </resources>

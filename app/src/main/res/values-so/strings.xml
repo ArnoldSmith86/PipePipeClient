@@ -652,4 +652,5 @@
 <string name="cache_import_recaching_toast">Muuqaallada maqan ayaa mar kale loo kaydinayaa daawasho offline</string>
 <string name="cache_import_cleared_toast">Waa la tirtiray calaamadaha muuqaallada aan ku jirin qalabkan</string>
 <string name="refresh">Cusboonaysii</string>
+<string name="feed_refresh_progress">Waa la cusboonaysiinayaa xogta: %s</string>
 </resources>

@@ -222,4 +222,5 @@
 <string name="cache_import_recaching_toast">Sini-save muli ang mga nawawalang video para mapanood offline</string>
 <string name="cache_import_cleared_toast">Nabura ang marka ng mga video na wala sa device na ito</string>
 <string name="refresh">I-refresh</string>
+<string name="feed_refresh_progress">Nire-refresh ang feed: %s</string>
 </resources>

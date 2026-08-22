@@ -471,4 +471,5 @@
 <string name="cache_import_recaching_toast">Manjkajoči videoposnetki se znova shranjujejo za ogled brez povezave</string>
 <string name="cache_import_cleared_toast">Počiščene so oznake videoposnetkov, ki jih ni v tej napravi</string>
 <string name="refresh">Osveži</string>
+<string name="feed_refresh_progress">Osveževanje vira: %s</string>
 </resources>

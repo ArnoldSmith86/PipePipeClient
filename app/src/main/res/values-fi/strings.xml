@@ -686,4 +686,5 @@
 <string name="cache_import_recaching_toast">Puuttuvat videot tallennetaan uudelleen offline-katselua varten</string>
 <string name="cache_import_cleared_toast">Tyhjennettiin niiden videoiden merkinnät, joita ei ole tällä laitteella</string>
 <string name="refresh">Päivitä</string>
+<string name="feed_refresh_progress">Päivitetään syötettä: %s</string>
 </resources>

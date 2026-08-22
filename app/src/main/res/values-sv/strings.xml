@@ -709,4 +709,5 @@
 <string name="cache_import_recaching_toast">De saknade videorna sparas igen för offlinevisning</string>
 <string name="cache_import_cleared_toast">Rensade markeringarna för videor som inte finns på den här enheten</string>
 <string name="refresh">Uppdatera</string>
+<string name="feed_refresh_progress">Uppdaterar flödet: %s</string>
 </resources>

@@ -686,4 +686,5 @@
 <string name="cache_import_recaching_toast">Els vídeos que falten es tornen a desar per veure\'ls fora de línia</string>
 <string name="cache_import_cleared_toast">S\'han esborrat les marques dels vídeos que no són en aquest dispositiu</string>
 <string name="refresh">Actualitza</string>
+<string name="feed_refresh_progress">S\'està actualitzant el canal: %s</string>
 </resources>

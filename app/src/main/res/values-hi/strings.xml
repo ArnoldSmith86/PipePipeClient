@@ -561,4 +561,5 @@
 <string name="cache_import_recaching_toast">गायब वीडियो ऑफ़लाइन देखने के लिए दोबारा सहेजे जा रहे हैं</string>
 <string name="cache_import_cleared_toast">उन वीडियो के निशान मिटा दिए गए जो इस डिवाइस पर नहीं हैं</string>
 <string name="refresh">ताज़ा करें</string>
+<string name="feed_refresh_progress">फ़ीड ताज़ा हो रही है: %s</string>
 </resources>

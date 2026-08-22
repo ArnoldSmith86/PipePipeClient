@@ -683,4 +683,5 @@
 <string name="cache_import_recaching_toast">De manglende videoene lagres på nytt for offlinevisning</string>
 <string name="cache_import_cleared_toast">Fjernet merkene for videoer som ikke finnes på denne enheten</string>
 <string name="refresh">Oppdater</string>
+<string name="feed_refresh_progress">Oppdaterer strømmen: %s</string>
 </resources>

@@ -420,4 +420,5 @@
 <string name="cache_import_recaching_toast">Видеата што недостасуваат се зачувуваат повторно за гледање офлајн</string>
 <string name="cache_import_cleared_toast">Исчистени се ознаките на видеата што не се на овој уред</string>
 <string name="refresh">Освежи</string>
+<string name="feed_refresh_progress">Се освежува каналот: %s</string>
 </resources>

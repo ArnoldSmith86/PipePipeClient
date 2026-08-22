@@ -709,4 +709,5 @@
 <string name="cache_import_recaching_toast">Sos vídeos chi mancant si sunt sarvende torra pro los abbaidare foras de línia</string>
 <string name="cache_import_cleared_toast">Cantzelladas sas marcas de sos vídeos chi non sunt in custu dispositivu</string>
 <string name="refresh">Atualiza</string>
+<string name="feed_refresh_progress">Atualizende su flussu: %s</string>
 </resources>

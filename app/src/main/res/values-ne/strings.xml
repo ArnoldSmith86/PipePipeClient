@@ -556,4 +556,5 @@
 <string name="cache_import_recaching_toast">हराएका भिडियो अफलाइन हेर्नका लागि फेरि सुरक्षित गरिँदै छन्</string>
 <string name="cache_import_cleared_toast">यो यन्त्रमा नभएका भिडियोका चिन्हहरू मेटिए</string>
 <string name="refresh">ताजा गर्नुहोस्</string>
+<string name="feed_refresh_progress">फिड ताजा गर्दै: %s</string>
 </resources>

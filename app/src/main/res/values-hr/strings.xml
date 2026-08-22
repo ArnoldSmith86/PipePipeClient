@@ -713,4 +713,5 @@
 <string name="cache_import_recaching_toast">Videozapisi koji nedostaju ponovno se spremaju za gledanje izvan mreže</string>
 <string name="cache_import_cleared_toast">Izbrisane su oznake videozapisa koji nisu na ovom uređaju</string>
 <string name="refresh">Osvježi</string>
+<string name="feed_refresh_progress">Osvježavanje kanala: %s</string>
 </resources>

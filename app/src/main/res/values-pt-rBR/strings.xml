@@ -766,4 +766,5 @@
 <string name="cache_import_recaching_toast">Os vídeos que faltam estão sendo salvos novamente para assistir off-line</string>
 <string name="cache_import_cleared_toast">Apagadas as marcas dos vídeos que não estão neste dispositivo</string>
 <string name="refresh">Atualizar</string>
+<string name="feed_refresh_progress">Atualizando o feed: %s</string>
 </resources>

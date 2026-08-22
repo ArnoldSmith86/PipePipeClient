@@ -380,4 +380,5 @@
 <string name="cache_import_recaching_toast">กำลังบันทึกวิดีโอที่หายไปใหม่ไว้ดูแบบออฟไลน์</string>
 <string name="cache_import_cleared_toast">ล้างเครื่องหมายของวิดีโอที่ไม่อยู่ในอุปกรณ์นี้แล้ว</string>
 <string name="refresh">รีเฟรช</string>
+<string name="feed_refresh_progress">กำลังรีเฟรชฟีด: %s</string>
 </resources>

@@ -1155,4 +1155,5 @@ nSự khác biệt giữa hai loại này là cái nào nhanh thường thiếu 
 <string name="cache_import_recaching_toast">Đang lưu lại các video còn thiếu để xem ngoại tuyến</string>
 <string name="cache_import_cleared_toast">Đã xóa dấu của những video không có trên thiết bị này</string>
 <string name="refresh">Làm mới</string>
+<string name="feed_refresh_progress">Đang làm mới bảng tin: %s</string>
 </resources>

@@ -709,4 +709,5 @@
 <string name="cache_import_recaching_toast">Puuduvad videod salvestatakse uuesti võrguühenduseta vaatamiseks</string>
 <string name="cache_import_cleared_toast">Kustutati märked videotelt, mida pole selles seadmes</string>
 <string name="refresh">Värskenda</string>
+<string name="feed_refresh_progress">Voo värskendamine: %s</string>
 </resources>

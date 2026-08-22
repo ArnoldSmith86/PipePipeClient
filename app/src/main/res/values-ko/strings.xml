@@ -538,4 +538,5 @@
 <string name="cache_import_recaching_toast">없는 동영상을 오프라인 시청용으로 다시 저장하고 있습니다</string>
 <string name="cache_import_cleared_toast">이 기기에 없는 동영상의 표시를 지웠습니다</string>
 <string name="refresh">새로 고침</string>
+<string name="feed_refresh_progress">피드 새로 고치는 중: %s</string>
 </resources>
