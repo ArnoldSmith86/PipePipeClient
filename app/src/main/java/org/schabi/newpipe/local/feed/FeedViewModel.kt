@@ -40,6 +40,9 @@ class FeedViewModel(
     /** The refresh result that [FeedEventManager.reset] has already been called for. */
     private var resetEvent: FeedEventManager.Event? = null
 
+    /** The filter the last emitted list was built with, to spot the user changing it. */
+    private var lastFilter: Boolean? = null
+
     private val mutableStateLiveData = MutableLiveData<FeedState>()
     val stateLiveData: LiveData<FeedState> = mutableStateLiveData
 
@@ -69,7 +72,11 @@ class FeedViewModel(
                     .getStreams(groupId, showPlayedItems)
                     .throttleLatest(FEED_UPDATE_THROTTLE_TIMEOUT, TimeUnit.MILLISECONDS, true)
                     .map { streams ->
-                        CombineResultDataHolder(event, streams, notLoadedCount, oldestUpdate)
+                        val filterChanged = lastFilter != null && lastFilter != showPlayedItems
+                        lastFilter = showPlayedItems
+                        CombineResultDataHolder(
+                            event, streams, notLoadedCount, oldestUpdate, filterChanged
+                        )
                     }
             } else {
                 Flowable.just(
@@ -79,12 +86,12 @@ class FeedViewModel(
         }
         .distinctUntilChanged()
         .observeOn(AndroidSchedulers.mainThread())
-        .subscribe { (event, listFromDB, notLoadedCount, oldestUpdate) ->
+        .subscribe { (event, listFromDB, notLoadedCount, oldestUpdate, filterChanged) ->
             mutableStateLiveData.postValue(
                 when (event) {
-                    is IdleEvent -> FeedState.LoadedState(listFromDB.map { e -> StreamItem(e) }, oldestUpdate, notLoadedCount)
+                    is IdleEvent -> FeedState.LoadedState(listFromDB.map { e -> StreamItem(e) }, oldestUpdate, notLoadedCount, filterChanged = filterChanged)
                     is ProgressEvent -> FeedState.ProgressState(event.currentProgress, event.maxProgress, event.progressMessage)
-                    is SuccessResultEvent -> FeedState.LoadedState(listFromDB.map { e -> StreamItem(e) }, oldestUpdate, notLoadedCount, event.itemsErrors)
+                    is SuccessResultEvent -> FeedState.LoadedState(listFromDB.map { e -> StreamItem(e) }, oldestUpdate, notLoadedCount, event.itemsErrors, filterChanged)
                     is ErrorResultEvent -> FeedState.ErrorState(event.error)
                 }
             )
@@ -113,7 +120,8 @@ class FeedViewModel(
         val t1: FeedEventManager.Event,
         val t2: List<StreamWithState>,
         val t3: Long,
-        val t4: OffsetDateTime?
+        val t4: OffsetDateTime?,
+        val t5: Boolean = false
     )
 
     fun togglePlayedItems(showPlayedItems: Boolean) {
