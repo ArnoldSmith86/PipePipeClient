@@ -643,6 +643,16 @@ class FeedFragment : BaseStateFragment<FeedState>() {
         }
     }
 
+    /**
+     * Takes the list back to its first item. Used when the list the user is looking at is
+     * replaced by a different one - a filter changing - rather than merely brought up to date.
+     */
+    private fun scrollToTop() {
+        feedBinding.itemsList.post {
+            feedBinding.itemsList.layoutManager?.scrollToPosition(0)
+        }
+    }
+
     private fun clearFilter() {
         isFilterEnabled = false
         filterQuery = ""
@@ -917,10 +927,18 @@ class FeedFragment : BaseStateFragment<FeedState>() {
             // it; re-apply what the user typed instead of dropping them back to everything.
             filterItems(filterQuery, scrollToTop = false)
             oldOldestSubscriptionUpdate?.run { highlightNewItemsAfter(this) }
+            if (loadedState.filterChanged) {
+                scrollToTop()
+            }
         } else {
             groupAdapter.updateAsync(loadedState.items, false) {
                 oldOldestSubscriptionUpdate?.run {
                     highlightNewItemsAfter(oldOldestSubscriptionUpdate)
+                }
+                // Only once the new list is actually in the adapter: the update is diffed on a
+                // background thread, and scrolling before it lands moves the old list instead.
+                if (loadedState.filterChanged) {
+                    scrollToTop()
                 }
             }
         }
