@@ -40,10 +40,15 @@ class FeedDatabaseManager(context: Context) {
 
     fun database() = database
 
+    /**
+     * The feed's streams, as a stream of their own: Room re-runs the query whenever anything it
+     * touches changes - a stream's watch position, a video marked as watched, the feed itself
+     * being refilled - so a screen showing this never has to be told that its data went stale.
+     */
     fun getStreams(
         groupId: Long = FeedGroupEntity.GROUP_ALL_ID,
         getPlayedStreams: Boolean = true
-    ): Maybe<List<StreamWithState>> {
+    ): Flowable<List<StreamWithState>> {
         return when (groupId) {
             FeedGroupEntity.GROUP_ALL_ID -> {
                 if (getPlayedStreams) feedTable.getAllStreams()

@@ -44,6 +44,9 @@ class FeedViewModel(
         .startWithItem(initialShowCachedOnly)
         .distinctUntilChanged()
 
+    /** The refresh result that [FeedEventManager.reset] has already been called for. */
+    private var resetEvent: FeedEventManager.Event? = null
+
     private val mutableStateLiveData = MutableLiveData<FeedState>()
     val stateLiveData: LiveData<FeedState> = mutableStateLiveData
 
@@ -75,25 +78,37 @@ class FeedViewModel(
         .throttleLatest(DEFAULT_THROTTLE_TIMEOUT, TimeUnit.MILLISECONDS)
         .subscribeOn(Schedulers.io())
         .observeOn(Schedulers.io())
-        .map { (event, showPlayedItems, showCachedOnly, notLoadedCount, oldestUpdate) ->
-            val streamItems = if (event is SuccessResultEvent || event is IdleEvent) {
-                val streams = feedDatabaseManager
+        .switchMap { (event, showPlayedItems, showCachedOnly, notLoadedCount, oldestUpdate) ->
+            if (event is SuccessResultEvent || event is IdleEvent) {
+                // Subscribing to the query instead of reading it once is what keeps the feed
+                // current: watching a video, marking one as watched or finishing one while
+                // played items are hidden all rewrite stream_state, and Room re-runs this for
+                // us. Throttled because the player saves its position on every pause and seek,
+                // and a burst of those should cost one re-read, not one each.
+                feedDatabaseManager
                     .getStreams(groupId, showPlayedItems)
-                    .blockingGet(arrayListOf())
-                if (showCachedOnly) {
-                    val cachedKeys = CacheManager.getAllCompleteCacheKeysBlocking(applicationContext)
-                    streams.filter {
-                        cachedKeys.contains(CacheManager.cacheKey(it.stream.serviceId, it.stream.url))
+                    .throttleLatest(FEED_UPDATE_THROTTLE_TIMEOUT, TimeUnit.MILLISECONDS, true)
+                    .map { streams ->
+                        val shown = if (showCachedOnly) {
+                            val cachedKeys =
+                                CacheManager.getAllCompleteCacheKeysBlocking(applicationContext)
+                            streams.filter {
+                                cachedKeys.contains(
+                                    CacheManager.cacheKey(it.stream.serviceId, it.stream.url)
+                                )
+                            }
+                        } else {
+                            streams
+                        }
+                        CombineResultDataHolder(event, shown, notLoadedCount, oldestUpdate)
                     }
-                } else {
-                    streams
-                }
             } else {
-                arrayListOf()
+                Flowable.just(
+                    CombineResultDataHolder(event, emptyList(), notLoadedCount, oldestUpdate)
+                )
             }
-
-            CombineResultDataHolder(event, streamItems, notLoadedCount, oldestUpdate)
         }
+        .distinctUntilChanged()
         .observeOn(AndroidSchedulers.mainThread())
         .subscribe { (event, listFromDB, notLoadedCount, oldestUpdate) ->
             val state = when (event) {
@@ -109,7 +124,10 @@ class FeedViewModel(
 
             mutableStateLiveData.postValue(state)
 
-            if (event is ErrorResultEvent || event is SuccessResultEvent) {
+            // The database keeps re-emitting the same event as its rows change; the reset that
+            // ends a refresh has to happen once for it, not once per update.
+            if ((event is ErrorResultEvent || event is SuccessResultEvent) && event !== resetEvent) {
+                resetEvent = event
                 FeedEventManager.reset()
             }
         }
@@ -159,6 +177,13 @@ class FeedViewModel(
     fun getShowCachedOnlyFromPreferences() = getShowCachedOnlyFromPreferences(applicationContext)
 
     companion object {
+        /**
+         * How often the feed may be rebuilt from the database while something is writing to it.
+         * Long enough that a video being watched doesn't rebuild the list every few seconds,
+         * short enough that coming back to the feed shows the new position straight away.
+         */
+        private const val FEED_UPDATE_THROTTLE_TIMEOUT = 800L
+
         private fun getShowPlayedItemsFromPreferences(context: Context) =
             PreferenceManager.getDefaultSharedPreferences(context)
                 .getBoolean(context.getString(R.string.feed_show_played_items_key), true)

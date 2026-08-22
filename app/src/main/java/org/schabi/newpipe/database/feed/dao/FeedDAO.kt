@@ -39,7 +39,7 @@ abstract class FeedDAO {
         LIMIT 500
         """
     )
-    abstract fun getAllStreams(): Maybe<List<StreamWithState>>
+    abstract fun getAllStreams(): Flowable<List<StreamWithState>>
 
     @Query(
         """
@@ -64,7 +64,7 @@ abstract class FeedDAO {
         LIMIT 500
         """
     )
-    abstract fun getAllStreamsForGroup(groupId: Long): Maybe<List<StreamWithState>>
+    abstract fun getAllStreamsForGroup(groupId: Long): Flowable<List<StreamWithState>>
 
     /**
      * @see StreamStateEntity.isFinished()
@@ -99,7 +99,7 @@ abstract class FeedDAO {
         LIMIT 500
         """
     )
-    abstract fun getLiveOrNotPlayedStreams(): Maybe<List<StreamWithState>>
+    abstract fun getLiveOrNotPlayedStreams(): Flowable<List<StreamWithState>>
 
     /**
      * @see StreamStateEntity.isFinished()
@@ -139,7 +139,7 @@ abstract class FeedDAO {
         LIMIT 500
         """
     )
-    abstract fun getLiveOrNotPlayedStreamsForGroup(groupId: Long): Maybe<List<StreamWithState>>
+    abstract fun getLiveOrNotPlayedStreamsForGroup(groupId: Long): Flowable<List<StreamWithState>>
 
     @Query(
         """
