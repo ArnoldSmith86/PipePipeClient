@@ -36,6 +36,4 @@
         <item quantity="other">%d ଦିନ</item>
     </plurals>
     <string name="feed_create_new_group_button_title">ନୂଆ</string>
-<string name="back_from_fullscreen_closes_player_title">ପୂର୍ଣ୍ଣ ପରଦାରେ ପଛକୁ ଗଲେ ଭିଡିଓ ବନ୍ଦ ହୁଏ</string>
-<string name="back_from_fullscreen_closes_player_summary">ପୂର୍ଣ୍ଣ ପରଦା ପ୍ଲେବ୍ୟାକ ସମୟରେ ପଛ ବଟନ ଦବାଇଲେ ତାଲିକାକୁ ଫେରି ଭିଡିଓ ବନ୍ଦ ହୁଏ, ମିନି ପ୍ଲେୟାରରେ ଖୋଲା ରହିବା ପରିବର୍ତ୍ତେ</string>
 </resources>

@@ -23,6 +23,4 @@
     <string name="show_info">zoag d\'Info</string>
     <string name="open_in_popup_mode">Im Pop-up Modus aufmacha</string>
     <string name="main_bg_subtitle">Drug auf\'d Lubn zum ofanga.</string>
-<string name="back_from_fullscreen_closes_player_title">Zruck im Vollbüd schliaßt s Video</string>
-<string name="back_from_fullscreen_closes_player_summary">Zruck während da Vollbüdwiedagob geht zruck auf d Listn und stoppt s Video, statt dass s im Mini-Player offa bleibt</string>
 </resources>

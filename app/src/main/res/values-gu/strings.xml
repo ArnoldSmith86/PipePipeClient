@@ -60,6 +60,4 @@
     <string name="no_player_found">કોઈ સ્ટ્રીમ પ્લેયર મળ્યો નથી. વીએલસી સ્થાપિત કરીએ\?</string>
     <string name="upload_date_text">%1$s પર પ્રકાશિત</string>
     <string name="main_bg_subtitle">પ્રારંભ કરવા માટે વિપુલ - દર્શક કાચને ટેપ કરો.</string>
-<string name="back_from_fullscreen_closes_player_title">પૂર્ણ સ્ક્રીનમાં પાછળ જવાથી વીડિયો બંધ થાય</string>
-<string name="back_from_fullscreen_closes_player_summary">પૂર્ણ સ્ક્રીન પ્લેબૅક વખતે પાછળ દબાવવાથી યાદી પર પાછા જઈને વીડિયો બંધ થાય છે, મિની પ્લેયરમાં ખુલ્લો રહેવાને બદલે</string>
 </resources>
