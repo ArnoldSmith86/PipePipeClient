@@ -780,6 +780,15 @@ class FeedFragment : BaseStateFragment<FeedState>() {
                 }
             }
         }
+
+        if (loadedState.filterChanged) {
+            // Hiding or showing watched videos inserts and removes items above whatever the user
+            // was looking at, and the list would otherwise stay anchored there - which reads as
+            // the filter having done nothing, with the new top of the list off screen.
+            feedBinding.itemsList.post {
+                feedBinding.itemsList.layoutManager?.scrollToPosition(0)
+            }
+        }
         listState?.run {
             feedBinding.itemsList.layoutManager?.onRestoreInstanceState(listState)
             listState = null
