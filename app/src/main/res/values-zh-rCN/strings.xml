@@ -1068,4 +1068,5 @@
 <string name="subscription_details_update_ongoing">正在获取频道详情…</string>
 <string name="subscription_details_update_complete">频道详情已更新</string>
 <string name="subscription_details_update_failed">无法更新频道详情</string>
+<string name="feed_refresh_progress">正在刷新订阅：%s</string>
 </resources>

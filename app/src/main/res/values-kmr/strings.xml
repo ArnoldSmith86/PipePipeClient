@@ -550,4 +550,5 @@
     <string name="copyright">© %1$s bi %2$s di bin %3$s de</string>
     <string name="title_licenses">Lîsansên partiya sêyemîn</string>
     <string name="crash_the_app">Serlêdanê kilît bikin</string>
+<string name="feed_refresh_progress">Weşan tê nûkirin: %s</string>
 </resources>

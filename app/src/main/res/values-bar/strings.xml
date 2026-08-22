@@ -23,4 +23,5 @@
     <string name="show_info">zoag d\'Info</string>
     <string name="open_in_popup_mode">Im Pop-up Modus aufmacha</string>
     <string name="main_bg_subtitle">Drug auf\'d Lubn zum ofanga.</string>
+<string name="feed_refresh_progress">Feed wead aktualisiert: %s</string>
 </resources>

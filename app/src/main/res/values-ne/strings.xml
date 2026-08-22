@@ -514,4 +514,5 @@
     <string name="search_showing_result_for">%s : का लागि परिणामहरु देखाइँदैछ</string>
     <string name="open_with">सँँग खोल्नुहोस्</string>
     <string name="mark_as_watched">हेरेको भनि चिन्ह लगाउनुहोस्</string>
+<string name="feed_refresh_progress">फिड ताजा गर्दै: %s</string>
 </resources>

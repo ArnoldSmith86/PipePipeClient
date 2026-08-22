@@ -667,4 +667,5 @@
     <string name="enable_streams_notifications_title">Nya strömmnings notifikationer</string>
     <string name="settings_category_player_notification_title">Spelaravisering</string>
     <string name="toggle_all">Växla alla</string>
+<string name="feed_refresh_progress">Uppdaterar flödet: %s</string>
 </resources>

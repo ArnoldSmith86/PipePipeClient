@@ -667,4 +667,5 @@
     <string name="notifications">Notìficas</string>
     <string name="streams_notification_channel_name">Flussos noos</string>
     <string name="delete_downloaded_files_confirm">Iscantzellare totu sos archìvios iscarrigados dae su discu\?</string>
+<string name="feed_refresh_progress">Atualizende su flussu: %s</string>
 </resources>

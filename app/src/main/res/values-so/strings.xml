@@ -610,4 +610,5 @@
     <string name="show_image_indicators_title">Tus tilmaamayaasha sawirka</string>
     <string name="remote_search_suggestions">Soojeedinada raadinta banaanka</string>
     <string name="local_search_suggestions">Soojeedinada raadinta gudaha</string>
+<string name="feed_refresh_progress">Waa la cusboonaysiinayaa xogta: %s</string>
 </resources>

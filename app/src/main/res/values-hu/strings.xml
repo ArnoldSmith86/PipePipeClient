@@ -644,4 +644,5 @@
     </plurals>
     <string name="detail_pinned_comment_view_description">Rögzített megjegyzés</string>
     <string name="leak_canary_not_available">Nem érhető el a LeakCanary</string>
+<string name="feed_refresh_progress">Hírfolyam frissítése: %s</string>
 </resources>

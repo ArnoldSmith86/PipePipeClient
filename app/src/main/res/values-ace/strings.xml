@@ -15,4 +15,5 @@
     <string name="no_player_found">Hana jiteumeung stream player. Pasang VLC\?</string>
     <string name="upload_date_text">Peuleumah bak %1$s</string>
     <string name="main_bg_subtitle">Theun \"Seutot\" keu peuphon</string>
+<string name="feed_refresh_progress">Teungoh peubaro umpeuen: %s</string>
 </resources>

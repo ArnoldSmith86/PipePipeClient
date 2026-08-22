@@ -134,4 +134,5 @@
     <string name="title_activity_history">Պատմություն</string>
     <string name="action_history">Պատմություն</string>
     <string name="trending">Թրենդային</string>
+<string name="feed_refresh_progress">Հոսքը թարմացվում է՝ %s</string>
 </resources>

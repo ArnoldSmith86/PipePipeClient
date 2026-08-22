@@ -429,4 +429,5 @@
     <string name="show_memory_leaks">Prikaži puščanje pomnilnika</string>
     <string name="show_channel_details">Prikaži detajle kanala</string>
     <string name="night_theme_title">Nočna tema</string>
+<string name="feed_refresh_progress">Osveževanje vira: %s</string>
 </resources>

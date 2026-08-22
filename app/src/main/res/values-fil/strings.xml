@@ -180,4 +180,5 @@
         <item quantity="one">%d araw</item>
         <item quantity="other">mga %d araw</item>
     </plurals>
+<string name="feed_refresh_progress">Nire-refresh ang feed: %s</string>
 </resources>

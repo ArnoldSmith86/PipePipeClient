@@ -1004,4 +1004,5 @@
 <string name="subscription_details_update_ongoing">Kanaldetails werden abgerufen…</string>
 <string name="subscription_details_update_complete">Kanaldetails aktualisiert</string>
 <string name="subscription_details_update_failed">Kanaldetails konnten nicht aktualisiert werden</string>
+<string name="feed_refresh_progress">Feed wird aktualisiert: %s</string>
 </resources>

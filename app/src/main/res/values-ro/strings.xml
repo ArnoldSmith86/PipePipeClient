@@ -650,4 +650,5 @@
     <string name="show_crash_the_player_title">Arată \"închiderea bruscă a player-ului video\"</string>
     <string name="show_error_snackbar">Arată o eroare de tip snackbar</string>
     <string name="feed_new_items">Elemente de flux noi</string>
+<string name="feed_refresh_progress">Se reîmprospătează fluxul: %s</string>
 </resources>

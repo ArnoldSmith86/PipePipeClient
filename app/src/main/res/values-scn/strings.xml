@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources><string name="feed_refresh_progress">S\'agghiorna lu flussu: %s</string>
+</resources>

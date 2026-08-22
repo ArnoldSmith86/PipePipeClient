@@ -667,4 +667,5 @@
     <string name="get_notified">Λάβετε ειδοποίηση</string>
     <string name="you_successfully_subscribed">Έχετε εγγραφεί τώρα σε αυτό το κανάλι</string>
     <string name="toggle_all">Εναλλαγή όλων</string>
+<string name="feed_refresh_progress">Ανανέωση ροής: %s</string>
 </resources>

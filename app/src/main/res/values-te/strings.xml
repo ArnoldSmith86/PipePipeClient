@@ -390,4 +390,5 @@
     <string name="playlist_no_uploader">స్వయంచాలకంగా రూపొందించబడింది (ఎక్కించినవారు కనబడుటలేదు)</string>
     <string name="caption_auto_generated">స్వయంచాలకంగా రూపొందించబడింది</string>
     <string name="caption_setting_title">శీర్షికలు</string>
+<string name="feed_refresh_progress">ఫీడ్ రిఫ్రెష్ అవుతోంది: %s</string>
 </resources>

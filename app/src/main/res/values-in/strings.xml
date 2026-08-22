@@ -654,4 +654,5 @@
     <string name="enable_streams_notifications_title">Notifikasi stream baru</string>
     <string name="enable_streams_notifications_summary">Beritahu tentang stream baru dari notifikasi</string>
     <string name="you_successfully_subscribed">Anda sekarang berlangganan ke channel ini</string>
+<string name="feed_refresh_progress">Menyegarkan umpan: %s</string>
 </resources>

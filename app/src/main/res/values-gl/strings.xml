@@ -646,4 +646,5 @@
     <string name="show_crash_the_player_summary">Amosa unha opción de travamento ao usar o reprodutor</string>
     <string name="crash_the_player">Travar o reprodutor</string>
     <string name="leak_canary_not_available">LeakCanary non está dispoñíbel</string>
+<string name="feed_refresh_progress">Actualizando a fonte: %s</string>
 </resources>

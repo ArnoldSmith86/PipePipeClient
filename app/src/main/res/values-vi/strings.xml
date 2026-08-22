@@ -1113,4 +1113,5 @@ nSự khác biệt giữa hai loại này là cái nào nhanh thường thiếu 
 <string name="subscription_details_update_ongoing">Đang lấy thông tin chi tiết kênh…</string>
 <string name="subscription_details_update_complete">Đã cập nhật thông tin chi tiết kênh</string>
 <string name="subscription_details_update_failed">Không thể cập nhật thông tin chi tiết kênh</string>
+<string name="feed_refresh_progress">Đang làm mới bảng tin: %s</string>
 </resources>

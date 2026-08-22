@@ -518,4 +518,5 @@
     <string name="notification_action_1_title">Dua agobutono</string>
     <string name="notification_action_2_title">Tria agobutono</string>
     <string name="notification_action_3_title">Kvara agobutono</string>
+<string name="feed_refresh_progress">Aktualigo de la fluo: %s</string>
 </resources>

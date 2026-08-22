@@ -530,4 +530,5 @@
     <string name="notification_colorize_summary">شازدانی ڕەنگی پەیامەکانی ئەندرۆید بەپێی ڕەنگی سەرەکی وێنۆچکە (تێبینی ئەمە لەسەرجەم ئامێرەکان بەردەست نییە)</string>
     <string name="notification_colorize_title">ڕەنگینی پەیام</string>
     <string name="open_with">کردنەوە بە</string>
+<string name="feed_refresh_progress">Weşan tê nûkirin: %s</string>
 </resources>

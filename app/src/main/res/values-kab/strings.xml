@@ -140,4 +140,5 @@
     <string name="metadata_category">Taggayt</string>
     <string name="metadata_privacy">Tabaḍnit</string>
     <string name="metadata_licence">Turagt</string>
+<string name="feed_refresh_progress">Asmiren n usuddem: %s</string>
 </resources>

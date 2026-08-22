@@ -100,4 +100,5 @@
     <string name="play_with_kodi_title">Pokrenite s KODI-jem</string>
     <string name="seek_duration_title">Vrijeme premotavanja naprijed/nazad</string>
     <string name="download_thumbnail_title">Učitajte sličice</string>
+<string name="feed_refresh_progress">Osvježavanje kanala: %s</string>
 </resources>

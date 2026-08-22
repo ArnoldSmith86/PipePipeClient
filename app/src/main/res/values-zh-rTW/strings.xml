@@ -1058,4 +1058,5 @@
 <string name="subscription_details_update_ongoing">正在擷取頻道詳細資訊…</string>
 <string name="subscription_details_update_complete">頻道詳細資訊已更新</string>
 <string name="subscription_details_update_failed">無法更新頻道詳細資訊</string>
+<string name="feed_refresh_progress">正在重新整理訂閱：%s</string>
 </resources>

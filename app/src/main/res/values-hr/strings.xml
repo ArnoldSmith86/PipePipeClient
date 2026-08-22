@@ -671,4 +671,5 @@
     <string name="no_appropriate_file_manager_message">Za ovu radnju nije pronađen odgovarajući upravitelj datoteka.
 \nMolimo vas da instalirate upravitelj za datoteke ili da pokušate onemogućiti \'%s\' u postavkama preuzimanja.</string>
     <string name="detail_pinned_comment_view_description">Prikvačeni komentar</string>
+<string name="feed_refresh_progress">Osvježavanje kanala: %s</string>
 </resources>

@@ -169,4 +169,5 @@
     <string name="albums">Ilbumen</string>
     <string name="playlists">Tilgamin n tɣuri</string>
     <string name="autoplay_title">Taɣuri tawurmant</string>
+<string name="feed_refresh_progress">Asmaynu n usagem: %s</string>
 </resources>

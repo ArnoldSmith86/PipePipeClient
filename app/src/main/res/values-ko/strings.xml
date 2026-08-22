@@ -496,4 +496,5 @@
     <string name="start_main_player_fullscreen_title">전체화면으로 주 플레이어 시작</string>
     <string name="hash_channel_name">비디오 해시 알림</string>
     <string name="error_report_open_issue_button_text">GitHub에 보고</string>
+<string name="feed_refresh_progress">피드 새로 고치는 중: %s</string>
 </resources>

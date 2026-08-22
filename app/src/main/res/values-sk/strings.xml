@@ -667,4 +667,5 @@
     <string name="streams_notifications_network_title">Je vyžadované pripojenie na internet</string>
     <string name="you_successfully_subscribed">Začali ste odoberať tento kanál</string>
     <string name="toggle_all">Zapnúť všetko</string>
+<string name="feed_refresh_progress">Obnovovanie kanála: %s</string>
 </resources>

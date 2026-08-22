@@ -1060,4 +1060,5 @@
 <string name="subscription_details_update_ongoing">Obteniendo detalles del canal…</string>
 <string name="subscription_details_update_complete">Detalles del canal actualizados</string>
 <string name="subscription_details_update_failed">No se pudieron actualizar los detalles del canal</string>
+<string name="feed_refresh_progress">Actualizando la suscripción: %s</string>
 </resources>

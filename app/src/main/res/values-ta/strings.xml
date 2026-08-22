@@ -330,4 +330,5 @@
     <string name="subscriptions_export_unsuccessful">சந்தாக்களை ஏற்றுமதி செய்ய முடியவில்லை</string>
     <string name="feed_group_dialog_select_subscriptions">சந்தாக்களைத் தேர்ந்தெடு</string>
     <string name="preferred_open_action_settings_title">நயமான \'திற\' செயல்</string>
+<string name="feed_refresh_progress">ஊட்டம் புதுப்பிக்கப்படுகிறது: %s</string>
 </resources>

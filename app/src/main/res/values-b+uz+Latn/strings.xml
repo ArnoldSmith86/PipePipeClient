@@ -531,4 +531,5 @@
     <string name="error_unable_to_load_comments">Fikrlarni yuklab bo‘lmadi</string>
     <string name="import_settings">Sozlamalarni ham import qilmoqchimisiz\?</string>
     <string name="override_current_data">Bu sizning joriy sozlamangizni bekor qiladi.</string>
+<string name="feed_refresh_progress">Oqim yangilanmoqda: %s</string>
 </resources>

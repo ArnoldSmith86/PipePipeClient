@@ -545,4 +545,5 @@
         <item quantity="other">%sটি ডাউনলোড সমাপ্ত</item>
     </plurals>
     <string name="mark_as_watched">দেখা হয়েছে চিহ্নিত করো</string>
+<string name="feed_refresh_progress">ফিড রিফ্রেশ হচ্ছে: %s</string>
 </resources>

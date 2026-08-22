@@ -326,4 +326,5 @@
     <string name="metadata_language">ভাষা</string>
     <string name="metadata_age_limit">বয়স সীমা</string>
     <string name="main_page_content">প্রধান পাতার উপাদান সমূহ</string>
+<string name="feed_refresh_progress">ফিড রিফ্রেশ হচ্ছে: %s</string>
 </resources>

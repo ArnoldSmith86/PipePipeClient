@@ -36,4 +36,5 @@
         <item quantity="other">%d ଦିନ</item>
     </plurals>
     <string name="feed_create_new_group_button_title">ନୂଆ</string>
+<string name="feed_refresh_progress">ଫିଡ ସତେଜ ହେଉଛି: %s</string>
 </resources>
