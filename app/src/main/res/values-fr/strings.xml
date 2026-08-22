@@ -1021,4 +1021,7 @@ Voulez-vous continuer?</string>
 <string name="subscription_details_update_ongoing">Récupération des détails de la chaîne…</string>
 <string name="subscription_details_update_complete">Détails de la chaîne mis à jour</string>
 <string name="subscription_details_update_failed">Impossible de mettre à jour les détails de la chaîne</string>
+<string name="list_quick_actions_title">Boutons sur les éléments de liste</string>
+<string name="list_quick_actions_summary">Afficher les entrées du menu contextuel choisies comme boutons à icône sur chaque vidéo d\'une liste</string>
+<string name="list_quick_actions_summary_none">Aucun bouton : maintenez une vidéo pour le menu complet</string>
 </resources>

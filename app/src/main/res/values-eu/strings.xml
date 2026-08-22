@@ -667,4 +667,7 @@
     <string name="get_notified">Jakinarazi</string>
     <string name="progressive_load_interval_exoplayer_default">ExoPlayer lehenetsia</string>
     <string name="streams_notifications_network_title">Beharrezko sare konexioa</string>
+<string name="list_quick_actions_title">Botoiak zerrendako elementuetan</string>
+<string name="list_quick_actions_summary">Erakutsi aukeratutako testuinguru-menuko sarrerak ikono-botoi gisa zerrendako bideo bakoitzean</string>
+<string name="list_quick_actions_summary_none">Botoirik ez: eduki sakatuta bideo bat menu osoa ikusteko</string>
 </resources>

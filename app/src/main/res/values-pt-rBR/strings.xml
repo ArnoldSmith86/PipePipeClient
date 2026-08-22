@@ -724,4 +724,7 @@
     <string name="auto_background_play_summary">Reproduzir automaticamente em segundo plano ao selecionar um item de uma playlist local</string>
     <string name="download_all">Transferir tudo</string>
     <string name="bullet_comments_opacity_title">Opacidade de comentários com bullet</string>
+<string name="list_quick_actions_title">Botões nos itens da lista</string>
+<string name="list_quick_actions_summary">Mostrar as entradas do menu de contexto escolhidas como botões de ícone em cada vídeo de uma lista</string>
+<string name="list_quick_actions_summary_none">Sem botões: mantenha um vídeo pressionado para ver o menu completo</string>
 </resources>

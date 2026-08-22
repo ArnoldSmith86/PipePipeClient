@@ -1010,4 +1010,7 @@
 <string name="webview_cookies_cleared">WebView çerezleri temizlendi</string>
 <string name="remove_from_playlist_confirmation">Bu öğe oynatma listesinden kaldırılsın mı?</string>
 <string name="local_playlist_swipe_action_title">Yerel oynatma listelerinde sağa kaydırma eylemi</string>
+<string name="list_quick_actions_title">Liste ögelerinde düğmeler</string>
+<string name="list_quick_actions_summary">Seçilen bağlam menüsü ögelerini listedeki her videoda simge düğmeleri olarak göster</string>
+<string name="list_quick_actions_summary_none">Düğme yok: tüm menü için bir videoyu basılı tutun</string>
 </resources>

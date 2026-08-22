@@ -667,4 +667,7 @@
     </plurals>
     <string name="get_notified">Seja notificado</string>
     <string name="notifications_disabled">Notificações são desativadas</string>
+<string name="list_quick_actions_title">Botões nos itens da lista</string>
+<string name="list_quick_actions_summary">Mostrar as entradas do menu de contexto escolhidas como botões de ícone em cada vídeo de uma lista</string>
+<string name="list_quick_actions_summary_none">Sem botões: mantenha um vídeo pressionado para ver o menu completo</string>
 </resources>

@@ -1027,4 +1027,7 @@
 <string name="subscription_details_update_ongoing">チャンネルの詳細を取得中…</string>
 <string name="subscription_details_update_complete">チャンネルの詳細を更新しました</string>
 <string name="subscription_details_update_failed">チャンネルの詳細を更新できませんでした</string>
+<string name="list_quick_actions_title">一覧の項目に表示するボタン</string>
+<string name="list_quick_actions_summary">選んだメニュー項目を、一覧の各動画にアイコンボタンとして表示します</string>
+<string name="list_quick_actions_summary_none">ボタンなし: 動画を長押しすると全メニューが開きます</string>
 </resources>

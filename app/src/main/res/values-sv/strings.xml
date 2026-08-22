@@ -667,4 +667,7 @@
     <string name="enable_streams_notifications_title">Nya strömmnings notifikationer</string>
     <string name="settings_category_player_notification_title">Spelaravisering</string>
     <string name="toggle_all">Växla alla</string>
+<string name="list_quick_actions_title">Knappar på listobjekt</string>
+<string name="list_quick_actions_summary">Visa de valda snabbmenyalternativen som ikonknappar på varje video i en lista</string>
+<string name="list_quick_actions_summary_none">Inga knappar: håll in en video för hela menyn</string>
 </resources>

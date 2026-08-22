@@ -274,4 +274,7 @@
     <string name="notification_action_0_title">প্রথম অ্যাকশান বোতাম</string>
     <string name="notification_action_1_title">দ্বিতীয় অ্যাকশান বোতাম</string>
     <string name="streams_notification_channel_name">নতুন স্ট্রিম</string>
+<string name="list_quick_actions_title">তালিকার আইটেমে বোতাম</string>
+<string name="list_quick_actions_summary">নির্বাচিত কনটেক্সট মেনুর আইটেমগুলো তালিকার প্রতিটি ভিডিওতে আইকন বোতাম হিসেবে দেখান</string>
+<string name="list_quick_actions_summary_none">কোনো বোতাম নেই: পুরো মেনুর জন্য ভিডিওতে চেপে ধরুন</string>
 </resources>

@@ -100,4 +100,7 @@
     <string name="play_with_kodi_title">Pokrenite s KODI-jem</string>
     <string name="seek_duration_title">Vrijeme premotavanja naprijed/nazad</string>
     <string name="download_thumbnail_title">Učitajte sličice</string>
+<string name="list_quick_actions_title">Dugmad na stavkama liste</string>
+<string name="list_quick_actions_summary">Prikaži izabrane stavke kontekstnog menija kao dugmad s ikonama na svakom videu u listi</string>
+<string name="list_quick_actions_summary_none">Bez dugmadi: držite video za cijeli meni</string>
 </resources>

@@ -667,4 +667,7 @@
     <string name="delete_downloaded_files_confirm">پاک کردن تمامی پرونده‌های بارگرفته از دیسک؟</string>
     <string name="any_network">هر شبکه‌ای</string>
     <string name="you_successfully_subscribed">اکنون مشترک این کانال شده‌اید</string>
+<string name="list_quick_actions_title">دکمه‌ها روی موارد فهرست</string>
+<string name="list_quick_actions_summary">نمایش موارد انتخاب‌شدهٔ منوی زمینه به‌صورت دکمه‌های نمادین روی هر ویدئو در فهرست‌ها</string>
+<string name="list_quick_actions_summary_none">بدون دکمه: برای منوی کامل، ویدئو را لمس و نگه دارید</string>
 </resources>

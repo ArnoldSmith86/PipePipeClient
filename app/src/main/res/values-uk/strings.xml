@@ -684,4 +684,7 @@
     <string name="enable_streams_notifications_title">Сповіщення про нові трансляції</string>
     <string name="streams_notifications_interval_title">Частота перевірки</string>
     <string name="streams_notifications_network_title">Необхідний тип з\'єднання</string>
+<string name="list_quick_actions_title">Кнопки на елементах списку</string>
+<string name="list_quick_actions_summary">Показувати вибрані пункти контекстного меню як кнопки зі значками на кожному відео у списку</string>
+<string name="list_quick_actions_summary_none">Без кнопок: утримуйте відео, щоб відкрити повне меню</string>
 </resources>

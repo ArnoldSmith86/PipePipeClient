@@ -644,4 +644,7 @@
     </plurals>
     <string name="detail_pinned_comment_view_description">Rögzített megjegyzés</string>
     <string name="leak_canary_not_available">Nem érhető el a LeakCanary</string>
+<string name="list_quick_actions_title">Gombok a lista elemein</string>
+<string name="list_quick_actions_summary">A kiválasztott helyi menüpontok megjelenítése ikongombként a lista minden videóján</string>
+<string name="list_quick_actions_summary_none">Nincsenek gombok: tartsd nyomva a videót a teljes menüért</string>
 </resources>

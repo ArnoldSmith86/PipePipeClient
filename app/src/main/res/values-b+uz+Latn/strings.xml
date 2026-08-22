@@ -531,4 +531,7 @@
     <string name="error_unable_to_load_comments">Fikrlarni yuklab bo‘lmadi</string>
     <string name="import_settings">Sozlamalarni ham import qilmoqchimisiz\?</string>
     <string name="override_current_data">Bu sizning joriy sozlamangizni bekor qiladi.</string>
+<string name="list_quick_actions_title">Ro\'yxat elementlaridagi tugmalar</string>
+<string name="list_quick_actions_summary">Tanlangan kontekst menyusi bandlarini ro\'yxatdagi har bir videoda belgi tugmalari sifatida ko\'rsatish</string>
+<string name="list_quick_actions_summary_none">Tugmalar yo\'q: to\'liq menyu uchun videoni bosib turing</string>
 </resources>

@@ -550,4 +550,7 @@
     <string name="copyright">© %1$s bi %2$s di bin %3$s de</string>
     <string name="title_licenses">Lîsansên partiya sêyemîn</string>
     <string name="crash_the_app">Serlêdanê kilît bikin</string>
+<string name="list_quick_actions_title">Bişkok li ser hêmanên lîsteyê</string>
+<string name="list_quick_actions_summary">Hêmanên hilbijartî yên pêşeka kontekstê wek bişkokên îkonî li ser her vîdyoyeke lîsteyê nîşan bide</string>
+<string name="list_quick_actions_summary_none">Bêyî bişkok: ji bo pêşeka temam, vîdyoyekê pêl bike û bigire</string>
 </resources>

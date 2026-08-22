@@ -656,4 +656,7 @@
     <string name="crash_the_player">Užlūžo</string>
     <string name="error_report_channel_name">Klaidos pranešimo pranešimas</string>
     <string name="error_report_notification_toast">Įvyko klaida, peržiūrėti pranešimą</string>
+<string name="list_quick_actions_title">Mygtukai sąrašo elementuose</string>
+<string name="list_quick_actions_summary">Rodyti pasirinktus kontekstinio meniu įrašus kaip piktogramų mygtukus prie kiekvieno vaizdo įrašo sąraše</string>
+<string name="list_quick_actions_summary_none">Jokių mygtukų: palaikykite vaizdo įrašą, kad atvertumėte visą meniu</string>
 </resources>

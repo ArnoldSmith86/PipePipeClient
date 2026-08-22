@@ -1004,4 +1004,7 @@
 <string name="subscription_details_update_ongoing">Kanaldetails werden abgerufen…</string>
 <string name="subscription_details_update_complete">Kanaldetails aktualisiert</string>
 <string name="subscription_details_update_failed">Kanaldetails konnten nicht aktualisiert werden</string>
+<string name="list_quick_actions_title">Schaltflächen auf Listeneinträgen</string>
+<string name="list_quick_actions_summary">Die ausgewählten Kontextmenü-Einträge als Symbolschaltflächen auf jedem Video in einer Liste anzeigen</string>
+<string name="list_quick_actions_summary_none">Keine Schaltflächen: für das vollständige Menü ein Video gedrückt halten</string>
 </resources>

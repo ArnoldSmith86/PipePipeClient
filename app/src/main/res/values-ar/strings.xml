@@ -1092,4 +1092,7 @@
     <string name="paid_content_new">يتوفر هذا المحتوى فقط للمستخدمين الذين دفعوا مقابله، لذلك لا يمكن بثه أو تنزيله عبر PipePipe.</string>
     <string name="playback_speed_gesture_control_title">اسحب للتحكم في سرعة التشغيل</string>
     <string name="playback_speed_gesture_control_summary">اسحب من المنتصف للتحكم في سرعة التشغيل. يؤدي ذلك إلى تعطيل إيماء التحكم في وضع ملء الشاشة</string>
+<string name="list_quick_actions_title">أزرار على عناصر القائمة</string>
+<string name="list_quick_actions_summary">إظهار عناصر قائمة السياق المختارة كأزرار برموز على كل فيديو في القوائم</string>
+<string name="list_quick_actions_summary_none">بلا أزرار: اضغط مطولًا على فيديو لعرض القائمة كاملة</string>
 </resources>

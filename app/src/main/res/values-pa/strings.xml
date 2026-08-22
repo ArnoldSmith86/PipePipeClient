@@ -577,4 +577,7 @@
     <string name="notification_action_2_title">ਤੀਜਾ ਕਾਰਵਾਈ ਬਟਨ</string>
     <string name="notification_action_1_title">ਦੂਜਾ ਕਾਰਵਾਈ ਬਟਨ</string>
     <string name="notification_action_0_title">ਪਹਿਲਾ ਕਾਰਵਾਈ ਬਟਨ</string>
+<string name="list_quick_actions_title">ਸੂਚੀ ਦੀਆਂ ਆਈਟਮਾਂ ਉੱਤੇ ਬਟਨ</string>
+<string name="list_quick_actions_summary">ਚੁਣੀਆਂ ਪ੍ਰਸੰਗ ਮੀਨੂ ਆਈਟਮਾਂ ਨੂੰ ਸੂਚੀ ਦੇ ਹਰ ਵੀਡੀਓ ਉੱਤੇ ਆਈਕਾਨ ਬਟਨ ਵਜੋਂ ਵਿਖਾਓ</string>
+<string name="list_quick_actions_summary_none">ਕੋਈ ਬਟਨ ਨਹੀਂ: ਪੂਰਾ ਮੀਨੂ ਵੇਖਣ ਲਈ ਵੀਡੀਓ ਨੂੰ ਦਬਾਈ ਰੱਖੋ</string>
 </resources>

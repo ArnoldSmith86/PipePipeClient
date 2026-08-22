@@ -338,4 +338,7 @@
     <string name="enable_playback_resume_summary">เล่นต่อจากที่เคยเล่นครั้งล่าสุด</string>
     <string name="settings_category_clear_data_title">ล้างข้อมูล</string>
     <string name="search_showing_result_for">กำลังแสดงผลลัพธ์สำหรับ: %s</string>
+<string name="list_quick_actions_title">ปุ่มบนรายการในลิสต์</string>
+<string name="list_quick_actions_summary">แสดงเมนูลัดที่เลือกไว้เป็นปุ่มไอคอนบนวิดีโอทุกรายการในลิสต์</string>
+<string name="list_quick_actions_summary_none">ไม่มีปุ่ม: แตะค้างที่วิดีโอเพื่อดูเมนูทั้งหมด</string>
 </resources>

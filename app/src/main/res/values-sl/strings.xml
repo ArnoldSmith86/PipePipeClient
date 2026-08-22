@@ -429,4 +429,7 @@
     <string name="show_memory_leaks">Prikaži puščanje pomnilnika</string>
     <string name="show_channel_details">Prikaži detajle kanala</string>
     <string name="night_theme_title">Nočna tema</string>
+<string name="list_quick_actions_title">Gumbi na elementih seznama</string>
+<string name="list_quick_actions_summary">Pokaži izbrane vnose kontekstnega menija kot gumbe z ikonami na vsakem videoposnetku v seznamu</string>
+<string name="list_quick_actions_summary_none">Brez gumbov: pridržite videoposnetek za celoten meni</string>
 </resources>

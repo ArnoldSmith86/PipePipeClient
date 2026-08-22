@@ -641,4 +641,7 @@
     <string name="no_appropriate_file_manager_message_android_10">Installer en filbehandler som støtter lagringstilgangsrammeverk først.</string>
     <string name="leak_canary_not_available">LeakCanary er ikke tilgjengelig</string>
     <string name="progressive_load_interval_exoplayer_default">ExoPlayer-forvalg</string>
+<string name="list_quick_actions_title">Knapper på listeelementer</string>
+<string name="list_quick_actions_summary">Vis de valgte hurtigmenyvalgene som ikonknapper på hver video i en liste</string>
+<string name="list_quick_actions_summary_none">Ingen knapper: hold inne en video for hele menyen</string>
 </resources>

@@ -140,4 +140,7 @@
     <string name="metadata_category">Taggayt</string>
     <string name="metadata_privacy">Tabaḍnit</string>
     <string name="metadata_licence">Turagt</string>
+<string name="list_quick_actions_title">Tiqeffalin ɣef yiferdisen n tebdart</string>
+<string name="list_quick_actions_summary">Sken inekcam yettwafernen n wumuɣ n usatal am tqeffalin s tignit ɣef yal tavidyut n tebdart</string>
+<string name="list_quick_actions_summary_none">Ulac tiqeffalin: ṭṭef tavidyut akken ad d-yeldi umuɣ ummid</string>
 </resources>

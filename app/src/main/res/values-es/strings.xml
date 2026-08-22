@@ -1060,4 +1060,7 @@
 <string name="subscription_details_update_ongoing">Obteniendo detalles del canal…</string>
 <string name="subscription_details_update_complete">Detalles del canal actualizados</string>
 <string name="subscription_details_update_failed">No se pudieron actualizar los detalles del canal</string>
+<string name="list_quick_actions_title">Botones en los elementos de la lista</string>
+<string name="list_quick_actions_summary">Mostrar las entradas del menú contextual elegidas como botones de icono en cada vídeo de una lista</string>
+<string name="list_quick_actions_summary_none">Sin botones: mantén pulsado un vídeo para ver el menú completo</string>
 </resources>

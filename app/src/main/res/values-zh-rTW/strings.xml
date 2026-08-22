@@ -1058,4 +1058,7 @@
 <string name="subscription_details_update_ongoing">正在擷取頻道詳細資訊…</string>
 <string name="subscription_details_update_complete">頻道詳細資訊已更新</string>
 <string name="subscription_details_update_failed">無法更新頻道詳細資訊</string>
+<string name="list_quick_actions_title">清單項目上的按鈕</string>
+<string name="list_quick_actions_summary">在清單中的每部影片上，把所選的選單項目顯示為圖示按鈕</string>
+<string name="list_quick_actions_summary_none">無按鈕：長按影片可開啟完整選單</string>
 </resources>

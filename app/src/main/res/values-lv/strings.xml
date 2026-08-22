@@ -640,4 +640,7 @@
         <item quantity="other">Lejupielādes pabeigtas</item>
     </plurals>
     <string name="description_select_note">Tagad varat atlasīt tekstu video aprakstā.</string>
+<string name="list_quick_actions_title">Pogas saraksta vienumos</string>
+<string name="list_quick_actions_summary">Rādīt izvēlētos konteksta izvēlnes ierakstus kā ikonu pogas pie katra video sarakstā</string>
+<string name="list_quick_actions_summary_none">Nav pogu: turiet video, lai atvērtu pilno izvēlni</string>
 </resources>

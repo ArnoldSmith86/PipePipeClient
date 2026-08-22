@@ -650,4 +650,7 @@
     <string name="show_crash_the_player_title">Arată \"închiderea bruscă a player-ului video\"</string>
     <string name="show_error_snackbar">Arată o eroare de tip snackbar</string>
     <string name="feed_new_items">Elemente de flux noi</string>
+<string name="list_quick_actions_title">Butoane pe elementele din listă</string>
+<string name="list_quick_actions_summary">Arată intrările alese din meniul contextual ca butoane cu pictogramă pe fiecare videoclip dintr-o listă</string>
+<string name="list_quick_actions_summary_none">Niciun buton: ține apăsat un videoclip pentru meniul complet</string>
 </resources>

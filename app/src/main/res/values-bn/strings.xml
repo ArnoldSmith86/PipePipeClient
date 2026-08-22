@@ -545,4 +545,7 @@
         <item quantity="other">%sটি ডাউনলোড সমাপ্ত</item>
     </plurals>
     <string name="mark_as_watched">দেখা হয়েছে চিহ্নিত করো</string>
+<string name="list_quick_actions_title">তালিকার আইটেমে বোতাম</string>
+<string name="list_quick_actions_summary">নির্বাচিত কনটেক্সট মেনুর আইটেমগুলো তালিকার প্রতিটি ভিডিওতে আইকন বোতাম হিসেবে দেখান</string>
+<string name="list_quick_actions_summary_none">কোনো বোতাম নেই: পুরো মেনুর জন্য ভিডিওতে চেপে ধরুন</string>
 </resources>

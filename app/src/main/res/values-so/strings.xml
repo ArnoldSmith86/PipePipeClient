@@ -610,4 +610,7 @@
     <string name="show_image_indicators_title">Tus tilmaamayaasha sawirka</string>
     <string name="remote_search_suggestions">Soojeedinada raadinta banaanka</string>
     <string name="local_search_suggestions">Soojeedinada raadinta gudaha</string>
+<string name="list_quick_actions_title">Badhamada ku yaal walxaha liiska</string>
+<string name="list_quick_actions_summary">Muuji qoraallada la doortay ee menu-ga xiriirka sida badhamo astaan ah muuqaal kasta oo liiska ku jira</string>
+<string name="list_quick_actions_summary_none">Badhamo ma jiraan: si aad menu-ga oo dhan u aragto, muuqaalka ku hay</string>
 </resources>

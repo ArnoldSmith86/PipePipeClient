@@ -646,4 +646,7 @@
     <string name="show_crash_the_player_summary">Amosa unha opción de travamento ao usar o reprodutor</string>
     <string name="crash_the_player">Travar o reprodutor</string>
     <string name="leak_canary_not_available">LeakCanary non está dispoñíbel</string>
+<string name="list_quick_actions_title">Botóns nos elementos da lista</string>
+<string name="list_quick_actions_summary">Amosar as entradas do menú contextual escollidas como botóns de icona en cada vídeo dunha lista</string>
+<string name="list_quick_actions_summary_none">Sen botóns: mantén premido un vídeo para ver o menú completo</string>
 </resources>

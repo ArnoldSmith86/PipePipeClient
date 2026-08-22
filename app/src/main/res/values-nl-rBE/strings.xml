@@ -583,4 +583,7 @@
     <string name="dont_show">Niet tonen</string>
     <string name="comments_are_disabled">Reacties zijn uitgeschakeld</string>
     <string name="show_image_indicators_title">Toon afbeeldingsindicatoren</string>
+<string name="list_quick_actions_title">Knoppen op lijstitems</string>
+<string name="list_quick_actions_summary">De gekozen contextmenu-items als pictogramknoppen op elke video in een lijst tonen</string>
+<string name="list_quick_actions_summary_none">Geen knoppen: houd een video ingedrukt voor het volledige menu</string>
 </resources>

@@ -390,4 +390,7 @@
     <string name="playlist_no_uploader">స్వయంచాలకంగా రూపొందించబడింది (ఎక్కించినవారు కనబడుటలేదు)</string>
     <string name="caption_auto_generated">స్వయంచాలకంగా రూపొందించబడింది</string>
     <string name="caption_setting_title">శీర్షికలు</string>
+<string name="list_quick_actions_title">జాబితా అంశాలపై బటన్లు</string>
+<string name="list_quick_actions_summary">ఎంచుకున్న సందర్భ మెనూ అంశాలను జాబితాలోని ప్రతి వీడియోపై చిహ్న బటన్లుగా చూపు</string>
+<string name="list_quick_actions_summary_none">బటన్లు లేవు: పూర్తి మెనూ కోసం వీడియోను నొక్కి పట్టుకోండి</string>
 </resources>

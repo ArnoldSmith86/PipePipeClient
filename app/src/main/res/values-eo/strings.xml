@@ -518,4 +518,7 @@
     <string name="notification_action_1_title">Dua agobutono</string>
     <string name="notification_action_2_title">Tria agobutono</string>
     <string name="notification_action_3_title">Kvara agobutono</string>
+<string name="list_quick_actions_title">Butonoj sur listeroj</string>
+<string name="list_quick_actions_summary">Montri la elektitajn kuntekstmenuerojn kiel bildsimbolajn butonojn sur ĉiu video en listo</string>
+<string name="list_quick_actions_summary_none">Neniuj butonoj: premtenu videon por la plena menuo</string>
 </resources>

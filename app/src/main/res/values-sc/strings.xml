@@ -667,4 +667,7 @@
     <string name="notifications">Notìficas</string>
     <string name="streams_notification_channel_name">Flussos noos</string>
     <string name="delete_downloaded_files_confirm">Iscantzellare totu sos archìvios iscarrigados dae su discu\?</string>
+<string name="list_quick_actions_title">Butones in sos elementos de sa lista</string>
+<string name="list_quick_actions_summary">Mustra sas boghes seberadas de su menù cuntestuale comente butones cun icona in cada vídeu de una lista</string>
+<string name="list_quick_actions_summary_none">Perunu butone: mantene primidu unu vídeu pro su menù cumpletu</string>
 </resources>

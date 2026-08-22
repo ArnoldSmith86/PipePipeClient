@@ -1068,4 +1068,7 @@
 <string name="subscription_details_update_ongoing">正在获取频道详情…</string>
 <string name="subscription_details_update_complete">频道详情已更新</string>
 <string name="subscription_details_update_failed">无法更新频道详情</string>
+<string name="list_quick_actions_title">列表项上的按钮</string>
+<string name="list_quick_actions_summary">在列表中的每个视频上，把所选的右键菜单项显示为图标按钮</string>
+<string name="list_quick_actions_summary_none">无按钮：长按视频可打开完整菜单</string>
 </resources>

@@ -180,4 +180,7 @@
         <item quantity="one">%d araw</item>
         <item quantity="other">mga %d araw</item>
     </plurals>
+<string name="list_quick_actions_title">Mga buton sa mga item ng listahan</string>
+<string name="list_quick_actions_summary">Ipakita ang mga napiling entry ng context menu bilang icon na buton sa bawat video sa listahan</string>
+<string name="list_quick_actions_summary_none">Walang buton: pindutin nang matagal ang video para sa buong menu</string>
 </resources>

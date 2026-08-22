@@ -998,4 +998,7 @@
 <string name="subscription_details_update_ongoing">Recupero dei dettagli del canale in corso…</string>
 <string name="subscription_details_update_complete">Dettagli del canale aggiornati</string>
 <string name="subscription_details_update_failed">Impossibile aggiornare i dettagli del canale</string>
+<string name="list_quick_actions_title">Pulsanti sugli elementi dell\'elenco</string>
+<string name="list_quick_actions_summary">Mostra le voci del menu contestuale scelte come pulsanti con icona su ogni video di un elenco</string>
+<string name="list_quick_actions_summary_none">Nessun pulsante: tieni premuto un video per il menu completo</string>
 </resources>

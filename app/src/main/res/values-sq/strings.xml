@@ -606,4 +606,7 @@
     <string name="high_quality_larger">Cilësi e lartë (më e madhe)</string>
     <string name="comments_are_disabled">Komentet janë të ç\'aktivizuara</string>
     <string name="mark_as_watched">Shëno si të parë</string>
+<string name="list_quick_actions_title">Butona te elementet e listës</string>
+<string name="list_quick_actions_summary">Shfaq zërat e zgjedhur të menysë së kontekstit si butona me ikona te çdo video në një listë</string>
+<string name="list_quick_actions_summary_none">Pa butona: mbaj shtypur një video për menynë e plotë</string>
 </resources>

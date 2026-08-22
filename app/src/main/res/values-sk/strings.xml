@@ -667,4 +667,7 @@
     <string name="streams_notifications_network_title">Je vyžadované pripojenie na internet</string>
     <string name="you_successfully_subscribed">Začali ste odoberať tento kanál</string>
     <string name="toggle_all">Zapnúť všetko</string>
+<string name="list_quick_actions_title">Tlačidlá na položkách zoznamu</string>
+<string name="list_quick_actions_summary">Zobrazovať vybrané položky kontextovej ponuky ako tlačidlá s ikonami pri každom videu v zozname</string>
+<string name="list_quick_actions_summary_none">Bez tlačidiel: podržte video pre celú ponuku</string>
 </resources>

@@ -644,4 +644,7 @@
     <string name="show_crash_the_player_summary">Näytä soitinta käytettäessä soittimen kaatamisen vaihtoehto</string>
     <string name="show_error_snackbar">Näytä virheen ponnahdusilmoitus</string>
     <string name="feed_new_items">Uudet syötteet</string>
+<string name="list_quick_actions_title">Painikkeet listan kohteissa</string>
+<string name="list_quick_actions_summary">Näytä valitut pikavalikon kohdat kuvakepainikkeina jokaisessa listan videossa</string>
+<string name="list_quick_actions_summary_none">Ei painikkeita: paina videota pitkään nähdäksesi koko valikon</string>
 </resources>

@@ -330,4 +330,7 @@
     <string name="subscriptions_export_unsuccessful">சந்தாக்களை ஏற்றுமதி செய்ய முடியவில்லை</string>
     <string name="feed_group_dialog_select_subscriptions">சந்தாக்களைத் தேர்ந்தெடு</string>
     <string name="preferred_open_action_settings_title">நயமான \'திற\' செயல்</string>
+<string name="list_quick_actions_title">பட்டியல் உருப்படிகளில் பொத்தான்கள்</string>
+<string name="list_quick_actions_summary">தேர்ந்தெடுத்த சூழல் பட்டி உருப்படிகளை பட்டியலின் ஒவ்வொரு வீடியோவிலும் சின்னப் பொத்தான்களாகக் காட்டு</string>
+<string name="list_quick_actions_summary_none">பொத்தான்கள் இல்லை: முழு பட்டிக்கு வீடியோவை அழுத்திப் பிடிக்கவும்</string>
 </resources>

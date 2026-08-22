@@ -514,4 +514,7 @@
     <string name="search_showing_result_for">%s : का लागि परिणामहरु देखाइँदैछ</string>
     <string name="open_with">सँँग खोल्नुहोस्</string>
     <string name="mark_as_watched">हेरेको भनि चिन्ह लगाउनुहोस्</string>
+<string name="list_quick_actions_title">सूचीका वस्तुहरूमा बटन</string>
+<string name="list_quick_actions_summary">छानिएका सन्दर्भ मेनु वस्तुहरूलाई सूचीको प्रत्येक भिडियोमा प्रतीक बटनका रूपमा देखाउनुहोस्</string>
+<string name="list_quick_actions_summary_none">कुनै बटन छैन: पूरा मेनुका लागि भिडियो थिचिराख्नुहोस्</string>
 </resources>

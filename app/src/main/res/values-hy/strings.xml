@@ -134,4 +134,7 @@
     <string name="title_activity_history">Պատմություն</string>
     <string name="action_history">Պատմություն</string>
     <string name="trending">Թրենդային</string>
+<string name="list_quick_actions_title">Կոճակներ ցանկի տարրերի վրա</string>
+<string name="list_quick_actions_summary">Ցուցադրել ընտրված համատեքստային ընտրացանկի կետերը որպես պատկերակ-կոճակներ ցանկի յուրաքանչյուր տեսանյութի վրա</string>
+<string name="list_quick_actions_summary_none">Կոճակներ չկան․ սեղմած պահեք տեսանյութը՝ ամբողջ ընտրացանկի համար</string>
 </resources>

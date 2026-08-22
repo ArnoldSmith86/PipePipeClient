@@ -537,4 +537,7 @@
     <string name="install">Instalar</string>
     <string name="no_player_found">Nun s\'atopó nengún reproductor de fluxos. ¿Instalar VLC\?</string>
     <string name="main_bg_subtitle">Toca «Buscar» pa entamar</string>
+<string name="list_quick_actions_title">Botones nos elementos de la llista</string>
+<string name="list_quick_actions_summary">Amosar les entraes escoyíes del menú contestual como botones con iconu en cada videu d\'una llista</string>
+<string name="list_quick_actions_summary_none">Ensin botones: calca ensin soltar un videu pal menú completu</string>
 </resources>

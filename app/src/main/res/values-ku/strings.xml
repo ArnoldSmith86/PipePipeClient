@@ -530,4 +530,7 @@
     <string name="notification_colorize_summary">شازدانی ڕەنگی پەیامەکانی ئەندرۆید بەپێی ڕەنگی سەرەکی وێنۆچکە (تێبینی ئەمە لەسەرجەم ئامێرەکان بەردەست نییە)</string>
     <string name="notification_colorize_title">ڕەنگینی پەیام</string>
     <string name="open_with">کردنەوە بە</string>
+<string name="list_quick_actions_title">Bişkok li ser hêmanên lîsteyê</string>
+<string name="list_quick_actions_summary">Hêmanên hilbijartî yên pêşeka kontekstê wek bişkokên îkonî li ser her vîdyoyeke lîsteyê nîşan bide</string>
+<string name="list_quick_actions_summary_none">Bêyî bişkok: ji bo pêşeka temam, vîdyoyekê pêl bike û bigire</string>
 </resources>

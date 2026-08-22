@@ -667,4 +667,7 @@
     <string name="get_notified">Λάβετε ειδοποίηση</string>
     <string name="you_successfully_subscribed">Έχετε εγγραφεί τώρα σε αυτό το κανάλι</string>
     <string name="toggle_all">Εναλλαγή όλων</string>
+<string name="list_quick_actions_title">Κουμπιά στα στοιχεία της λίστας</string>
+<string name="list_quick_actions_summary">Εμφάνιση των επιλεγμένων στοιχείων του μενού περιβάλλοντος ως κουμπιά με εικονίδιο σε κάθε βίντεο μιας λίστας</string>
+<string name="list_quick_actions_summary_none">Χωρίς κουμπιά: κρατήστε πατημένο ένα βίντεο για το πλήρες μενού</string>
 </resources>

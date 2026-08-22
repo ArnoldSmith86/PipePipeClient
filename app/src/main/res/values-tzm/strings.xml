@@ -169,4 +169,7 @@
     <string name="albums">Ilbumen</string>
     <string name="playlists">Tilgamin n tɣuri</string>
     <string name="autoplay_title">Taɣuri tawurmant</string>
+<string name="list_quick_actions_title">Tinaqqiḍin ɣef ifrisen n tlgamt</string>
+<string name="list_quick_actions_summary">Sken ifrisen yettwastayen n umuɣ n usatal am tneqqiḍin s tignit ɣef kul asit n tlgamt</string>
+<string name="list_quick_actions_summary_none">Ulac tineqqiḍin: ṭṭef asit i wad d-yeldi umuɣ ikemmlen</string>
 </resources>

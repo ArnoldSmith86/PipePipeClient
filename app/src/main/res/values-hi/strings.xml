@@ -519,4 +519,7 @@
     <string name="start_main_player_fullscreen_summary">मिनी प्लेयर में वीडियो शुरू न करें, लेकिन ऑटो रोटेशन लॉक होने पर सीधे फुल स्क्रीन मोड पर जाएं। आप अब भी फ़ुलस्क्रीन से बाहर निकलकर मिनी प्लेयर तक पहुंच सकते हैं।</string>
     <string name="comments_are_disabled">टिप्पणियाँ करना बंद है</string>
     <string name="mark_as_watched">देखा हुआ चिह्नित करें</string>
+<string name="list_quick_actions_title">सूची की प्रविष्टियों पर बटन</string>
+<string name="list_quick_actions_summary">चुने हुए संदर्भ मेन्यू विकल्पों को सूची के हर वीडियो पर आइकन बटन के रूप में दिखाएँ</string>
+<string name="list_quick_actions_summary_none">कोई बटन नहीं: पूरा मेन्यू देखने के लिए वीडियो को देर तक दबाएँ</string>
 </resources>

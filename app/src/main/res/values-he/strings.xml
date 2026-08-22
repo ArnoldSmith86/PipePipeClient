@@ -693,4 +693,7 @@
     <string name="delete_downloaded_files_confirm">למחוק את כל הקבצים שהורדו מהכונן\?</string>
     <string name="notifications_disabled">התראות מושבתות</string>
     <string name="you_successfully_subscribed">נרשמת לערוץ הזה</string>
+<string name="list_quick_actions_title">כפתורים על פריטי הרשימה</string>
+<string name="list_quick_actions_summary">הצגת פריטי תפריט ההקשר שנבחרו ככפתורי סמל על כל סרטון ברשימה</string>
+<string name="list_quick_actions_summary_none">בלי כפתורים: יש ללחוץ ארוכות על סרטון לתפריט המלא</string>
 </resources>

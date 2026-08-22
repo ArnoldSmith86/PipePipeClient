@@ -369,4 +369,7 @@
     <string name="open_with">Åben med</string>
     <string name="leak_canary_not_available">LeakCanary er ikke tilgængelig</string>
     <string name="mark_as_watched">Markér som set</string>
+<string name="list_quick_actions_title">Knapper på listeelementer</string>
+<string name="list_quick_actions_summary">Vis de valgte genvejsmenupunkter som ikonknapper på hver video i en liste</string>
+<string name="list_quick_actions_summary_none">Ingen knapper: hold en video nede for hele menuen</string>
 </resources>

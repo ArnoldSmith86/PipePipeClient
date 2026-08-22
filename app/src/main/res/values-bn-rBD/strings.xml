@@ -326,4 +326,7 @@
     <string name="metadata_language">ভাষা</string>
     <string name="metadata_age_limit">বয়স সীমা</string>
     <string name="main_page_content">প্রধান পাতার উপাদান সমূহ</string>
+<string name="list_quick_actions_title">তালিকার আইটেমে বোতাম</string>
+<string name="list_quick_actions_summary">নির্বাচিত কনটেক্সট মেনুর আইটেমগুলো তালিকার প্রতিটি ভিডিওতে আইকন বোতাম হিসেবে দেখান</string>
+<string name="list_quick_actions_summary_none">কোনো বোতাম নেই: পুরো মেনুর জন্য ভিডিওতে চেপে ধরুন</string>
 </resources>

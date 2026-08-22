@@ -496,4 +496,7 @@
     <string name="start_main_player_fullscreen_title">전체화면으로 주 플레이어 시작</string>
     <string name="hash_channel_name">비디오 해시 알림</string>
     <string name="error_report_open_issue_button_text">GitHub에 보고</string>
+<string name="list_quick_actions_title">목록 항목의 버튼</string>
+<string name="list_quick_actions_summary">선택한 컨텍스트 메뉴 항목을 목록의 각 동영상에 아이콘 버튼으로 표시합니다</string>
+<string name="list_quick_actions_summary_none">버튼 없음: 동영상을 길게 누르면 전체 메뉴가 열립니다</string>
 </resources>

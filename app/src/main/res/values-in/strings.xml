@@ -654,4 +654,7 @@
     <string name="enable_streams_notifications_title">Notifikasi stream baru</string>
     <string name="enable_streams_notifications_summary">Beritahu tentang stream baru dari notifikasi</string>
     <string name="you_successfully_subscribed">Anda sekarang berlangganan ke channel ini</string>
+<string name="list_quick_actions_title">Tombol pada item daftar</string>
+<string name="list_quick_actions_summary">Tampilkan entri menu konteks yang dipilih sebagai tombol ikon pada setiap video dalam daftar</string>
+<string name="list_quick_actions_summary_none">Tanpa tombol: tekan lama video untuk membuka menu lengkap</string>
 </resources>
