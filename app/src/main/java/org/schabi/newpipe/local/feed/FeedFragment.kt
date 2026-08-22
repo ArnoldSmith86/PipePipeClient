@@ -170,6 +170,9 @@ class FeedFragment : BaseStateFragment<FeedState>() {
                 getString(R.string.pull_to_refresh_key) -> {
                     updatePullToRefreshOnResume = true
                 }
+                getString(R.string.list_quick_actions_key) -> {
+                    updateListViewModeOnResume = true
+                }
             }
         }
         PreferenceManager.getDefaultSharedPreferences(activity)
