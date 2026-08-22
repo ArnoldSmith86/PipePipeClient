@@ -691,4 +691,7 @@
 <string name="portrait_outside_fullscreen_summary">Mostra les llistes, la pàgina del vídeo i la configuració en vertical, independentment de com se sostingui el dispositiu. Només la reproducció a pantalla completa gira a horitzontal</string>
 <string name="back_from_fullscreen_closes_player_title">Enrere a pantalla completa tanca el vídeo</string>
 <string name="back_from_fullscreen_closes_player_summary">Prémer enrere durant la reproducció a pantalla completa torna a la llista i atura el vídeo, en lloc de deixar-lo obert al minireproductor</string>
+<string name="list_quick_actions_title">Botons als elements de la llista</string>
+<string name="list_quick_actions_summary">Mostra les entrades del menú contextual triades com a botons d\'icona a cada vídeo d\'una llista</string>
+<string name="list_quick_actions_summary_none">Cap botó: manteniu premut un vídeo per veure el menú complet</string>
 </resources>

@@ -437,4 +437,7 @@
 <string name="portrait_outside_fullscreen_summary">పరికరాన్ని ఎలా పట్టుకున్నా జాబితాలు, వీడియో పేజీ మరియు సెట్టింగ్‌లను నిలువుగా చూపు. పూర్తి తెర ప్లేబ్యాక్ మాత్రమే అడ్డంగా తిరుగుతుంది</string>
 <string name="back_from_fullscreen_closes_player_title">పూర్తి తెరలో వెనక్కి నొక్కితే వీడియో మూసుకుంటుంది</string>
 <string name="back_from_fullscreen_closes_player_summary">పూర్తి తెర ప్లేబ్యాక్ సమయంలో వెనక్కి నొక్కితే జాబితాకు తిరిగి వెళ్లి వీడియో ఆగిపోతుంది, మినీ ప్లేయర్‌లో తెరిచి ఉంచడానికి బదులుగా</string>
+<string name="list_quick_actions_title">జాబితా అంశాలపై బటన్లు</string>
+<string name="list_quick_actions_summary">ఎంచుకున్న సందర్భ మెనూ అంశాలను జాబితాలోని ప్రతి వీడియోపై చిహ్న బటన్లుగా చూపు</string>
+<string name="list_quick_actions_summary_none">బటన్లు లేవు: పూర్తి మెనూ కోసం వీడియోను నొక్కి పట్టుకోండి</string>
 </resources>

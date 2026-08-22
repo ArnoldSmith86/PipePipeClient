@@ -714,4 +714,7 @@
 <string name="portrait_outside_fullscreen_summary">Erakutsi zerrendak, bideoaren orria eta ezarpenak bertikalean, gailua nola eutsita ere. Pantaila osoko erreprodukzioa soilik biratzen da horizontalera</string>
 <string name="back_from_fullscreen_closes_player_title">Atzera pantaila osoan bideoa ixten du</string>
 <string name="back_from_fullscreen_closes_player_summary">Pantaila osoko erreprodukzioan atzera sakatzeak zerrendara itzultzen da eta bideoa gelditzen du, mini erreproduzigailuan irekita utzi beharrean</string>
+<string name="list_quick_actions_title">Botoiak zerrendako elementuetan</string>
+<string name="list_quick_actions_summary">Erakutsi aukeratutako testuinguru-menuko sarrerak ikono-botoi gisa zerrendako bideo bakoitzean</string>
+<string name="list_quick_actions_summary_none">Botoirik ez: eduki sakatuta bideo bat menu osoa ikusteko</string>
 </resources>

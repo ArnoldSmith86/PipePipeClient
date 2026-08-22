@@ -714,4 +714,7 @@
 <string name="portrait_outside_fullscreen_summary">Näita loendeid, video lehte ja seadeid püstpaigutuses, ükskõik kuidas seadet hoitakse. Ainult täisekraanil esitamine pöördub rõhtpaigutusse</string>
 <string name="back_from_fullscreen_closes_player_title">Tagasi täisekraanil sulgeb video</string>
 <string name="back_from_fullscreen_closes_player_summary">Tagasi vajutamine täisekraanil esitamise ajal viib loendisse tagasi ja peatab video, selle asemel et jätta see minimängijasse avatuks</string>
+<string name="list_quick_actions_title">Nupud loendi kirjetel</string>
+<string name="list_quick_actions_summary">Näita valitud kontekstimenüü kirjeid ikoonnuppudena iga loendis oleva video juures</string>
+<string name="list_quick_actions_summary_none">Nuppe pole: hoia videot all, et näha kogu menüüd</string>
 </resources>

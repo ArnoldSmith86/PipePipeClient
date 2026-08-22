@@ -578,4 +578,7 @@
 <string name="portrait_outside_fullscreen_summary">Qurilma qanday ushlanishidan qat\'i nazar ro\'yxatlarni, video sahifasini va sozlamalarni tik holatda ko\'rsatish. Faqat to\'liq ekranda ijro yonboshiga buriladi</string>
 <string name="back_from_fullscreen_closes_player_title">To\'liq ekranda orqaga videoni yopadi</string>
 <string name="back_from_fullscreen_closes_player_summary">To\'liq ekranda ijro paytida orqaga bosish ro\'yxatga qaytaradi va videoni to\'xtatadi, uni mini pleyerda ochiq qoldirish o\'rniga</string>
+<string name="list_quick_actions_title">Ro\'yxat elementlaridagi tugmalar</string>
+<string name="list_quick_actions_summary">Tanlangan kontekst menyusi bandlarini ro\'yxatdagi har bir videoda belgi tugmalari sifatida ko\'rsatish</string>
+<string name="list_quick_actions_summary_none">Tugmalar yo\'q: to\'liq menyu uchun videoni bosib turing</string>
 </resources>

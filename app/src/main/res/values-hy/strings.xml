@@ -181,4 +181,7 @@
 <string name="portrait_outside_fullscreen_summary">Ցուցադրել ցանկերը, տեսանյութի էջը և կարգավորումները ուղղաձիգ՝ անկախ նրանից, թե ինչպես է սարքը պահվում։ Միայն լիաէկրան նվագարկումն է շրջվում հորիզոնական</string>
 <string name="back_from_fullscreen_closes_player_title">Հետ գնալը լիաէկրանում փակում է տեսանյութը</string>
 <string name="back_from_fullscreen_closes_player_summary">Լիաէկրան նվագարկման ժամանակ «Հետ» սեղմելը վերադառնում է ցանկ և կանգնեցնում տեսանյութը՝ մինի նվագարկիչում բաց թողնելու փոխարեն</string>
+<string name="list_quick_actions_title">Կոճակներ ցանկի տարրերի վրա</string>
+<string name="list_quick_actions_summary">Ցուցադրել ընտրված համատեքստային ընտրացանկի կետերը որպես պատկերակ-կոճակներ ցանկի յուրաքանչյուր տեսանյութի վրա</string>
+<string name="list_quick_actions_summary_none">Կոճակներ չկան․ սեղմած պահեք տեսանյութը՝ ամբողջ ընտրացանկի համար</string>
 </resources>

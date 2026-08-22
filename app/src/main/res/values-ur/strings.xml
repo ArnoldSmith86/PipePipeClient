@@ -508,4 +508,7 @@
 <string name="portrait_outside_fullscreen_summary">فہرستیں، ویڈیو کا صفحہ اور ترتیبات عمودی دکھائیں، چاہے آلہ جیسے بھی پکڑا جائے۔ صرف پوری سکرین پر چلنے والی ویڈیو افقی ہوتی ہے</string>
 <string name="back_from_fullscreen_closes_player_title">پوری سکرین میں واپسی ویڈیو بند کر دیتی ہے</string>
 <string name="back_from_fullscreen_closes_player_summary">پوری سکرین پر چلتے وقت واپس دبانا فہرست پر لوٹاتا ہے اور ویڈیو روک دیتا ہے، بجائے اسے منی پلیئر میں کھلا چھوڑنے کے</string>
+<string name="list_quick_actions_title">فہرست کے آئٹمز پر بٹن</string>
+<string name="list_quick_actions_summary">منتخب کردہ سیاق و سباق مینو کے اندراجات کو فہرست کی ہر ویڈیو پر آئیکن بٹن کے طور پر دکھائیں</string>
+<string name="list_quick_actions_summary_none">کوئی بٹن نہیں: مکمل مینو کے لیے ویڈیو کو دبائے رکھیں</string>
 </resources>

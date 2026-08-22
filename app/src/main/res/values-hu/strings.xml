@@ -691,4 +691,7 @@
 <string name="portrait_outside_fullscreen_summary">A listák, a videó oldala és a beállítások álló módban jelenjenek meg, bárhogy is tartod az eszközt. Csak a teljes képernyős lejátszás fordul fekvőbe</string>
 <string name="back_from_fullscreen_closes_player_title">A vissza teljes képernyőn bezárja a videót</string>
 <string name="back_from_fullscreen_closes_player_summary">A vissza gomb teljes képernyős lejátszás közben visszatér a listához és leállítja a videót, ahelyett hogy nyitva hagyná a mini lejátszóban</string>
+<string name="list_quick_actions_title">Gombok a lista elemein</string>
+<string name="list_quick_actions_summary">A kiválasztott helyi menüpontok megjelenítése ikongombként a lista minden videóján</string>
+<string name="list_quick_actions_summary_none">Nincsenek gombok: tartsd nyomva a videót a teljes menüért</string>
 </resources>

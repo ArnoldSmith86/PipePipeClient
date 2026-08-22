@@ -705,4 +705,7 @@
 <string name="portrait_outside_fullscreen_summary">Zobrazovat seznamy, stránku videa a nastavení na výšku bez ohledu na to, jak je zařízení drženo. Na šířku se otáčí jen přehrávání na celou obrazovku</string>
 <string name="back_from_fullscreen_closes_player_title">Zpět na celé obrazovce zavře video</string>
 <string name="back_from_fullscreen_closes_player_summary">Stisknutí zpět během přehrávání na celou obrazovku se vrátí do seznamu a zastaví video, místo aby ho nechalo otevřené v minipřehrávači</string>
+<string name="list_quick_actions_title">Tlačítka na položkách seznamu</string>
+<string name="list_quick_actions_summary">Zobrazovat vybrané položky kontextové nabídky jako tlačítka s ikonami u každého videa v seznamu</string>
+<string name="list_quick_actions_summary_none">Bez tlačítek: podržte video pro celou nabídku</string>
 </resources>

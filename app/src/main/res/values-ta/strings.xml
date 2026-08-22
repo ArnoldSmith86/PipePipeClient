@@ -377,4 +377,7 @@
 <string name="portrait_outside_fullscreen_summary">சாதனத்தை எப்படிப் பிடித்தாலும் பட்டியல்கள், வீடியோப் பக்கம் மற்றும் அமைப்புகளை நெடுக்கமாகக் காட்டு. முழுத்திரை இயக்கம் மட்டுமே கிடைமட்டமாகத் திரும்பும்</string>
 <string name="back_from_fullscreen_closes_player_title">முழுத்திரையில் பின் செல்வது வீடியோவை மூடும்</string>
 <string name="back_from_fullscreen_closes_player_summary">முழுத்திரையில் இயங்கும்போது பின் பொத்தானை அழுத்தினால் பட்டியலுக்குத் திரும்பி வீடியோ நிற்கும், சிறு பிளேயரில் திறந்திருக்காமல்</string>
+<string name="list_quick_actions_title">பட்டியல் உருப்படிகளில் பொத்தான்கள்</string>
+<string name="list_quick_actions_summary">தேர்ந்தெடுத்த சூழல் பட்டி உருப்படிகளை பட்டியலின் ஒவ்வொரு வீடியோவிலும் சின்னப் பொத்தான்களாகக் காட்டு</string>
+<string name="list_quick_actions_summary_none">பொத்தான்கள் இல்லை: முழு பட்டிக்கு வீடியோவை அழுத்திப் பிடிக்கவும்</string>
 </resources>

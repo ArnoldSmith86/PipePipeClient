@@ -1074,4 +1074,7 @@
 <string name="portrait_outside_fullscreen_summary">端末の向きにかかわらず、一覧・動画ページ・設定を縦向きで表示します。横向きになるのは全画面再生のときだけです</string>
 <string name="back_from_fullscreen_closes_player_title">全画面での戻るで動画を閉じる</string>
 <string name="back_from_fullscreen_closes_player_summary">全画面再生中に戻るを押すと、ミニプレーヤーに残さず一覧に戻って動画を停止します</string>
+<string name="list_quick_actions_title">一覧の項目に表示するボタン</string>
+<string name="list_quick_actions_summary">選んだメニュー項目を、一覧の各動画にアイコンボタンとして表示します</string>
+<string name="list_quick_actions_summary_none">ボタンなし: 動画を長押しすると全メニューが開きます</string>
 </resources>

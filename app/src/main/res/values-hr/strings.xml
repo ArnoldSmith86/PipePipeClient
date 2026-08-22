@@ -718,4 +718,7 @@
 <string name="portrait_outside_fullscreen_summary">Prikazuj popise, stranicu videozapisa i postavke okomito, bez obzira na to kako se uređaj drži. Samo reprodukcija preko cijelog zaslona okreće se vodoravno</string>
 <string name="back_from_fullscreen_closes_player_title">Natrag preko cijelog zaslona zatvara videozapis</string>
 <string name="back_from_fullscreen_closes_player_summary">Pritisak na „Natrag” tijekom reprodukcije preko cijelog zaslona vraća na popis i zaustavlja videozapis, umjesto da ga ostavi otvorenim u mini playeru</string>
+<string name="list_quick_actions_title">Gumbi na stavkama popisa</string>
+<string name="list_quick_actions_summary">Prikaži odabrane stavke kontekstnog izbornika kao gumbe s ikonama na svakom videozapisu u popisu</string>
+<string name="list_quick_actions_summary_none">Bez gumba: držite videozapis za cijeli izbornik</string>
 </resources>

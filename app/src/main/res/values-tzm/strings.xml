@@ -216,4 +216,7 @@
 <string name="portrait_outside_fullscreen_summary">Sken tilgamin, asebter n usit d tsɣal ibedden, mamek d itwaṭṭef umssuds. War urar s ugdil ameqqran i itzzin s tama</string>
 <string name="back_from_fullscreen_closes_player_title">Adfar deg ugdil ameqqran ad iqqen asit</string>
 <string name="back_from_fullscreen_closes_player_summary">Tikki n tneqqiḍt n udfar deg urar s ugdil ameqqran ad tarar ɣer tlgamt tsbedd asit, maca ur t-tettaǧǧa yurez deg umurar amezzyan</string>
+<string name="list_quick_actions_title">Tinaqqiḍin ɣef ifrisen n tlgamt</string>
+<string name="list_quick_actions_summary">Sken ifrisen yettwastayen n umuɣ n usatal am tneqqiḍin s tignit ɣef kul asit n tlgamt</string>
+<string name="list_quick_actions_summary_none">Ulac tineqqiḍin: ṭṭef asit i wad d-yeldi umuɣ ikemmlen</string>
 </resources>

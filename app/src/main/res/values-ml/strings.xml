@@ -660,4 +660,7 @@
 <string name="portrait_outside_fullscreen_summary">ഉപകരണം എങ്ങനെ പിടിച്ചാലും പട്ടികകളും വീഡിയോ പേജും ക്രമീകരണങ്ങളും കുത്തനെ കാണിക്കുക. പൂർണസ്ക്രീൻ പ്ലേബാക്ക് മാത്രം വിലങ്ങനെ തിരിയും</string>
 <string name="back_from_fullscreen_closes_player_title">പൂർണസ്ക്രീനിൽ പിന്നോട്ട് അമർത്തിയാൽ വീഡിയോ അടയും</string>
 <string name="back_from_fullscreen_closes_player_summary">പൂർണസ്ക്രീൻ പ്ലേബാക്കിനിടെ പിന്നോട്ട് അമർത്തിയാൽ പട്ടികയിലേക്ക് മടങ്ങി വീഡിയോ നിർത്തും, മിനി പ്ലെയറിൽ തുറന്നിടുന്നതിനു പകരം</string>
+<string name="list_quick_actions_title">പട്ടികയിലെ ഇനങ്ങളിൽ ബട്ടണുകൾ</string>
+<string name="list_quick_actions_summary">തിരഞ്ഞെടുത്ത സന്ദർഭ മെനു ഇനങ്ങൾ പട്ടികയിലെ ഓരോ വീഡിയോയിലും ചിഹ്ന ബട്ടണുകളായി കാണിക്കുക</string>
+<string name="list_quick_actions_summary_none">ബട്ടണുകളില്ല: മുഴുവൻ മെനുവിന് വീഡിയോ അമർത്തിപ്പിടിക്കുക</string>
 </resources>

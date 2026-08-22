@@ -84,7 +84,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="@dimen/video_item_search_title_text_size"
         app:layout_constraintBottom_toTopOf="@+id/itemUploaderView"
-        app:layout_constraintEnd_toEndOf="@+id/itemThumbnailView"
+        app:layout_constraintEnd_toStartOf="@+id/itemQuickActions"
         app:layout_constraintStart_toStartOf="@+id/itemThumbnailView"
         app:layout_constraintTop_toBottomOf="@+id/itemThumbnailView"
         tools:text="@tools:sample/lorem[10]" />
@@ -98,7 +98,7 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textSize="@dimen/video_item_search_uploader_text_size"
         app:layout_constraintBottom_toTopOf="@+id/itemAdditionalDetails"
-        app:layout_constraintEnd_toEndOf="@+id/itemThumbnailView"
+        app:layout_constraintEnd_toStartOf="@+id/itemQuickActions"
         app:layout_constraintStart_toStartOf="@+id/itemThumbnailView"
         app:layout_constraintTop_toBottomOf="@+id/itemVideoTitleView"
         tools:text="Uploader name long very very long long" />
@@ -142,5 +142,18 @@
         app:layout_constraintTop_toTopOf="@id/itemAdditionalDetails"
         app:srcCompat="@drawable/ic_drag_handle"
         tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+
+    <LinearLayout
+        android:id="@+id/itemQuickActions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/itemAdditionalDetails"
+        app:layout_constraintEnd_toEndOf="@+id/itemThumbnailView"
+        app:layout_constraintTop_toTopOf="@+id/itemVideoTitleView"
+        tools:visibility="visible" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

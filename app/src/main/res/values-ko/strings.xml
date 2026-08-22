@@ -543,4 +543,7 @@
 <string name="portrait_outside_fullscreen_summary">기기를 어떻게 들든 목록, 동영상 페이지, 설정을 세로로 표시합니다. 전체 화면 재생만 가로로 돌아갑니다</string>
 <string name="back_from_fullscreen_closes_player_title">전체 화면에서 뒤로 가면 동영상을 닫음</string>
 <string name="back_from_fullscreen_closes_player_summary">전체 화면 재생 중 뒤로를 누르면 미니 재생기에 남기지 않고 목록으로 돌아가 동영상을 멈춥니다</string>
+<string name="list_quick_actions_title">목록 항목의 버튼</string>
+<string name="list_quick_actions_summary">선택한 컨텍스트 메뉴 항목을 목록의 각 동영상에 아이콘 버튼으로 표시합니다</string>
+<string name="list_quick_actions_summary_none">버튼 없음: 동영상을 길게 누르면 전체 메뉴가 열립니다</string>
 </resources>

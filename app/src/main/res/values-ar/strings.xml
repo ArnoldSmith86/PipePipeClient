@@ -1139,4 +1139,7 @@
 <string name="portrait_outside_fullscreen_summary">عرض القوائم وصفحة الفيديو والإعدادات عموديًا مهما كانت وضعية الجهاز. التشغيل بملء الشاشة وحده هو الذي يدور أفقيًا</string>
 <string name="back_from_fullscreen_closes_player_title">زر الرجوع في وضع ملء الشاشة يغلق الفيديو</string>
 <string name="back_from_fullscreen_closes_player_summary">الضغط على الرجوع أثناء التشغيل بملء الشاشة يعود إلى القائمة ويوقف الفيديو بدلًا من تركه مفتوحًا في المشغّل المصغّر</string>
+<string name="list_quick_actions_title">أزرار على عناصر القائمة</string>
+<string name="list_quick_actions_summary">إظهار عناصر قائمة السياق المختارة كأزرار برموز على كل فيديو في القوائم</string>
+<string name="list_quick_actions_summary_none">بلا أزرار: اضغط مطولًا على فيديو لعرض القائمة كاملة</string>
 </resources>

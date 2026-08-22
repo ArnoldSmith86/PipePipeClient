@@ -1180,4 +1180,7 @@ PipePipe предлагает две стратегии загрузки лен�
 <string name="portrait_outside_fullscreen_summary">Показывать списки, страницу видео и настройки вертикально, как бы ни было повёрнуто устройство. Только полноэкранное воспроизведение поворачивается горизонтально</string>
 <string name="back_from_fullscreen_closes_player_title">Назад в полноэкранном режиме закрывает видео</string>
 <string name="back_from_fullscreen_closes_player_summary">Нажатие «Назад» во время полноэкранного воспроизведения возвращает к списку и останавливает видео, вместо того чтобы оставить его в мини-проигрывателе</string>
+<string name="list_quick_actions_title">Кнопки на элементах списка</string>
+<string name="list_quick_actions_summary">Показывать выбранные пункты контекстного меню как кнопки-значки на каждом видео в списке</string>
+<string name="list_quick_actions_summary_none">Без кнопок: удерживайте видео, чтобы открыть полное меню</string>
 </resources>

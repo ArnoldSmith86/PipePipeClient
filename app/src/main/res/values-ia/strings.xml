@@ -262,4 +262,7 @@
 <string name="portrait_outside_fullscreen_summary">Monstrar le listas, le pagina del video e le configurationes in vertical, non importa como on tene le apparato. Solo le reproduction a schermo plen rota a horizontal</string>
 <string name="back_from_fullscreen_closes_player_title">Retro a schermo plen claude le video</string>
 <string name="back_from_fullscreen_closes_player_summary">Pressar retro durante le reproduction a schermo plen retorna al lista e stoppa le video, in vice de lassar lo aperte in le mini-reproductor</string>
+<string name="list_quick_actions_title">Buttones sur le elementos del lista</string>
+<string name="list_quick_actions_summary">Monstrar le entratas del menu contextual seligite como buttones con icone sur cata video in un lista</string>
+<string name="list_quick_actions_summary_none">Nulle buttones: tene pressate un video pro le menu complete</string>
 </resources>

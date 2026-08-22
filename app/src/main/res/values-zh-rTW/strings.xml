@@ -1105,4 +1105,7 @@
 <string name="portrait_outside_fullscreen_summary">無論裝置如何拿取，清單、影片頁面和設定都以直向顯示。只有全螢幕播放才會轉為橫向</string>
 <string name="back_from_fullscreen_closes_player_title">全螢幕時返回即關閉影片</string>
 <string name="back_from_fullscreen_closes_player_summary">全螢幕播放時按返回會回到清單並停止影片，而不是讓它在迷你播放器中繼續開啟</string>
+<string name="list_quick_actions_title">清單項目上的按鈕</string>
+<string name="list_quick_actions_summary">在清單中的每部影片上，把所選的選單項目顯示為圖示按鈕</string>
+<string name="list_quick_actions_summary_none">無按鈕：長按影片可開啟完整選單</string>
 </resources>

@@ -688,4 +688,7 @@
 <string name="portrait_outside_fullscreen_summary">Vis lister, videosiden og innstillingene i stående format uansett hvordan enheten holdes. Bare fullskjermavspilling snur til liggende</string>
 <string name="back_from_fullscreen_closes_player_title">Tilbake i fullskjerm lukker videoen</string>
 <string name="back_from_fullscreen_closes_player_summary">Å trykke tilbake under fullskjermavspilling går tilbake til listen og stopper videoen, i stedet for å la den være åpen i minispilleren</string>
+<string name="list_quick_actions_title">Knapper på listeelementer</string>
+<string name="list_quick_actions_summary">Vis de valgte hurtigmenyvalgene som ikonknapper på hver video i en liste</string>
+<string name="list_quick_actions_summary_none">Ingen knapper: hold inne en video for hele menyen</string>
 </resources>

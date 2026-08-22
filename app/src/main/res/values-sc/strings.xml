@@ -714,4 +714,7 @@
 <string name="portrait_outside_fullscreen_summary">Mustra sas listas, sa pàgina de su vídeu e sas cunfiguratziones in verticale, comente si siat tentu su dispositivu. Isceti sa reprodutzione a ischermu prenu girat in orizontale</string>
 <string name="back_from_fullscreen_closes_player_title">Torra a segus a ischermu prenu serrat su vídeu</string>
 <string name="back_from_fullscreen_closes_player_summary">Premende torra a segus in su ischermu prenu si torrat a sa lista e su vídeu s\'arrèstat, in logu de ddu lassare abertu in su mini reprodutore</string>
+<string name="list_quick_actions_title">Butones in sos elementos de sa lista</string>
+<string name="list_quick_actions_summary">Mustra sas boghes seberadas de su menù cuntestuale comente butones cun icona in cada vídeu de una lista</string>
+<string name="list_quick_actions_summary_none">Perunu butone: mantene primidu unu vídeu pro su menù cumpletu</string>
 </resources>

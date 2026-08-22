@@ -701,4 +701,7 @@
 <string name="portrait_outside_fullscreen_summary">Tampilkan daftar, halaman video, dan pengaturan secara tegak, bagaimanapun perangkat dipegang. Hanya pemutaran layar penuh yang berputar ke mendatar</string>
 <string name="back_from_fullscreen_closes_player_title">Kembali saat layar penuh menutup video</string>
 <string name="back_from_fullscreen_closes_player_summary">Menekan kembali saat pemutaran layar penuh akan kembali ke daftar dan menghentikan video, alih-alih membiarkannya terbuka di pemutar mini</string>
+<string name="list_quick_actions_title">Tombol pada item daftar</string>
+<string name="list_quick_actions_summary">Tampilkan entri menu konteks yang dipilih sebagai tombol ikon pada setiap video dalam daftar</string>
+<string name="list_quick_actions_summary_none">Tanpa tombol: tekan lama video untuk membuka menu lengkap</string>
 </resources>

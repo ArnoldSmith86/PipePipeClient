@@ -18,6 +18,7 @@ import org.schabi.newpipe.extractor.stream.StreamType.VIDEO_STREAM
 import org.schabi.newpipe.local.cache.CacheManager
 import org.schabi.newpipe.util.Localization
 import org.schabi.newpipe.util.PicassoHelper
+import org.schabi.newpipe.util.StreamQuickActions
 import org.schabi.newpipe.util.StreamTypeUtil
 import java.util.concurrent.TimeUnit
 import java.util.function.Consumer
@@ -39,6 +40,12 @@ data class StreamItem(
      * Can be used e.g. for highlighting a item.
      */
     var execBindEnd: Consumer<ListStreamItemBinding>? = null
+
+    /**
+     * Invoked with the name of the [org.schabi.newpipe.info_list.dialog.StreamDialogDefaultEntry]
+     * behind whichever quick-action button was tapped on this item.
+     */
+    var onQuickAction: ((StreamEntity, String) -> Unit)? = null
 
     override fun getId(): Long = stream.uid
 
@@ -152,6 +159,10 @@ data class StreamItem(
             getStreamInfoDetailLine(viewBinding.itemAdditionalDetails.context)
 
         updateCacheStatus(viewBinding)
+
+        StreamQuickActions.bind(viewBinding.itemQuickActions) { actionName ->
+            onQuickAction?.invoke(stream, actionName)
+        }
 
         execBindEnd?.accept(viewBinding)
     }

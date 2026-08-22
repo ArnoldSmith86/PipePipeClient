@@ -565,4 +565,7 @@
 <string name="portrait_outside_fullscreen_summary">Показване на списъците, страницата на видеото и настройките вертикално, независимо как е държано устройството. Само възпроизвеждането на цял екран се завърта хоризонтално</string>
 <string name="back_from_fullscreen_closes_player_title">Назад на цял екран затваря видеото</string>
 <string name="back_from_fullscreen_closes_player_summary">Натискането на „Назад“ по време на възпроизвеждане на цял екран връща към списъка и спира видеото, вместо да го оставя отворено в мини плейъра</string>
+<string name="list_quick_actions_title">Бутони върху елементите в списъка</string>
+<string name="list_quick_actions_summary">Показване на избраните елементи от контекстното меню като бутони с икони върху всяко видео в списък</string>
+<string name="list_quick_actions_summary_none">Без бутони: задръжте видео за пълното меню</string>
 </resources>

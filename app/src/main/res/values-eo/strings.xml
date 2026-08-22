@@ -565,4 +565,7 @@
 <string name="portrait_outside_fullscreen_summary">Montri listojn, la videopaĝon kaj la agordojn vertikale, negrave kiel oni tenas la aparaton. Nur plenekrana ludado turniĝas horizontale</string>
 <string name="back_from_fullscreen_closes_player_title">Reen en plenekrano fermas la videon</string>
 <string name="back_from_fullscreen_closes_player_summary">Premi reen dum plenekrana ludado revenas al la listo kaj haltigas la videon, anstataŭ lasi ĝin malfermita en la mini-ludilo</string>
+<string name="list_quick_actions_title">Butonoj sur listeroj</string>
+<string name="list_quick_actions_summary">Montri la elektitajn kuntekstmenuerojn kiel bildsimbolajn butonojn sur ĉiu video en listo</string>
+<string name="list_quick_actions_summary_none">Neniuj butonoj: premtenu videon por la plena menuo</string>
 </resources>

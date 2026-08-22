@@ -425,4 +425,7 @@
 <string name="portrait_outside_fullscreen_summary">Прикажувај ги списоците, страницата на видеото и поставките вертикално, без разлика како се држи уредот. Само репродукцијата на цел екран се врти хоризонтално</string>
 <string name="back_from_fullscreen_closes_player_title">Назад на цел екран го затвора видеото</string>
 <string name="back_from_fullscreen_closes_player_summary">Притискањето на „Назад“ при репродукција на цел екран се враќа на списокот и го запира видеото, наместо да го остави отворено во мини плеерот</string>
+<string name="list_quick_actions_title">Копчиња на ставките во списокот</string>
+<string name="list_quick_actions_summary">Прикажувај ги избраните ставки од контекстното мени како копчиња со икони на секое видео во список</string>
+<string name="list_quick_actions_summary_none">Без копчиња: држете видео за целото мени</string>
 </resources>

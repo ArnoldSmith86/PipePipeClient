@@ -597,4 +597,7 @@
 <string name="portrait_outside_fullscreen_summary">Lîsteyan, rûpela vîdyoyê û mîhengan stûnî nîşan bide, amûr çawa were girtin jî. Tenê lêxistina bi dîmendera tijî berbi berwarî ve dizivire</string>
 <string name="back_from_fullscreen_closes_player_title">Vegera di dîmendera tijî de vîdyoyê digire</string>
 <string name="back_from_fullscreen_closes_player_summary">Pêlkirina vegerê dema lêxistina bi dîmendera tijî vedigere lîsteyê û vîdyoyê radiwestîne, li şûna ku wê di lêdêra piçûk de vekirî bihêle</string>
+<string name="list_quick_actions_title">Bişkok li ser hêmanên lîsteyê</string>
+<string name="list_quick_actions_summary">Hêmanên hilbijartî yên pêşeka kontekstê wek bişkokên îkonî li ser her vîdyoyeke lîsteyê nîşan bide</string>
+<string name="list_quick_actions_summary_none">Bêyî bişkok: ji bo pêşeka temam, vîdyoyekê pêl bike û bigire</string>
 </resources>

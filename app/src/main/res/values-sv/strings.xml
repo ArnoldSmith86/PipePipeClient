@@ -714,4 +714,7 @@
 <string name="portrait_outside_fullscreen_summary">Visa listor, videosidan och inställningarna i stående läge oavsett hur enheten hålls. Endast helskärmsuppspelning vrids till liggande</string>
 <string name="back_from_fullscreen_closes_player_title">Bakåt i helskärm stänger videon</string>
 <string name="back_from_fullscreen_closes_player_summary">Att trycka bakåt under helskärmsuppspelning återvänder till listan och stoppar videon i stället för att lämna den öppen i minispelaren</string>
+<string name="list_quick_actions_title">Knappar på listobjekt</string>
+<string name="list_quick_actions_summary">Visa de valda snabbmenyalternativen som ikonknappar på varje video i en lista</string>
+<string name="list_quick_actions_summary_none">Inga knappar: håll in en video för hela menyn</string>
 </resources>

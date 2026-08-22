@@ -1131,4 +1131,7 @@
 <string name="portrait_outside_fullscreen_summary">Pokazuj listy, stronę filmu i ustawienia w pionie niezależnie od tego, jak trzymane jest urządzenie. Tylko odtwarzanie pełnoekranowe obraca się w poziom</string>
 <string name="back_from_fullscreen_closes_player_title">Wstecz na pełnym ekranie zamyka film</string>
 <string name="back_from_fullscreen_closes_player_summary">Naciśnięcie wstecz podczas odtwarzania pełnoekranowego wraca do listy i zatrzymuje film, zamiast zostawiać go otwartym w miniodtwarzaczu</string>
+<string name="list_quick_actions_title">Przyciski na elementach listy</string>
+<string name="list_quick_actions_summary">Pokazuj wybrane pozycje menu kontekstowego jako przyciski z ikonami przy każdym filmie na liście</string>
+<string name="list_quick_actions_summary_none">Bez przycisków: przytrzymaj film, aby otworzyć pełne menu</string>
 </resources>

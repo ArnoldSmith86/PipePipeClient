@@ -1115,4 +1115,7 @@
 <string name="portrait_outside_fullscreen_summary">无论设备如何握持，列表、视频页面和设置都以竖屏显示。只有全屏播放才会转为横屏</string>
 <string name="back_from_fullscreen_closes_player_title">全屏时返回即关闭视频</string>
 <string name="back_from_fullscreen_closes_player_summary">全屏播放时按返回将回到列表并停止视频，而不是让它在小窗播放器中继续打开</string>
+<string name="list_quick_actions_title">列表项上的按钮</string>
+<string name="list_quick_actions_summary">在列表中的每个视频上，把所选的右键菜单项显示为图标按钮</string>
+<string name="list_quick_actions_summary_none">无按钮：长按视频可打开完整菜单</string>
 </resources>

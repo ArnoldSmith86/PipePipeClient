@@ -697,4 +697,7 @@
 <string name="portrait_outside_fullscreen_summary">Arată listele, pagina videoclipului și setările pe verticală, indiferent cum este ținut dispozitivul. Doar redarea pe ecran complet se rotește pe orizontală</string>
 <string name="back_from_fullscreen_closes_player_title">Înapoi pe ecran complet închide videoclipul</string>
 <string name="back_from_fullscreen_closes_player_summary">Apăsarea pe înapoi în timpul redării pe ecran complet revine la listă și oprește videoclipul, în loc să îl lase deschis în mini-player</string>
+<string name="list_quick_actions_title">Butoane pe elementele din listă</string>
+<string name="list_quick_actions_summary">Arată intrările alese din meniul contextual ca butoane cu pictogramă pe fiecare videoclip dintr-o listă</string>
+<string name="list_quick_actions_summary_none">Niciun buton: ține apăsat un videoclip pentru meniul complet</string>
 </resources>

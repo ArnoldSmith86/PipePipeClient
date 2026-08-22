@@ -498,4 +498,7 @@
 <string name="portrait_outside_fullscreen_summary">Паказваць спісы, старонку відэа і налады вертыкальна, як бы ні трымалі прыладу. Толькі поўнаэкраннае прайграванне паварочваецца гарызантальна</string>
 <string name="back_from_fullscreen_closes_player_title">Назад у поўнаэкранным рэжыме закрывае відэа</string>
 <string name="back_from_fullscreen_closes_player_summary">Націск «Назад» падчас поўнаэкраннага прайгравання вяртае да спіса і спыняе відэа, замест таго каб пакінуць яго ў міні-прайгравальніку</string>
+<string name="list_quick_actions_title">Кнопкі на элементах спіса</string>
+<string name="list_quick_actions_summary">Паказваць выбраныя пункты кантэкстнага меню як кнопкі са значкамі на кожным відэа ў спісе</string>
+<string name="list_quick_actions_summary_none">Без кнопак: утрымлівайце відэа, каб адкрыць поўнае меню</string>
 </resources>

@@ -653,4 +653,7 @@
 <string name="portrait_outside_fullscreen_summary">Shfaq listat, faqen e videos dhe cilësimet vertikalisht, pavarësisht si mbahet pajisja. Vetëm luajtja në ekran të plotë kthehet horizontalisht</string>
 <string name="back_from_fullscreen_closes_player_title">Kthimi mbrapa në ekran të plotë e mbyll videon</string>
 <string name="back_from_fullscreen_closes_player_summary">Shtypja e butonit mbrapa gjatë luajtjes në ekran të plotë kthen te lista dhe ndalon videon, në vend që ta lërë të hapur në luajtësin e vogël</string>
+<string name="list_quick_actions_title">Butona te elementet e listës</string>
+<string name="list_quick_actions_summary">Shfaq zërat e zgjedhur të menysë së kontekstit si butona me ikona te çdo video në një listë</string>
+<string name="list_quick_actions_summary_none">Pa butona: mbaj shtypur një video për menynë e plotë</string>
 </resources>

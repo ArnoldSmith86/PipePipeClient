@@ -703,4 +703,7 @@
 <string name="portrait_outside_fullscreen_summary">Rodyti sąrašus, vaizdo įrašo puslapį ir nustatymus stačiai, nesvarbu, kaip laikomas įrenginys. Tik atkūrimas per visą ekraną pasisuka gulsčiai</string>
 <string name="back_from_fullscreen_closes_player_title">Atgal per visą ekraną užveria vaizdo įrašą</string>
 <string name="back_from_fullscreen_closes_player_summary">Paspaudus atgal atkūrimo per visą ekraną metu grįžtama į sąrašą ir vaizdo įrašas sustabdomas, užuot palikus jį atvertą mini grotuve</string>
+<string name="list_quick_actions_title">Mygtukai sąrašo elementuose</string>
+<string name="list_quick_actions_summary">Rodyti pasirinktus kontekstinio meniu įrašus kaip piktogramų mygtukus prie kiekvieno vaizdo įrašo sąraše</string>
+<string name="list_quick_actions_summary_none">Jokių mygtukų: palaikykite vaizdo įrašą, kad atvertumėte visą meniu</string>
 </resources>

@@ -687,4 +687,7 @@
 <string name="portrait_outside_fullscreen_summary">Rādīt sarakstus, video lapu un iestatījumus portreta režīmā neatkarīgi no tā, kā ierīce tiek turēta. Tikai atskaņošana pilnekrāna režīmā pagriežas ainavas režīmā</string>
 <string name="back_from_fullscreen_closes_player_title">Atpakaļ pilnekrāna režīmā aizver video</string>
 <string name="back_from_fullscreen_closes_player_summary">Nospiežot atpakaļ pilnekrāna atskaņošanas laikā, tiek atgriezts saraksts un video tiek apturēts, nevis atstāts atvērts mini atskaņotājā</string>
+<string name="list_quick_actions_title">Pogas saraksta vienumos</string>
+<string name="list_quick_actions_summary">Rādīt izvēlētos konteksta izvēlnes ierakstus kā ikonu pogas pie katra video sarakstā</string>
+<string name="list_quick_actions_summary_none">Nav pogu: turiet video, lai atvērtu pilno izvēlni</string>
 </resources>

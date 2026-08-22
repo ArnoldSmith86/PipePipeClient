@@ -714,4 +714,7 @@
 <string name="portrait_outside_fullscreen_summary">Mostrar as listas, a página do vídeo e as definições na vertical, independentemente de como o dispositivo é segurado. Apenas a reprodução em ecrã inteiro roda para a horizontal</string>
 <string name="back_from_fullscreen_closes_player_title">Retroceder em ecrã inteiro fecha o vídeo</string>
 <string name="back_from_fullscreen_closes_player_summary">Premir retroceder durante a reprodução em ecrã inteiro volta à lista e para o vídeo, em vez de o deixar aberto no mini-reprodutor</string>
+<string name="list_quick_actions_title">Botões nos itens da lista</string>
+<string name="list_quick_actions_summary">Mostrar as entradas do menu de contexto escolhidas como botões de ícone em cada vídeo de uma lista</string>
+<string name="list_quick_actions_summary_none">Sem botões: mantenha um vídeo premido para ver o menu completo</string>
 </resources>

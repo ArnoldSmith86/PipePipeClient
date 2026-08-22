@@ -566,4 +566,7 @@
 <string name="portrait_outside_fullscreen_summary">डिवाइस चाहे जैसे पकड़ा जाए, सूचियाँ, वीडियो का पन्ना और सेटिंग्स खड़ी दिशा में दिखाएँ। केवल पूर्ण स्क्रीन प्लेबैक ही आड़ी दिशा में घूमता है</string>
 <string name="back_from_fullscreen_closes_player_title">पूर्ण स्क्रीन में वापस दबाने पर वीडियो बंद हो</string>
 <string name="back_from_fullscreen_closes_player_summary">पूर्ण स्क्रीन प्लेबैक के दौरान वापस दबाने पर सूची पर लौटकर वीडियो रुक जाता है, बजाय इसके कि वह मिनी प्लेयर में खुला रह जाए</string>
+<string name="list_quick_actions_title">सूची की प्रविष्टियों पर बटन</string>
+<string name="list_quick_actions_summary">चुने हुए संदर्भ मेन्यू विकल्पों को सूची के हर वीडियो पर आइकन बटन के रूप में दिखाएँ</string>
+<string name="list_quick_actions_summary_none">कोई बटन नहीं: पूरा मेन्यू देखने के लिए वीडियो को देर तक दबाएँ</string>
 </resources>

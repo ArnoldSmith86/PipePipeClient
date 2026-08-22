@@ -693,4 +693,7 @@
 <string name="portrait_outside_fullscreen_summary">Amosar as listas, a páxina do vídeo e os axustes en vertical sen importar como se suxeite o dispositivo. Só a reprodución a pantalla completa xira a horizontal</string>
 <string name="back_from_fullscreen_closes_player_title">Atrás a pantalla completa pecha o vídeo</string>
 <string name="back_from_fullscreen_closes_player_summary">Premer atrás durante a reprodución a pantalla completa volve á lista e detén o vídeo, en vez de deixalo aberto no minirreprodutor</string>
+<string name="list_quick_actions_title">Botóns nos elementos da lista</string>
+<string name="list_quick_actions_summary">Amosar as entradas do menú contextual escollidas como botóns de icona en cada vídeo dunha lista</string>
+<string name="list_quick_actions_summary_none">Sen botóns: mantén premido un vídeo para ver o menú completo</string>
 </resources>

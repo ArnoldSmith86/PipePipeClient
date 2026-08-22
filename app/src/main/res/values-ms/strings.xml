@@ -454,4 +454,7 @@
 <string name="portrait_outside_fullscreen_summary">Tunjukkan senarai, halaman video dan tetapan secara menegak, walau bagaimana peranti dipegang. Hanya main balik skrin penuh berpusing melintang</string>
 <string name="back_from_fullscreen_closes_player_title">Kembali semasa skrin penuh menutup video</string>
 <string name="back_from_fullscreen_closes_player_summary">Menekan kembali semasa main balik skrin penuh akan kembali ke senarai dan menghentikan video, bukannya membiarkannya terbuka dalam pemain mini</string>
+<string name="list_quick_actions_title">Butang pada item senarai</string>
+<string name="list_quick_actions_summary">Tunjukkan entri menu konteks yang dipilih sebagai butang ikon pada setiap video dalam senarai</string>
+<string name="list_quick_actions_summary_none">Tiada butang: tekan lama video untuk menu penuh</string>
 </resources>

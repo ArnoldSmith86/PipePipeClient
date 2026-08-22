@@ -17,6 +17,7 @@ import org.schabi.newpipe.ktx.ViewUtils;
 import org.schabi.newpipe.local.history.HistoryRecordManager;
 import org.schabi.newpipe.util.Localization;
 import org.schabi.newpipe.util.PicassoHelper;
+import org.schabi.newpipe.util.StreamQuickActions;
 import org.schabi.newpipe.views.AnimatedProgressBar;
 
 import java.util.concurrent.TimeUnit;
@@ -98,6 +99,12 @@ public class StreamMiniInfoItemHolder extends InfoItemHolder {
         itemView.setOnClickListener(view -> {
             if (itemBuilder.getOnStreamSelectedListener() != null) {
                 itemBuilder.getOnStreamSelectedListener().selected(item);
+            }
+        });
+
+        StreamQuickActions.bind(itemView.findViewById(R.id.itemQuickActions), actionName -> {
+            if (itemBuilder.getOnStreamSelectedListener() != null) {
+                itemBuilder.getOnStreamSelectedListener().quickAction(item, actionName);
             }
         });
 

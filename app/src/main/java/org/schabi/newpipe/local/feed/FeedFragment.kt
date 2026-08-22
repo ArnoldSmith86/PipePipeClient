@@ -82,6 +82,7 @@ import org.schabi.newpipe.player.playqueue.PlayQueue
 import org.schabi.newpipe.player.playqueue.SinglePlayQueue
 import org.schabi.newpipe.util.DeviceUtils
 import org.schabi.newpipe.util.Localization
+import org.schabi.newpipe.util.StreamQuickActions
 import org.schabi.newpipe.util.NavigationHelper
 import org.schabi.newpipe.util.NavigationHelper.openFeedChannelsFragment
 import org.schabi.newpipe.util.ThemeHelper.getGridSpanCountStreams
@@ -882,7 +883,12 @@ class FeedFragment : BaseStateFragment<FeedState>() {
             ItemViewMode.CARD -> StreamItem.ItemVersion.CARD
             else -> StreamItem.ItemVersion.NORMAL
         }
-        loadedState.items.forEach { it.itemVersion = itemVersion }
+        loadedState.items.forEach {
+            it.itemVersion = itemVersion
+            it.onQuickAction = { stream, actionName ->
+                StreamQuickActions.run(this, stream.toStreamInfoItem(), actionName)
+            }
+        }
 
         // Store original items for filtering
         originalItems.clear()

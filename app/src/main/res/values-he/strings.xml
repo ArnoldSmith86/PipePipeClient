@@ -740,4 +740,7 @@
 <string name="portrait_outside_fullscreen_summary">להציג רשימות, את דף הסרטון ואת ההגדרות לאורך, לא משנה איך מחזיקים את המכשיר. רק נגינה במסך מלא מסתובבת לרוחב</string>
 <string name="back_from_fullscreen_closes_player_title">חזרה במסך מלא סוגרת את הסרטון</string>
 <string name="back_from_fullscreen_closes_player_summary">לחיצה על חזרה בזמן נגינה במסך מלא חוזרת לרשימה ועוצרת את הסרטון, במקום להשאיר אותו פתוח בנגן המוקטן</string>
+<string name="list_quick_actions_title">כפתורים על פריטי הרשימה</string>
+<string name="list_quick_actions_summary">הצגת פריטי תפריט ההקשר שנבחרו ככפתורי סמל על כל סרטון ברשימה</string>
+<string name="list_quick_actions_summary_none">בלי כפתורים: יש ללחוץ ארוכות על סרטון לתפריט המלא</string>
 </resources>

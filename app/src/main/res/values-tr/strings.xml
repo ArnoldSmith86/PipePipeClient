@@ -1057,4 +1057,7 @@
 <string name="portrait_outside_fullscreen_summary">Cihaz nasıl tutulursa tutulsun listeleri, video sayfasını ve ayarları dikey göster. Yalnızca tam ekran oynatma yatay döner</string>
 <string name="back_from_fullscreen_closes_player_title">Tam ekranda geri videoyu kapatır</string>
 <string name="back_from_fullscreen_closes_player_summary">Tam ekran oynatma sırasında geriye basmak listeye döner ve videoyu durdurur, mini oynatıcıda açık bırakmak yerine</string>
+<string name="list_quick_actions_title">Liste ögelerinde düğmeler</string>
+<string name="list_quick_actions_summary">Seçilen bağlam menüsü ögelerini listedeki her videoda simge düğmeleri olarak göster</string>
+<string name="list_quick_actions_summary_none">Düğme yok: tüm menü için bir videoyu basılı tutun</string>
 </resources>

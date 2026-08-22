@@ -630,4 +630,7 @@
 <string name="portrait_outside_fullscreen_summary">Lijsten, de videopagina en de instellingen in staande stand tonen, hoe u het toestel ook houdt. Enkel video op volledig scherm draait naar liggend</string>
 <string name="back_from_fullscreen_closes_player_title">Terug in volledig scherm sluit de video</string>
 <string name="back_from_fullscreen_closes_player_summary">Terug tijdens volledig scherm keert terug naar de lijst en stopt de video, in plaats van hem open te laten in de minispeler</string>
+<string name="list_quick_actions_title">Knoppen op lijstitems</string>
+<string name="list_quick_actions_summary">De gekozen contextmenu-items als pictogramknoppen op elke video in een lijst tonen</string>
+<string name="list_quick_actions_summary_none">Geen knoppen: houd een video ingedrukt voor het volledige menu</string>
 </resources>

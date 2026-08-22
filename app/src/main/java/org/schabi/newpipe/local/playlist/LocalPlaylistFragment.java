@@ -292,6 +292,14 @@ public class LocalPlaylistFragment extends BaseLocalListFragment<List<PlaylistSt
             }
 
             @Override
+            public void quickAction(final LocalItem selectedItem, final String actionName) {
+                if (selectedItem instanceof PlaylistStreamEntry) {
+                    StreamQuickActions.run(LocalPlaylistFragment.this,
+                            ((PlaylistStreamEntry) selectedItem).toStreamInfoItem(), actionName);
+                }
+            }
+
+            @Override
             public void drag(final LocalItem selectedItem,
                              final RecyclerView.ViewHolder viewHolder) {
                 if (itemTouchHelper != null) {

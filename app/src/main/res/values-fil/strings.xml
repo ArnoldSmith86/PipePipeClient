@@ -227,4 +227,7 @@
 <string name="portrait_outside_fullscreen_summary">Ipakita ang mga listahan, ang pahina ng video at ang mga setting nang patayo, kahit paano hawakan ang device. Ang panonood lang sa buong screen ang umiikot nang pahalang</string>
 <string name="back_from_fullscreen_closes_player_title">Ang back sa buong screen ay nagsasara ng video</string>
 <string name="back_from_fullscreen_closes_player_summary">Ang pagpindot ng back habang nanonood sa buong screen ay babalik sa listahan at ihihinto ang video, sa halip na iwang bukas ito sa mini player</string>
+<string name="list_quick_actions_title">Mga buton sa mga item ng listahan</string>
+<string name="list_quick_actions_summary">Ipakita ang mga napiling entry ng context menu bilang icon na buton sa bawat video sa listahan</string>
+<string name="list_quick_actions_summary_none">Walang buton: pindutin nang matagal ang video para sa buong menu</string>
 </resources>

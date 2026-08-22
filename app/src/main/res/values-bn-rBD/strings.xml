@@ -373,4 +373,7 @@
 <string name="portrait_outside_fullscreen_summary">যন্ত্র যেভাবেই ধরা হোক, তালিকা, ভিডিওর পাতা ও সেটিংস খাড়াভাবে দেখান। শুধু পূর্ণ পর্দায় চালানোর সময়ই আড়াআড়ি হয়</string>
 <string name="back_from_fullscreen_closes_player_title">পূর্ণ পর্দায় ফিরে যাওয়া ভিডিও বন্ধ করে</string>
 <string name="back_from_fullscreen_closes_player_summary">পূর্ণ পর্দায় চলার সময় ফিরে যাওয়ার বোতাম চাপলে তালিকায় ফিরে গিয়ে ভিডিও থেমে যায়, মিনি প্লেয়ারে খোলা থাকার বদলে</string>
+<string name="list_quick_actions_title">তালিকার আইটেমে বোতাম</string>
+<string name="list_quick_actions_summary">নির্বাচিত কনটেক্সট মেনুর আইটেমগুলো তালিকার প্রতিটি ভিডিওতে আইকন বোতাম হিসেবে দেখান</string>
+<string name="list_quick_actions_summary_none">কোনো বোতাম নেই: পুরো মেনুর জন্য ভিডিওতে চেপে ধরুন</string>
 </resources>

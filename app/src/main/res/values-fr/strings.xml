@@ -1068,4 +1068,7 @@ Voulez-vous continuer?</string>
 <string name="portrait_outside_fullscreen_summary">Afficher les listes, la page de la vidéo et les paramètres en portrait quelle que soit l\'orientation de l\'appareil. Seule la lecture en plein écran passe en paysage</string>
 <string name="back_from_fullscreen_closes_player_title">Retour en plein écran ferme la vidéo</string>
 <string name="back_from_fullscreen_closes_player_summary">Appuyer sur retour pendant la lecture en plein écran revient à la liste et arrête la vidéo, au lieu de la laisser ouverte dans le mini-lecteur</string>
+<string name="list_quick_actions_title">Boutons sur les éléments de liste</string>
+<string name="list_quick_actions_summary">Afficher les entrées du menu contextuel choisies comme boutons à icône sur chaque vidéo d\'une liste</string>
+<string name="list_quick_actions_summary_none">Aucun bouton : maintenez une vidéo pour le menu complet</string>
 </resources>

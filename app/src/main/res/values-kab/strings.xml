@@ -187,4 +187,7 @@
 <string name="portrait_outside_fullscreen_summary">Sken tibdarin, asebter n tvidyut d yiɣewwaren d ibedden, amek yebɣu yili yibenk. D aɣenneǧ s ugdil aččuran kan i ittuɣalen d aglawan</string>
 <string name="back_from_fullscreen_closes_player_title">Tuɣalin ɣer deffir deg ugdil aččuran tmeddel tavidyut</string>
 <string name="back_from_fullscreen_closes_player_summary">Asiti ɣef tuɣalin ɣer deffir deg uɣenneǧ s ugdil aččuran yettuɣal ɣer tebdart yerna yeḥbes tavidyut, deg umkan n tuǧǧa-s teldi deg umeɣnaǧ amecṭuḥ</string>
+<string name="list_quick_actions_title">Tiqeffalin ɣef yiferdisen n tebdart</string>
+<string name="list_quick_actions_summary">Sken inekcam yettwafernen n wumuɣ n usatal am tqeffalin s tignit ɣef yal tavidyut n tebdart</string>
+<string name="list_quick_actions_summary_none">Ulac tiqeffalin: ṭṭef tavidyut akken ad d-yeldi umuɣ ummid</string>
 </resources>

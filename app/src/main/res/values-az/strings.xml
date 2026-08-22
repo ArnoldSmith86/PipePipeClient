@@ -310,4 +310,7 @@
 <string name="portrait_outside_fullscreen_summary">Cihaz necə tutulursa tutulsun siyahıları, video səhifəsini və ayarları şaquli göstər. Yalnız tam ekran oxutma üfüqi dönür</string>
 <string name="back_from_fullscreen_closes_player_title">Tam ekranda geri videonu bağlayır</string>
 <string name="back_from_fullscreen_closes_player_summary">Tam ekran oxutma zamanı geri düyməsinə basmaq siyahıya qaytarır və videonu dayandırır, onu mini oxuducuda açıq qoymaq əvəzinə</string>
+<string name="list_quick_actions_title">Siyahı elementlərində düymələr</string>
+<string name="list_quick_actions_summary">Seçilmiş kontekst menyusu bəndlərini siyahıdakı hər videoda ikon düymələri kimi göstər</string>
+<string name="list_quick_actions_summary_none">Düymə yoxdur: tam menyu üçün videonu basıb saxlayın</string>
 </resources>

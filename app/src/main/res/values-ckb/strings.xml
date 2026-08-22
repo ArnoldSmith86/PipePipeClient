@@ -690,4 +690,7 @@
 <string name="portrait_outside_fullscreen_summary">لیستەکان و لاپەڕەی ڤیدیۆ و ڕێکخستنەکان بە ڕاستی پیشان بدە، جا ئامێرەکە بە هەر شێوەیەک ڕاگیرابێت. تەنها لێدانی پڕ-ڕوونما دەسوڕێتەوە بۆ پان</string>
 <string name="back_from_fullscreen_closes_player_title">گەڕانەوە لە پڕ-ڕوونما ڤیدیۆکە دادەخات</string>
 <string name="back_from_fullscreen_closes_player_summary">داگرتنی گەڕانەوە لە کاتی لێدانی پڕ-ڕوونما دەگەڕێتەوە بۆ لیست و ڤیدیۆکە دەوەستێنێت، لە جیاتی ئەوەی لە لێدەری بچووکدا کراوە بمێنێتەوە</string>
+<string name="list_quick_actions_title">دوگمە لەسەر بڕگەکانی لیست</string>
+<string name="list_quick_actions_summary">بڕگە هەڵبژێردراوەکانی پێڕستی دەق وەک دوگمەی وێنۆچکە لەسەر هەموو ڤیدیۆیەکی لیست پیشان بدە</string>
+<string name="list_quick_actions_summary_none">هیچ دوگمەیەک نییە: بۆ پێڕستی تەواو، ڤیدیۆکە دابگرە</string>
 </resources>

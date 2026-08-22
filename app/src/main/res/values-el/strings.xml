@@ -714,4 +714,7 @@
 <string name="portrait_outside_fullscreen_summary">Εμφάνιση των λιστών, της σελίδας του βίντεο και των ρυθμίσεων σε κατακόρυφη προβολή, όπως και αν κρατιέται η συσκευή. Μόνο η αναπαραγωγή σε πλήρη οθόνη γυρίζει σε οριζόντια</string>
 <string name="back_from_fullscreen_closes_player_title">Η επιστροφή σε πλήρη οθόνη κλείνει το βίντεο</string>
 <string name="back_from_fullscreen_closes_player_summary">Το πάτημα επιστροφής κατά την αναπαραγωγή σε πλήρη οθόνη επιστρέφει στη λίστα και σταματά το βίντεο, αντί να το αφήσει ανοιχτό στο μικρό πρόγραμμα αναπαραγωγής</string>
+<string name="list_quick_actions_title">Κουμπιά στα στοιχεία της λίστας</string>
+<string name="list_quick_actions_summary">Εμφάνιση των επιλεγμένων στοιχείων του μενού περιβάλλοντος ως κουμπιά με εικονίδιο σε κάθε βίντεο μιας λίστας</string>
+<string name="list_quick_actions_summary_none">Χωρίς κουμπιά: κρατήστε πατημένο ένα βίντεο για το πλήρες μενού</string>
 </resources>

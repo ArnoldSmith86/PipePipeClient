@@ -657,4 +657,7 @@
 <string name="portrait_outside_fullscreen_summary">Tus liisaska, bogga muuqaalka iyo goobaha si toosan, si kastaba ha loo qabto qalabka. Kaliya ciyaarista shaashadda buuxda ayaa u rogmata si jiifa</string>
 <string name="back_from_fullscreen_closes_player_title">Dib u noqoshada shaashadda buuxda way xirtaa muuqaalka</string>
 <string name="back_from_fullscreen_closes_player_summary">Riixidda dib u noqoshada inta lagu jiro shaashadda buuxda waxay ku celisaa liiska oo joojisaa muuqaalka, halkii laga dhigi lahaa mid ku furan ciyaaraha yar</string>
+<string name="list_quick_actions_title">Badhamada ku yaal walxaha liiska</string>
+<string name="list_quick_actions_summary">Muuji qoraallada la doortay ee menu-ga xiriirka sida badhamo astaan ah muuqaal kasta oo liiska ku jira</string>
+<string name="list_quick_actions_summary_none">Badhamo ma jiraan: si aad menu-ga oo dhan u aragto, muuqaalka ku hay</string>
 </resources>

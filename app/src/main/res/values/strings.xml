@@ -891,6 +891,9 @@
 <string name="top_lives">Top Lives</string>
 <string name="recommended_lives">Recommended Lives</string>
 <string name="enable_eye_protection_summary">Disable dynamic theme changing and use a eye protection theme for all services</string>
+<string name="list_quick_actions_title">Buttons on list items</string>
+<string name="list_quick_actions_summary">Show the chosen context menu entries as icon buttons on every video in a list</string>
+<string name="list_quick_actions_summary_none">No buttons: hold a video for the full menu</string>
 <string name="enable_eye_protection_title">Enable eye protection</string>
 <string name="account">Account</string>
 <string name="settings_category_niconico_account_title">NicoNico Account</string>

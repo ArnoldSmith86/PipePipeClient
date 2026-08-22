@@ -1051,4 +1051,7 @@
 <string name="portrait_outside_fullscreen_summary">Listen, die Videoseite und die Einstellungen im Hochformat anzeigen, unabhängig davon, wie das Gerät gehalten wird. Nur die Vollbildwiedergabe wechselt ins Querformat</string>
 <string name="back_from_fullscreen_closes_player_title">Zurück im Vollbild schließt das Video</string>
 <string name="back_from_fullscreen_closes_player_summary">Zurück während der Vollbildwiedergabe kehrt zur Liste zurück und stoppt das Video, statt es im Mini-Player offen zu lassen</string>
+<string name="list_quick_actions_title">Schaltflächen auf Listeneinträgen</string>
+<string name="list_quick_actions_summary">Die ausgewählten Kontextmenü-Einträge als Symbolschaltflächen auf jedem Video in einer Liste anzeigen</string>
+<string name="list_quick_actions_summary_none">Keine Schaltflächen: für das vollständige Menü ein Video gedrückt halten</string>
 </resources>

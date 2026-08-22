@@ -147,4 +147,7 @@
 <string name="portrait_outside_fullscreen_summary">Prikazuj liste, stranicu videa i postavke uspravno, bez obzira na to kako se uređaj drži. Samo reprodukcija preko cijelog ekrana okreće se vodoravno</string>
 <string name="back_from_fullscreen_closes_player_title">Nazad preko cijelog ekrana zatvara video</string>
 <string name="back_from_fullscreen_closes_player_summary">Pritisak na „Nazad“ tokom reprodukcije preko cijelog ekrana vraća na listu i zaustavlja video, umjesto da ga ostavi otvorenim u mini plejeru</string>
+<string name="list_quick_actions_title">Dugmad na stavkama liste</string>
+<string name="list_quick_actions_summary">Prikaži izabrane stavke kontekstnog menija kao dugmad s ikonama na svakom videu u listi</string>
+<string name="list_quick_actions_summary_none">Bez dugmadi: držite video za cijeli meni</string>
 </resources>
