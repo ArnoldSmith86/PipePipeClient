@@ -15,7 +15,14 @@ sealed class FeedState {
         val items: List<StreamItem>,
         val oldestUpdate: OffsetDateTime? = null,
         val notLoadedCount: Long,
-        val itemsErrors: List<Throwable> = emptyList()
+        val itemsErrors: List<Throwable> = emptyList(),
+        /**
+         * Whether this list is the answer to a filter the user just changed, rather than the same
+         * list with fresher data. Those two want opposite things from the scroll position: a
+         * filter change should show the top of the new list, an update should stay where the user
+         * was reading.
+         */
+        val filterChanged: Boolean = false
     ) : FeedState()
 
     data class ErrorState(
